@@ -1,0 +1,27 @@
+{
+  "name": "show-me-985211",
+  "version": "1.0.0",
+  "description": "985/211在哪里？！",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp watch",
+    "build": "gulp default"
+  },
+  "keywords": [
+    "Chrome",
+    "extensions",
+    "boilerplate"
+  ],
+  "author": "wilee",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-less": "^3.0.5",
+    "gulp-uglify": "^1.5.1",
+    "gulp-watch": "^4.3.5",
+    "jshint": "^2.9.1",
+    "run-sequence": "^1.1.5"
+  }
+}

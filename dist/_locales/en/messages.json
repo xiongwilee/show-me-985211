@@ -1,0 +1,6 @@
+/* An Example String */
+{
+  "hello_string": {
+    "message": "hello world"
+  }
+}

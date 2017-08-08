@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "show me 985/211",
+    "description": "告诉我985/211在哪里？！",
+    "version": "1.0",
+    "homepage_url": "https://github.com/xiongwilee/985211",
+    "icons":
+    {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "default_locale": "en",
+    "content_scripts": [
+    {
+        "matches": ["https://www.zhipin.com/*"],
+        "js": ["static/js/inject.js"],
+        "run_at": "document_end"
+    }],
+    "permissions": [],
+    "browser_action":
+    {
+        "default_icon": "icons/icon48.png",
+        "default_popup": "views/popup.html"
+    },
+    "web_accessible_resources": [
+        "static/css/inject.css",
+        "icons/favicon.ico"
+    ]
+}
