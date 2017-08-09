@@ -18,7 +18,10 @@
 
 ### 2、Chrome网上应用商店安装：
 
-由于众所周知的原因，暂不支持应用商店安装
+[https://chrome.google.com/webstore/detail/show-me-985211/fpihkbimcgfjmflglfdobfefdkbmojop?hl=zh-CN](https://chrome.google.com/webstore/detail/show-me-985211/fpihkbimcgfjmflglfdobfefdkbmojop?hl=zh-CN)
+
+1. 访问以上连接
+2. 点击“添加至chrome”即可安装
 
 ## 三、使用方法
 
