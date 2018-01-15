@@ -90,8 +90,8 @@ var ShowMe985211 = (function() {
 
       if (!text) return;
 
-      // 如果包含this.list中的文字则说明匹配到了985211院校
-      if (me.list.some(function(subItem) { return text.indexOf(subItem) > -1; })) {
+      // 如果包含this.list中的文字，且为“本科、硕士、博士”则说明匹配到了985211院校
+      if (me.list.some(function(subItem) { return !!/本科|硕士|博士/g.test(text) && text.indexOf(subItem) > -1; })) {
         matchList.push(item);
       }
     });
