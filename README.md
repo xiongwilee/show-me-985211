@@ -10,7 +10,7 @@
 
 ### 1、手动安装：
 
-[https://pan.baidu.com/s/1qXZWQtu](https://pan.baidu.com/s/1qXZWQtu)
+[https://pan.baidu.com/s/1eUfEQ5s](https://pan.baidu.com/s/1eUfEQ5s)
 
 1. 访问上面的链接下载`show-me-985211.crx`文件；
 2. 然后在chrome中打开`扩展程序`页 （ 可以直接访问：[chrome://extensions/](chrome://extensions/) ）
