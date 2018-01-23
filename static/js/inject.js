@@ -32,7 +32,14 @@ var ShowMe985211 = (function() {
           }
         },
         // 匹配到其中一个item之后的回调
-        onAfterMatchItem: function(item) {}
+        onAfterMatchItem: function(item) {
+          var text = item.parentElement.innerText;
+          if (text.indexOf("继续沟通") > -1) {
+            return false;
+          }
+
+          return true;
+        }
       }
     };
 
@@ -59,7 +66,18 @@ var ShowMe985211 = (function() {
   };
   showMe985211.prototype.generator = function(config) {
     var me = this;
-    var domList = me.selectDom(config.className, config.domListSelector);
+    var preDomList = me.selectDom(config.className, config.domListSelector);
+
+    // 在单个钩子中增加判断逻辑
+    var domList = preDomList.filter(function(item) {
+      // 添加获取完成所有dom时候的钩子
+      if (me.itemCfg.onAfterMatchItem) {
+        return me.itemCfg.onAfterMatchItem.call(me, item);
+      } else {
+        return true;
+      }
+    });
+
     if (!domList || domList.length === 0) return;
 
     // 添加获取完成所有dom时候的钩子
@@ -69,11 +87,6 @@ var ShowMe985211 = (function() {
 
     domList.forEach(function(item) {
       item.classList.add(config.className);
-
-      // 添加获取完成所有dom时候的钩子
-      if (me.itemCfg.onAfterMatchItem) {
-        me.itemCfg.onAfterMatchItem.call(me, item);
-      }
     });
   };
   showMe985211.prototype.selectDom = function(className, domListSelector) {
