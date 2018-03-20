@@ -1,1 +1,245 @@
-var ShowMe985211=function(){function t(){this.list=["\u6e05\u534e\u5927\u5b66","\u5317\u4eac\u5927\u5b66","\u4e2d\u56fd\u4eba\u6c11\u5927\u5b66","\u5317\u4eac\u5de5\u4e1a\u5927\u5b66","\u5317\u4eac\u7406\u5de5\u5927\u5b66","\u5317\u4eac\u822a\u7a7a\u822a\u5929\u5927\u5b66","\u5317\u4eac\u5316\u5de5\u5927\u5b66","\u5317\u4eac\u90ae\u7535\u5927\u5b66","\u5bf9\u5916\u7ecf\u6d4e\u8d38\u6613\u5927\u5b66","\u4e2d\u56fd\u4f20\u5a92\u5927\u5b66","\u4e2d\u592e\u6c11\u65cf\u5927\u5b66","\u4e2d\u56fd\u77ff\u4e1a\u5927\u5b66","\u4e2d\u592e\u8d22\u7ecf\u5927\u5b66","\u4e2d\u56fd\u653f\u6cd5\u5927\u5b66","\u4e2d\u56fd\u77f3\u6cb9\u5927\u5b66","\u4e2d\u592e\u97f3\u4e50\u5b66\u9662","\u5317\u4eac\u4f53\u80b2\u5927\u5b66","\u5317\u4eac\u5916\u56fd\u8bed\u5927\u5b66","\u5317\u4eac\u4ea4\u901a\u5927\u5b66","\u5317\u4eac\u79d1\u6280\u5927\u5b66","\u5317\u4eac\u6797\u4e1a\u5927\u5b66","\u4e2d\u56fd\u519c\u4e1a\u5927\u5b66","\u5317\u4eac\u4e2d\u533b\u836f\u5927\u5b66","\u534e\u5317\u7535\u529b\u5927\u5b66","\u5317\u4eac\u5e08\u8303\u5927\u5b66","\u4e2d\u56fd\u5730\u8d28\u5927\u5b66","\u590d\u65e6\u5927\u5b66","\u534e\u4e1c\u5e08\u8303\u5927\u5b66","\u4e0a\u6d77\u5916\u56fd\u8bed\u5927\u5b66","\u4e0a\u6d77\u5927\u5b66","\u540c\u6d4e\u5927\u5b66","\u534e\u4e1c\u7406\u5de5\u5927\u5b66","\u4e1c\u534e\u5927\u5b66","\u4e0a\u6d77\u8d22\u7ecf\u5927\u5b66","\u4e0a\u6d77\u4ea4\u901a\u5927\u5b66","\u5357\u5f00\u5927\u5b66","\u5929\u6d25\u5927\u5b66","\u5929\u6d25\u533b\u79d1\u5927\u5b66","\u6cb3\u5317\u5de5\u4e1a\u5927\u5b66","\u91cd\u5e86\u5927\u5b66","\u897f\u5357\u5927\u5b66","\u534e\u5317\u7535\u529b\u5927\u5b66","\u592a\u539f\u7406\u5de5\u5927\u5b66","\u5185\u8499\u53e4\u5927\u5b66","\u5927\u8fde\u7406\u5de5\u5927\u5b66","\u4e1c\u5317\u5927\u5b66","\u8fbd\u5b81\u5927\u5b66","\u5927\u8fde\u6d77\u4e8b\u5927\u5b66","\u5409\u6797\u5927\u5b66","\u4e1c\u5317\u5e08\u8303\u5927\u5b66","\u5ef6\u8fb9\u5927\u5b66","\u4e1c\u5317\u519c\u4e1a\u5927\u5b66","\u4e1c\u5317\u6797\u4e1a\u5927\u5b66","\u54c8\u5c14\u6ee8\u5de5\u4e1a\u5927\u5b66","\u54c8\u5c14\u6ee8\u5de5\u7a0b\u5927\u5b66","\u5357\u4eac\u5927\u5b66","\u4e1c\u5357\u5927\u5b66","\u82cf\u5dde\u5927\u5b66","\u6cb3\u6d77\u5927\u5b66","\u4e2d\u56fd\u836f\u79d1\u5927\u5b66","\u4e2d\u56fd\u77ff\u4e1a\u5927\u5b66","\u5357\u4eac\u5e08\u8303\u5927\u5b66","\u5357\u4eac\u7406\u5de5\u5927\u5b66","\u5357\u4eac\u822a\u7a7a\u822a\u5929\u5927\u5b66","\u6c5f\u5357\u5927\u5b66","\u5357\u4eac\u519c\u4e1a\u5927\u5b66","\u6d59\u6c5f\u5927\u5b66","\u5b89\u5fbd\u5927\u5b66","\u5408\u80a5\u5de5\u4e1a\u5927\u5b66","\u4e2d\u56fd\u79d1\u5b66\u6280\u672f\u5927\u5b66","\u53a6\u95e8\u5927\u5b66","\u798f\u5dde\u5927\u5b66","\u5357\u660c\u5927\u5b66","\u5c71\u4e1c\u5927\u5b66","\u4e2d\u56fd\u6d77\u6d0b\u5927\u5b66","\u4e2d\u56fd\u77f3\u6cb9\u5927\u5b66","\u90d1\u5dde\u5927\u5b66","\u6b66\u6c49\u5927\u5b66","\u534e\u4e2d\u79d1\u6280\u5927\u5b66","\u4e2d\u56fd\u5730\u8d28\u5927\u5b66","\u534e\u4e2d\u5e08\u8303\u5927\u5b66","\u534e\u4e2d\u519c\u4e1a\u5927\u5b66","\u4e2d\u5357\u8d22\u7ecf\u653f\u6cd5\u5927\u5b66","\u6b66\u6c49\u7406\u5de5\u5927\u5b66","\u6e56\u5357\u5927\u5b66","\u4e2d\u5357\u5927\u5b66","\u6e56\u5357\u5e08\u8303\u5927\u5b66","\u4e2d\u5c71\u5927\u5b66","\u66a8\u5357\u5927\u5b66","\u534e\u5357\u7406\u5de5\u5927\u5b66","\u534e\u5357\u5e08\u8303\u5927\u5b66","\u5e7f\u897f\u5927\u5b66","\u56db\u5ddd\u5927\u5b66","\u897f\u5357\u4ea4\u901a\u5927\u5b66","\u7535\u5b50\u79d1\u6280\u5927\u5b66","\u897f\u5357\u8d22\u7ecf\u5927\u5b66","\u56db\u5ddd\u519c\u4e1a\u5927\u5b66","\u4e91\u5357\u5927\u5b66","\u8d35\u5dde\u5927\u5b66","\u897f\u5317\u5927\u5b66","\u897f\u5b89\u4ea4\u901a\u5927\u5b66","\u897f\u5317\u5de5\u4e1a\u5927\u5b66","\u9655\u897f\u5e08\u8303\u5927\u5b66","\u897f\u5317\u519c\u6797\u79d1\u5927","\u897f\u5b89\u7535\u5b50\u79d1\u6280\u5927\u5b66","\u957f\u5b89\u5927\u5b66","\u5170\u5dde\u5927\u5b66","\u65b0\u7586\u5927\u5b66","\u77f3\u6cb3\u5b50\u5927\u5b66","\u6d77\u5357\u5927\u5b66","\u5b81\u590f\u5927\u5b66","\u9752\u6d77\u5927\u5b66","\u897f\u85cf\u5927\u5b66","\u7b2c\u4e8c\u519b\u533b\u5927\u5b66","\u7b2c\u56db\u519b\u533b\u5927\u5b66","\u56fd\u9632\u79d1\u5b66\u6280\u672f\u5927\u5b66"],this.config={"www.zhipin.com":{className:"show_me_985211",isStrict:!1,timer:2e3,domListSelector:"a[data-suid]",onAfterMatchAll:function(t){var e=t.length;if(!(e<1)){var i="\u627e\u5230\u4e86"+e+"\u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u5019\u9009\u4eba\uff0c\u662f\u5426\u81ea\u52a8\u6253\u62db\u547c\uff1f\n(\u4e0d\u81ea\u52a8\u6253\u62db\u547c\u7cfb\u7edf\u4e5f\u53ef\u4ee5\u5e2e\u60a8\u81ea\u52a8\u9ad8\u4eae\u7b26\u5408\u8981\u6c42\u7684\u5019\u9009\u4eba)";window.confirm(i)&&t.forEach(function(t){var e=t.parentElement.querySelector(".btn-greet");e&&e.click&&e.click()})}},onAfterMatchItem:function(t){var e=t.parentElement.innerText;return!(e.indexOf("\u7ee7\u7eed\u6c9f\u901a")>-1)}},"easy.lagou.com":{className:"show_me_985211",isStrict:!0,timer:!1,domListSelector:".result_list_item",onAfterMatchAll:function(t){function e(i){var r=t[i];if(r){var o=r.querySelector(".add-chat-list");o&&o.click&&o.click(),setTimeout(function(){var t=document.getElementById("chatWithTaPop");if(t&&"none"!=t.style.display){var r=t.querySelectorAll(".position-item");if(r&&0!=r.length){for(var o,c=0;c<r.length&&(o=r[c],!(o.innerText.indexOf(n)>-1));c++);if(o&&o.click){o.click();var a=t.querySelector(".can-click");a&&a.click&&(a.click(),setTimeout(function(){e(i+1)},500))}}}},1e3)}}var i=t.length,n=this.search.positionname||this.search.keyword||"";if(!(i<1)){var r="\u804c\u4f4d\uff1a"+n+"\n\u627e\u5230\u4e86"+i+"\u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u5019\u9009\u4eba\uff0c\u662f\u5426\u81ea\u52a8\u201c\u548cTA\u804a\u804a\u201d\uff1f\n(\u70b9\u51fb\u201c\u53d6\u6d88\u201d\u4e5f\u4f1a\u5e2e\u60a8\u81ea\u52a8\u9ad8\u4eae\u7b26\u5408\u8981\u6c42\u7684\u5019\u9009\u4eba)";window.confirm(r)&&e(0)}},onAfterMatchItem:function(t){},onBeforeMatchItem:function(t){var e=t.innerText;if(e.indexOf("\u7ee7\u7eed\u804a\u804a")>-1)return!1;var i=t.querySelector(".spreadIn");i&&i.click&&i.click()}}},this.itemCfg=this.config[window.location.host]}return t.prototype.init=function(){this.search=this.queryParse(),this.initCSS(),this.render()},t.prototype.render=function(){var t=this;t.itemCfg.timer?setInterval(function(){t.generator.call(t,t.itemCfg)},t.itemCfg.timer):t.generator(t.itemCfg)},t.prototype.generator=function(t){var e=this,i=e.selectDom(t.className,t.domListSelector),n=i.filter(function(t){return!e.itemCfg.onAfterMatchItem||e.itemCfg.onAfterMatchItem.call(e,t)!==!1});n&&0!==n.length&&(e.itemCfg.onAfterMatchAll&&e.itemCfg.onAfterMatchAll.call(e,n),n.forEach(function(e){e.classList.add(t.className)}))},t.prototype.selectDom=function(t,e){var i=this,n=document.querySelectorAll(e),r=[];return 0===n.length?r:(n.forEach(function(e){if(!(e.classList.contains(t)||i.itemCfg.onBeforeMatchItem&&i.itemCfg.onBeforeMatchItem.call(i,e)===!1)){var n=e.innerText;n&&/\u672c\u79d1|\u7855\u58eb|\u535a\u58eb/g.test(n)&&(i.itemCfg.isStrict&&/\u5927\u4e13/g.test(n)||i.list.some(function(t){return n.indexOf(t)>-1})&&r.push(e))}}),r)},t.prototype.initCSS=function(){this.linkDOM=this.linkDOM||document.createElement("link"),this.linkDOM.rel="stylesheet",this.linkDOM.href=chrome.extension.getURL("static/css/inject.css"),document.body.parentElement.appendChild(this.linkDOM)},t.prototype.queryParse=function(t){var e={},i=t||window.location.href;return i.replace(/([^?=&#]+)=([^?=&#]+)/g,function(){e[arguments[1]]=decodeURIComponent(arguments[2])}),e},new t}();ShowMe985211.init();
+/**
+ * 检索页面中所有出现985/211院校名称，并高亮
+ * @author xiongwilee
+ */
+var ShowMe985211 = (function() {
+  alert('~~~~~~');
+  function showMe985211() {
+    this.list = [
+      '清华大学', '北京大学', '中国人民大学', '北京工业大学', '北京理工大学', '北京航空航天大学', '北京化工大学', '北京邮电大学', '对外经济贸易大学', '中国传媒大学', '中央民族大学', '中国矿业大学', '中央财经大学', '中国政法大学', '中国石油大学', '中央音乐学院', '北京体育大学', '北京外国语大学', '北京交通大学', '北京科技大学', '北京林业大学', '中国农业大学', '北京中医药大学', '华北电力大学', '北京师范大学', '中国地质大学', '复旦大学', '华东师范大学', '上海外国语大学', '上海大学', '同济大学', '华东理工大学', '东华大学', '上海财经大学', '上海交通大学', '南开大学', '天津大学', '天津医科大学', '河北工业大学', '重庆大学', '西南大学', '华北电力大学', '太原理工大学', '内蒙古大学', '大连理工大学', '东北大学', '辽宁大学', '大连海事大学', '吉林大学', '东北师范大学', '延边大学', '东北农业大学', '东北林业大学', '哈尔滨工业大学', '哈尔滨工程大学', '南京大学', '东南大学', '苏州大学', '河海大学', '中国药科大学', '中国矿业大学', '南京师范大学', '南京理工大学', '南京航空航天大学', '江南大学', '南京农业大学', '浙江大学', '安徽大学', '合肥工业大学', '中国科学技术大学', '厦门大学', '福州大学', '南昌大学', '山东大学', '中国海洋大学', '中国石油大学', '郑州大学', '武汉大学', '华中科技大学', '中国地质大学', '华中师范大学', '华中农业大学', '中南财经政法大学', '武汉理工大学', '湖南大学', '中南大学', '湖南师范大学', '中山大学', '暨南大学', '华南理工大学', '华南师范大学', '广西大学', '四川大学', '西南交通大学', '电子科技大学', '西南财经大学', '四川农业大学', '云南大学', '贵州大学', '西北大学', '西安交通大学', '西北工业大学', '陕西师范大学', '西北农林科大', '西安电子科技大学', '长安大学', '兰州大学', '新疆大学', '石河子大学', '海南大学', '宁夏大学', '青海大学', '西藏大学', '第二军医大学', '第四军医大学', '国防科学技术大学'
+    ];
+
+    this.config = {
+      'www.zhipin.com': {
+        // 类名
+        className: 'show_me_985211',
+        // 是否严格匹配
+        isStrict: false,
+        // 是否延迟，不配置则不延迟
+        timer: 2000,
+        // 获取列表的选择器
+        domListSelector: 'a[data-suid]',
+        // 匹配到list之后的回调
+        onAfterMatchAll: function(domList) {
+          var domLen = domList.length;
+
+          if (domLen < 1) return;
+
+          var confirmText = '找到了' + domLen + '个符合条件的候选人，是否自动打招呼？' + '\n' +
+            '(不自动打招呼系统也可以帮您自动高亮符合要求的候选人)';
+          if (window.confirm(confirmText)) {
+            domList.forEach(function(item) {
+              var sayHiDom = item.parentElement.querySelector('.btn-greet');
+              if (sayHiDom && sayHiDom.click) {
+                sayHiDom.click();
+              }
+            });
+          }
+        },
+        // 匹配到其中一个item之后的回调
+        onAfterMatchItem: function(item) {
+          var text = item.parentElement.innerText;
+          if (text.indexOf("继续沟通") > -1) {
+            return false;
+          }
+
+          return true;
+        }
+      },
+      'easy.lagou.com': {
+        // 类名
+        className: 'show_me_985211',
+        // 是否严格匹配
+        isStrict: true,
+        // 是否延迟，不配置则不延迟
+        timer: false,
+        // 获取列表的选择器
+        domListSelector: '.result_list_item',
+        // 匹配到list之后的回调
+        onAfterMatchAll: function(domList) {
+          var domLen = domList.length;
+          // 通过URL中的positionname或者keyword字段来匹配职位名称
+          var keyWord = this.search.positionname || this.search.keyword || '';
+
+          function auto(index) {
+            var domItem = domList[index];
+            if (!domItem) return;
+
+            // 获取“和TA联系”的按钮，并点击
+            var addChatBtn = domItem.querySelector('.add-chat-list');
+            if (addChatBtn && addChatBtn.click) { addChatBtn.click(); }
+
+            // 一秒钟之后查询页面中的职位并模拟点击发送
+            setTimeout(function() {
+              var positionMode = document.getElementById('chatWithTaPop');
+              if (!positionMode || positionMode.style.display == 'none') return;
+
+              var positionList = positionMode.querySelectorAll('.position-item');
+              if (!positionList || positionList.length == 0) return;
+
+              var positionItem;
+              for (var i = 0; i < positionList.length; i++) {
+                positionItem = positionList[i];
+                if (positionItem.innerText.indexOf(keyWord) > -1) {
+                  break;
+                }
+              }
+
+              // 选中职位
+              // 可以通过URL中的positionname参数来指定职位
+              if (!positionItem || !positionItem.click) return;
+              positionItem.click();
+
+              // 发送职位
+              var sendChatBtn = positionMode.querySelector('.can-click');
+              if (!sendChatBtn || !sendChatBtn.click) return;
+              sendChatBtn.click();
+
+              // 500ms之后递归执行
+              setTimeout(function() {
+                auto(index + 1);
+              }, 500);
+            }, 1000);
+          }
+
+          if (domLen < 1) return;
+
+          var confirmText = '职位：' + keyWord + '\n' +
+            '找到了' + domLen + '个符合条件的候选人，是否自动“和TA聊聊”？' + '\n' +
+            '(点击“取消”也会帮您自动高亮符合要求的候选人)';
+          if (window.confirm(confirmText)) {
+            auto(0);
+          }
+        },
+        // 匹配到其中一个item之后的回调
+        onAfterMatchItem: function(item) {},
+        // 在自定义判断之前获取到了一个item之后的回调
+        onBeforeMatchItem: function(item) {
+          var text = item.innerText;
+          if (text.indexOf("继续聊聊") > -1) {
+            return false;
+          }
+
+          var spreadOutDetailBtn = item.querySelector('.spreadIn');
+          if (spreadOutDetailBtn && spreadOutDetailBtn.click) {
+            spreadOutDetailBtn.click();
+          }
+        }
+      }
+    };
+
+    this.itemCfg = this.config[window.location.host];
+  }
+
+  showMe985211.prototype.init = function() {
+    // 获取请求权参数
+    this.search = this.queryParse();
+
+    // 载入CSS
+    this.initCSS();
+
+    // 设置头部：标题等
+    this.render();
+  };
+  showMe985211.prototype.render = function() {
+    var me = this;
+
+    if (me.itemCfg.timer) {
+      setInterval(function() {
+        me.generator.call(me, me.itemCfg);
+      }, me.itemCfg.timer);
+    } else {
+      me.generator(me.itemCfg);
+    }
+
+  };
+  showMe985211.prototype.generator = function(config) {
+    var me = this;
+    var preDomList = me.selectDom(config.className, config.domListSelector);
+
+    // 在单个钩子中增加判断逻辑
+    var domList = preDomList.filter(function(item) {
+      // 添加获取完成所有dom时候的钩子
+      if (me.itemCfg.onAfterMatchItem) {
+        return me.itemCfg.onAfterMatchItem.call(me, item) !== false;
+      } else {
+        return true;
+      }
+    });
+
+    if (!domList || domList.length === 0) return;
+
+    // 添加获取完成所有dom时候的钩子
+    if (me.itemCfg.onAfterMatchAll) {
+      me.itemCfg.onAfterMatchAll.call(me, domList);
+    }
+
+    domList.forEach(function(item) {
+      item.classList.add(config.className);
+    });
+  };
+  showMe985211.prototype.selectDom = function(className, domListSelector) {
+    var me = this;
+
+    var domList = document.querySelectorAll(domListSelector);
+    var matchList = [];
+    if (domList.length === 0) return matchList;
+
+    domList.forEach(function(item) {
+      if (item.classList.contains(className)) return;
+
+      if (me.itemCfg.onBeforeMatchItem) {
+        if (me.itemCfg.onBeforeMatchItem.call(me, item) === false) return;
+      }
+
+      var text = item.innerText;
+
+      if (!text) return;
+
+      // 学历信息必须包含“本科、硕士、博士”
+      if (!/本科|硕士|博士/g.test(text)) return;
+
+      // 学历信息必须包含“专科”则直接返回
+      if (me.itemCfg.isStrict && /大专/g.test(text)) return;
+
+      // 如果包含this.list中的文字，则说明匹配到了985211院校
+      if (me.list.some(function(subItem) { return text.indexOf(subItem) > -1; })) {
+        matchList.push(item);
+      }
+    });
+
+    return matchList;
+
+  };
+  /**
+   * 载入CSS
+   */
+  showMe985211.prototype.initCSS = function() {
+    this.linkDOM = this.linkDOM || document.createElement('link');
+    this.linkDOM.rel = 'stylesheet';
+    this.linkDOM.href = chrome.extension.getURL('static/css/inject.css');
+
+    // 把link文件放在</body>和</html>之间，以避免回车搜索时干掉DOM
+    document.body.parentElement.appendChild(this.linkDOM);
+  };
+
+
+  /**
+   * 解析获取当前页面的GET请求参数
+   * @return {Object} 请求参数对象
+   */
+  showMe985211.prototype.queryParse = function(str) {
+    // 页面url参数集合
+    var dataObj = {};
+    var url = str || window.location.href;
+    // 正则会匹配 ?a=b&c=d
+    url.replace(/([^?=&#]+)=([^?=&#]+)/g, function() {
+      dataObj[arguments[1]] = decodeURIComponent(arguments[2]);
+    });
+    return dataObj;
+  };
+
+  return (new showMe985211());
+})();
+
+ShowMe985211.init();

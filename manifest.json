@@ -26,5 +26,6 @@
   "web_accessible_resources": [
     "static/css/inject.css",
     "icons/favicon.ico"
-  ]
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }

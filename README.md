@@ -34,3 +34,9 @@
 **注意：目前该功能仅支持BOSS直聘；有其他网站的需求，请联系xiongwilee@foxmail.com**
 
 ![](http://img003.qufenqi.com/products/d1/52/d1529f5c5a4f82df6c31b651123e6d25.gif)
+
+## 附：
+1. 数据来源：
+    - 世界大学排名：http://www.qianmu.org/ranking
+    - 985工程院校：https://baike.baidu.com/wikitag/taglist?tagId=60825
+    - 211工程院校：https://baike.baidu.com/wikitag/taglist?tagId=60826

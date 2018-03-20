@@ -2,53 +2,84 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Hello World</title>
-    <style>
-    body {
-        margin: 0px;
-        padding: 0px;
-        min-width: 180px;
-        overflow-x: hidden;
-    }
-
-    .container {
-        margin: 0px;
-        padding: 5px;
-    }
-
-    .container form {
-        display: block;
-    }
-
-    .container form input {
-        line-height: 24px;
-
-        padding: 0 5px;
-        border: 1px solid #dfdfdf;
-        border-radius: 3px;
-        outline: none;
-    }
-    .container form input:focus{
-      border-color: #666666;
-    }
-    .container form .green{
-      color: #00cc00;
-    }
-    .container form .red{
-      color: #cc0000;
-    }
-    </style>
+  <meta charset="utf-8">
+  <title>show-me-985211</title>
+  <!-- 引入element-ui -->
+  <script src="/static/js/lib/vue/vue.js"></script>
+  <link rel="stylesheet" href="/static/css/lib/element-ui/theme-chalk.css">
+  <script src="/static/js/lib/element-ui/index.js"></script>
+  <link type="text/css" rel="stylesheet" href="/static/css/popup.css">
 </head>
 
 <body>
-    <div class="container">
-        <form>
-            <input id="schoolName" type="text" placeholder="请输入完整的学校名">
-            <span id="schoolMsg"></span>
-        </form>
-    </div>
-    <script src="/static/js/popup.js"></script>
+  <div id="app">
+    <el-card class="box-card search">
+      <div slot="header" class="clearfix">
+        <h3>一键查询</h3>
+      </div>
+      <div class="text item">
+        <el-form ref="form" :model="search" label-width="80px" size="mini">
+          <el-form-item label="院校名称">
+            <el-input v-model="search.name" placeholder="请输入院校名称"></el-input>
+            <div class="search-result">
+              <el-tag v-for="(item, index) in searchResult" :key="index" :type="item.theme" size="mini">{{item.value|tagMap}}</el-tag>
+            </div>
+          </el-form-item>
+        </el-form>
+      </div>
+    </el-card>
+    <el-card class="box-card config">
+      <div slot="header" class="clearfix">
+        <h3>院校配置</h3>
+        <el-button style="float: right; padding: 3px 0" type="text" @click="onShowDetail">查看院校列表</el-button>
+      </div>
+      <div class="text item">
+        <el-form ref="form" :model="form" label-width="80px" size="mini">
+          <el-form-item label="中国大陆">
+            <el-select v-model="form.cn" multiple placeholder="请选择" class="select-cn" :disabled="form.manual == 'replace'">
+              <el-option v-for="item in cnColleges" :key="item.value" :label="item.value|tagMap" :value="item.value">
+              </el-option>
+            </el-select>
+          </el-form-item>
+
+          <el-form-item label="全球">
+            <el-select v-model="form.global" placeholder="请选择" :disabled="form.manual == 'replace'">
+              <el-option v-for="item in globalColleges" :key="item.value" :label="item.value|tagMap" :value="item.value">
+              </el-option>
+            </el-select>
+          </el-form-item>
+
+          <el-form-item label="自定义">
+            <el-select v-model="form.manual" placeholder="无需自定义">
+              <el-option label="无需自定义" value="-1"></el-option>
+              <el-option label="增量配置" value="add"></el-option>
+              <el-option label="替换配置" value="replace"></el-option>
+            </el-select>
+          </el-form-item>
+          <el-form-item label="" v-if="form.manual != '-1'">
+            <el-input type="textarea" v-model="form.manualContent" placeholder="请输入院校名称，用','或空格分割"></el-input>
+          </el-form-item>
+          <el-form-item>
+            <el-button type="primary" @click="onSubmit">确认修改</el-button>
+            <el-button>取消</el-button>
+          </el-form-item>
+        </el-form>
+      </div>
+    </el-card>
+    <el-card class="box-card about">
+      <div slot="header" class="clearfix">
+        <h3>关于</h3>
+      </div>
+      <div class="text item">
+        <ul>
+            <li><label class="list-label">问题反馈</label><a class="list-link" href="https://github.com/xiongwilee/show-me-985211/issues">填写反馈</a></li>
+            <li><label class="list-label">作者</label><a class="list-link" href="https://github.com/xiongwilee">xiongwilee</a></li>
+            <li><label class="list-label">版本</label><span class="list-text">2.0</span></li>
+        </ul>
+      </div>
+    </el-card>
+  </div>
+  <script src="/static/js/popup.js"></script>
 </body>
 
 </html>

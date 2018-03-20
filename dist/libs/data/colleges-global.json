@@ -1,0 +1,6694 @@
+[
+  {
+    "rank": "1",
+    "name": "麻省理工学院",
+    "name_en": "Massachusetts Institute of Technology (MIT)",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "2",
+    "name": "斯坦福大学",
+    "name_en": "Stanford University",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "3",
+    "name": "哈佛大学",
+    "name_en": "Harvard University",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "4",
+    "name": "加州理工学院",
+    "name_en": "California Institute of Technology (Caltech)",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "5",
+    "name": "剑桥大学",
+    "name_en": "University of Cambridge",
+    "area": "英国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "6",
+    "name": "牛津大学",
+    "name_en": "University of Oxford",
+    "area": "英国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "7",
+    "name": "伦敦大学学院",
+    "name_en": "UCL (University College London)",
+    "area": "英国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "8",
+    "name": "帝国理工学院",
+    "name_en": "Imperial College London",
+    "area": "英国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "9",
+    "name": "芝加哥大学",
+    "name_en": "University of Chicago",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "10",
+    "name": "苏黎世联邦理工学院",
+    "name_en": "ETH Zurich - Swiss Federal Institute of Technology",
+    "area": "瑞士",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "11",
+    "name": "南洋理工大学",
+    "name_en": "Nanyang Technological University, Singapore (NTU)",
+    "area": "新加坡",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "12",
+    "name": "洛桑联邦理工学院",
+    "name_en": "Ecole Polytechnique Fédérale de Lausanne (EPFL)",
+    "area": "瑞士",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "13",
+    "name": "普林斯顿大学",
+    "name_en": "Princeton University",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "14",
+    "name": "康奈尔大学",
+    "name_en": "Cornell University",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "15",
+    "name": "新加坡国立大学",
+    "name_en": "National University of Singapore (NUS)",
+    "area": "新加坡",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "16",
+    "name": "耶鲁大学",
+    "name_en": "Yale University",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "17",
+    "name": "约翰霍普金斯大学",
+    "name_en": "Johns Hopkins University",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "18",
+    "name": "哥伦比亚大学",
+    "name_en": "Columbia University",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "19",
+    "name": "宾夕法尼亚大学",
+    "name_en": "University of Pennsylvania",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "20",
+    "name": "澳洲国立大学",
+    "name_en": "The Australian National University",
+    "area": "澳大利亚",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "21",
+    "name": "杜克大学",
+    "name_en": "Duke University",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "21",
+    "name": "密歇根大学安娜堡分校",
+    "name_en": "University of Michigan",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "23",
+    "name": "伦敦大学国王学院",
+    "name_en": "King's College London",
+    "area": "英国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "23",
+    "name": "爱丁堡大学",
+    "name_en": "The University of Edinburgh",
+    "area": "英国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "25",
+    "name": "清华大学",
+    "name_en": "Tsinghua University",
+    "area": "中国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "26",
+    "name": "香港大学",
+    "name_en": "The University of Hong Kong",
+    "area": "香港",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "27",
+    "name": "加州大学伯克利分校",
+    "name_en": "University of California, Berkeley (UCB)",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "28",
+    "name": "西北大学",
+    "name_en": "Northwestern University",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "28",
+    "name": "东京大学",
+    "name_en": "The University of Tokyo",
+    "area": "日本",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "30",
+    "name": "香港科技大学",
+    "name_en": "The Hong Kong University of Science and Technology",
+    "area": "香港",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "31",
+    "name": "多伦多大学",
+    "name_en": "University of Toronto",
+    "area": "加拿大",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "32",
+    "name": "麦吉尔大学",
+    "name_en": "McGill University",
+    "area": "加拿大",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "33",
+    "name": "加州大学洛杉矶分校",
+    "name_en": "University of California, Los Angeles (UCLA)",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "34",
+    "name": "曼彻斯特大学",
+    "name_en": "The University of Manchester",
+    "area": "英国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "35",
+    "name": "伦敦政治经济学院",
+    "name_en": "London School of Economics and Political Science (LSE)",
+    "area": "英国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "36",
+    "name": "京都大学",
+    "name_en": "Kyoto University",
+    "area": "日本",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "36",
+    "name": "首尔国立大学",
+    "name_en": "Seoul National University",
+    "area": "韩国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "38",
+    "name": "北京大学",
+    "name_en": "Peking University",
+    "area": "中国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "38",
+    "name": "加州大学圣地亚哥分校",
+    "name_en": "University of California, San Diego (UCSD)",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "40",
+    "name": "复旦大学",
+    "name_en": "Fudan University",
+    "area": "中国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "41",
+    "name": "墨尔本大学",
+    "name_en": "The University of Melbourne",
+    "area": "澳大利亚",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "41",
+    "name": "韩国高等科技学院",
+    "name_en": "KAIST - Korea Advanced Institute of Science & Technology",
+    "area": "韩国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "43",
+    "name": "巴黎高等师范学院",
+    "name_en": "Ecole normale supérieure, Paris",
+    "area": "法国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "44",
+    "name": "布里斯托大学",
+    "name_en": "University of Bristol",
+    "area": "英国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "45",
+    "name": "新南威尔士大学",
+    "name_en": "The University of New South Wales (UNSW Sydney)",
+    "area": "澳大利亚",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "46",
+    "name": "香港中文大学",
+    "name_en": "The Chinese University of Hong Kong (CUHK)",
+    "area": "香港",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "47",
+    "name": "卡耐基梅隆大学",
+    "name_en": "Carnegie Mellon University",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "47",
+    "name": "昆士兰大学",
+    "name_en": "The University of Queensland",
+    "area": "澳大利亚",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "49",
+    "name": "香港城市大学",
+    "name_en": "City University of Hong Kong",
+    "area": "香港",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "50",
+    "name": "悉尼大学",
+    "name_en": "The University of Sydney",
+    "area": "澳大利亚",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "51",
+    "name": "英属哥伦比亚大学",
+    "name_en": "University of British Columbia",
+    "area": "加拿大",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "52",
+    "name": "纽约大学",
+    "name_en": "New York University (NYU)",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "53",
+    "name": "布朗大学",
+    "name_en": "Brown University",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "54",
+    "name": "代尔夫特理工大学",
+    "name_en": "Delft University of Technology",
+    "area": "荷兰",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "55",
+    "name": "威斯康辛大学麦迪逊分校",
+    "name_en": "University of Wisconsin-Madison",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "56",
+    "name": "东京工业大学",
+    "name_en": "Tokyo Institute of Technology",
+    "area": "日本",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "57",
+    "name": "华威大学",
+    "name_en": "The University of Warwick",
+    "area": "英国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "58",
+    "name": "阿姆斯特丹大学",
+    "name_en": "University of Amsterdam",
+    "area": "荷兰",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "59",
+    "name": "巴黎高等理工学院",
+    "name_en": "Ecole Polytechnique",
+    "area": "法国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "60",
+    "name": "莫纳什大学",
+    "name_en": "Monash University",
+    "area": "澳大利亚",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "61",
+    "name": "华盛顿大学",
+    "name_en": "University of Washington",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "62",
+    "name": "上海交通大学",
+    "name_en": "Shanghai Jiao Tong University",
+    "area": "中国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "63",
+    "name": "大阪大学",
+    "name_en": "Osaka University",
+    "area": "日本",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "64",
+    "name": "慕尼黑工业大学",
+    "name_en": "Technical University of Munich",
+    "area": "德国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "65",
+    "name": "格拉斯哥大学",
+    "name_en": "University of Glasgow",
+    "area": "英国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "66",
+    "name": "慕尼黑大学",
+    "name_en": "Ludwig-Maximilians-Universität München",
+    "area": "德国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "67",
+    "name": "德克萨斯大学奥斯汀分校",
+    "name_en": "University of Texas at Austin",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "68",
+    "name": "海德堡大学",
+    "name_en": "Ruprecht-Karls-Universitaet Heidelberg",
+    "area": "德国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "69",
+    "name": "伊利诺伊大学厄本那",
+    "name_en": null,
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "70",
+    "name": "佐治亚理工学院",
+    "name_en": "Georgia Institute of Technology",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "71",
+    "name": "鲁汶大学（荷语）",
+    "name_en": "KU Leuven",
+    "area": "比利时",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "71",
+    "name": "浦项科技大学",
+    "name_en": "Pohang University of Science And Technology (POSTECH)",
+    "area": "韩国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "73",
+    "name": "哥本哈根大学",
+    "name_en": "University of Copenhagen",
+    "area": "丹麦",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "73",
+    "name": "苏黎世大学",
+    "name_en": "University of Zurich",
+    "area": "瑞士",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "75",
+    "name": "布宜诺斯艾利斯大学",
+    "name_en": "Universidad de Buenos Aires (UBA)",
+    "area": "阿根廷",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "76",
+    "name": "国立台湾大学",
+    "name_en": "National Taiwan University (NTU)",
+    "area": "台湾",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "76",
+    "name": "东北大学（日本）",
+    "name_en": "Tohoku University",
+    "area": "日本",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "78",
+    "name": "杜伦大学",
+    "name_en": "Durham University",
+    "area": "英国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "78",
+    "name": "隆德大学",
+    "name_en": "Lund University",
+    "area": "瑞典",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "80",
+    "name": "北卡罗来纳大学教堂山分校",
+    "name_en": "University of North Carolina, Chapel Hill",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "81",
+    "name": "波士顿大学",
+    "name_en": "Boston University",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "82",
+    "name": "谢菲尔德大学",
+    "name_en": "The University of Sheffield",
+    "area": "英国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "82",
+    "name": "奥克兰大学",
+    "name_en": "The University of Auckland",
+    "area": "新西兰",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "84",
+    "name": "诺丁汉大学",
+    "name_en": "The University of Nottingham",
+    "area": "英国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "84",
+    "name": "伯明翰大学",
+    "name_en": "University of Birmingham",
+    "area": "英国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "86",
+    "name": "俄亥俄州立大学",
+    "name_en": "The Ohio State University",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "87",
+    "name": "浙江大学",
+    "name_en": "Zhejiang University",
+    "area": "中国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "88",
+    "name": "都柏林三一学院",
+    "name_en": "Trinity College Dublin, The University of Dublin",
+    "area": "爱尔兰",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "89",
+    "name": "莱斯大学",
+    "name_en": "Rice University",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "90",
+    "name": "阿尔伯塔大学",
+    "name_en": "University of Alberta",
+    "area": "加拿大",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "90",
+    "name": "高丽大学",
+    "name_en": "Korea University",
+    "area": "韩国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "92",
+    "name": "圣安德鲁斯大学",
+    "name_en": "University of St Andrews",
+    "area": "英国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "93",
+    "name": "宾州州立大学公园分校",
+    "name_en": "Pennsylvania State University",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "93",
+    "name": "西澳大学",
+    "name_en": "The University of Western Australia",
+    "area": "澳大利亚",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "95",
+    "name": "莫斯科国立大学",
+    "name_en": "Lomonosov Moscow State University",
+    "area": "俄国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "95",
+    "name": "香港理工大学",
+    "name_en": "The Hong Kong Polytechnic University",
+    "area": "香港",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "97",
+    "name": "中国科学技术大学",
+    "name_en": "University of Science and Technology of China",
+    "area": "中国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "98",
+    "name": "日内瓦大学",
+    "name_en": "University of Geneva",
+    "area": "瑞士",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "98",
+    "name": "瑞典皇家理工学院",
+    "name_en": "KTH Royal Institute of Technology",
+    "area": "瑞典",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "100",
+    "name": "圣路易斯华盛顿大学",
+    "name_en": "Washington University in St. Louis",
+    "area": "美国",
+    "tags":["top-100","top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "101",
+    "name": "利兹大学",
+    "name_en": "University of Leeds",
+    "area": "英国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "102",
+    "name": "赫尔辛基大学",
+    "name_en": "University of Helsinki",
+    "area": "芬兰",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "102",
+    "name": "南安普敦大学",
+    "name_en": "University of Southampton",
+    "area": "英国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "104",
+    "name": "埃因霍温理工大学",
+    "name_en": "Eindhoven University of Technology",
+    "area": "荷兰",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "105",
+    "name": "普渡大学西拉法叶分校",
+    "name_en": "Purdue University",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "106",
+    "name": "延世大学",
+    "name_en": "Yonsei University",
+    "area": "韩国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "107",
+    "name": "卡尔斯鲁厄理工学院",
+    "name_en": "KIT, Karlsruhe Institute of Technology",
+    "area": "德国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "108",
+    "name": "成均馆大学",
+    "name_en": "Sungkyunkwan University (SKKU)",
+    "area": "韩国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "109",
+    "name": "莱顿大学",
+    "name_en": "Leiden University",
+    "area": "荷兰",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "109",
+    "name": "阿德雷德大学",
+    "name_en": "The University of Adelaide",
+    "area": "澳大利亚",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "109",
+    "name": "乌得勒支大学",
+    "name_en": "Utrecht University",
+    "area": "荷兰",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "112",
+    "name": "乌普萨拉大学",
+    "name_en": "Uppsala University",
+    "area": "瑞典",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "113",
+    "name": "格罗宁根大学",
+    "name_en": "University of Groningen",
+    "area": "荷兰",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "114",
+    "name": "马来亚大学",
+    "name_en": "Universiti Malaya (UM)",
+    "area": "马来西亚",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "114",
+    "name": "南京大学",
+    "name_en": "Nanjing University",
+    "area": "中国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "116",
+    "name": "名古屋大学",
+    "name_en": "Nagoya University",
+    "area": "日本",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "116",
+    "name": "丹麦理工大学",
+    "name_en": "Technical University of Denmark",
+    "area": "丹麦",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "118",
+    "name": "加州大学戴维斯分校",
+    "name_en": "University of California, Davis",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "119",
+    "name": "奥胡斯大学",
+    "name_en": "Aarhus University",
+    "area": "丹麦",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "120",
+    "name": "柏林洪堡大学",
+    "name_en": "Humboldt-Universität zu Berlin",
+    "area": "德国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "121",
+    "name": "圣保罗大学",
+    "name_en": "Universidade de São Paulo",
+    "area": "巴西",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "122",
+    "name": "墨西哥国立自治大学",
+    "name_en": "Universidad Nacional Autónoma de México (UNAM)",
+    "area": "墨西哥",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "122",
+    "name": "北海道大学",
+    "name_en": "Hokkaido University",
+    "area": "日本",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "124",
+    "name": "瓦格宁根大学",
+    "name_en": "Wageningen University",
+    "area": "荷兰",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "125",
+    "name": "柏林自由大学",
+    "name_en": "Freie Universitaet Berlin",
+    "area": "德国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "125",
+    "name": "根特大学",
+    "name_en": "Ghent University",
+    "area": "比利时",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "127",
+    "name": "伦敦大学玛丽女王学院",
+    "name_en": "Queen Mary University of London",
+    "area": "英国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "128",
+    "name": "九州大学",
+    "name_en": "Kyushu University",
+    "area": "日本",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "129",
+    "name": "马里兰大学学院公园分校",
+    "name_en": "University of Maryland, College Park",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "130",
+    "name": "蒙特利尔大学",
+    "name_en": "Université de Montréal",
+    "area": "加拿大",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "131",
+    "name": "巴黎第六大学",
+    "name_en": "Université Pierre et Marie Curie (UPMC)",
+    "area": "法国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "132",
+    "name": "南加州大学",
+    "name_en": "University of Southern California",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "133",
+    "name": "查尔姆斯工业大学",
+    "name_en": "Chalmers University of Technology",
+    "area": "瑞典",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "134",
+    "name": "加州大学圣塔芭芭拉分校",
+    "name_en": "University of California, Santa Barbara (UCSB)",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "135",
+    "name": "兰卡斯特大学",
+    "name_en": "Lancaster University",
+    "area": "英国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "135",
+    "name": "约克大学（英国）",
+    "name_en": "University of York",
+    "area": "英国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "137",
+    "name": "卡迪夫大学",
+    "name_en": "Cardiff University",
+    "area": "英国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "137",
+    "name": "智利天主大学",
+    "name_en": "Pontificia Universidad Católica de Chile (UC)",
+    "area": "智利",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "137",
+    "name": "阿尔托大学",
+    "name_en": "Aalto University",
+    "area": "芬兰",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "140",
+    "name": "麦克马斯特大学",
+    "name_en": "McMaster University",
+    "area": "加拿大",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "141",
+    "name": "亚琛工业大学",
+    "name_en": "RWTH Aachen University",
+    "area": "德国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "142",
+    "name": "奥斯陆大学",
+    "name_en": "University of Oslo",
+    "area": "挪威",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "142",
+    "name": "匹兹堡大学",
+    "name_en": "University of Pittsburgh",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "144",
+    "name": "柏林工业大学",
+    "name_en": "Technische Universität Berlin (TU Berlin)",
+    "area": "德国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "145",
+    "name": "耶路撒冷希伯来大学",
+    "name_en": "The Hebrew University of Jerusalem",
+    "area": "以色列",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "146",
+    "name": "洛桑大学",
+    "name_en": "University of Lausanne",
+    "area": "瑞士",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "147",
+    "name": "艾茉莉大学",
+    "name_en": "Emory University",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "147",
+    "name": "伊拉斯姆斯大学",
+    "name_en": "Erasmus University Rotterdam",
+    "area": "荷兰",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "149",
+    "name": "密歇根州立大学",
+    "name_en": "Michigan State University",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "149",
+    "name": "巴塞尔大学",
+    "name_en": "University of Basel",
+    "area": "瑞士",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "151",
+    "name": "奥塔戈大学",
+    "name_en": "University of Otago",
+    "area": "新西兰",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "152",
+    "name": "滑铁卢大学",
+    "name_en": "University of Waterloo",
+    "area": "加拿大",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "153",
+    "name": "鲁汶大学（法语）",
+    "name_en": "Université catholique de Louvain (UCL)",
+    "area": "比利时",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "154",
+    "name": "维也纳大学",
+    "name_en": "University of Vienna",
+    "area": "奥地利",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "155",
+    "name": "汉阳大学",
+    "name_en": "Hanyang University",
+    "area": "韩国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "156",
+    "name": "巴塞罗那大学",
+    "name_en": "Universitat de Barcelona",
+    "area": "西班牙",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "157",
+    "name": "里昂高等师范学院",
+    "name_en": "École Normale Supérieure de Lyon",
+    "area": "法国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "158",
+    "name": "阿伯丁大学",
+    "name_en": "University of Aberdeen",
+    "area": "英国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "158",
+    "name": "埃克塞特大学",
+    "name_en": "The University of Exeter",
+    "area": "英国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "160",
+    "name": "巴斯大学",
+    "name_en": "University of Bath",
+    "area": "英国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "161",
+    "name": "纽卡斯尔大学（英国）",
+    "name_en": "Newcastle University",
+    "area": "英国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "161",
+    "name": "国立清华大学",
+    "name_en": "National Tsing Hua University",
+    "area": "台湾",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "163",
+    "name": "明尼苏达大学双城分校",
+    "name_en": "University of Minnesota",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "164",
+    "name": "蒂宾根大学",
+    "name_en": "Eberhard Karls Universität Tübingen",
+    "area": "德国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "164",
+    "name": "卑尔根大学",
+    "name_en": "University of Bergen",
+    "area": "挪威",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "164",
+    "name": "加州大学尔湾分校",
+    "name_en": "University of California, Irvine",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "167",
+    "name": "伯尔尼大学",
+    "name_en": "University of Bern",
+    "area": "瑞士",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "168",
+    "name": "都柏林大学学院",
+    "name_en": "University College Dublin",
+    "area": "爱尔兰",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "169",
+    "name": "达特茅斯学院",
+    "name_en": "Dartmouth College",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "170",
+    "name": "米兰理工大学",
+    "name_en": "Politecnico di Milano",
+    "area": "意大利",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "171",
+    "name": "弗莱堡大学",
+    "name_en": "Albert-Ludwigs-Universitaet Freiburg",
+    "area": "德国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "172",
+    "name": "印度理工学院德里分校",
+    "name_en": "Indian Institute of Technology Delhi (IITD)",
+    "area": "印度",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "173",
+    "name": "法赫德国王石油与矿产大学",
+    "name_en": "King Fahd University of Petroleum & Minerals",
+    "area": "沙特",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "173",
+    "name": "利物浦大学",
+    "name_en": "University of Liverpool",
+    "area": "英国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "173",
+    "name": "弗吉尼亚大学",
+    "name_en": "University of Virginia",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "176",
+    "name": "悉尼科技大学",
+    "name_en": "University of Technology Sydney",
+    "area": "澳大利亚",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "177",
+    "name": "法国中央理工学院",
+    "name_en": "CentraleSupélec",
+    "area": "法国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "178",
+    "name": "佛罗里达大学",
+    "name_en": "University of Florida",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "179",
+    "name": "印度理工学院孟买分校",
+    "name_en": "Indian Institute of Technology Bombay (IITB)",
+    "area": "印度",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "179",
+    "name": "特文特大学",
+    "name_en": "University of Twente",
+    "area": "荷兰",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "181",
+    "name": "哥廷根大学",
+    "name_en": "University of Göttingen",
+    "area": "德国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "182",
+    "name": "维也纳工业大学",
+    "name_en": "Vienna University of Technology",
+    "area": "奥地利",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "182",
+    "name": "坎皮纳斯大学",
+    "name_en": "Universidade Estadual de Campinas (Unicamp)",
+    "area": "巴西",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "182",
+    "name": "科罗拉多大学博尔德分校",
+    "name_en": "University of Colorado Boulder",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "182",
+    "name": "布鲁塞尔自由大学（荷语）",
+    "name_en": "Vrije Universiteit Brussel (VUB)",
+    "area": "比利时",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "186",
+    "name": "罗切斯特大学",
+    "name_en": "University of Rochester",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "187",
+    "name": "马德里自治大学",
+    "name_en": "Universidad Autónoma de Madrid",
+    "area": "西班牙",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "188",
+    "name": "博洛尼亚大学",
+    "name_en": "Alma Mater Studiorum - University of Bologna",
+    "area": "意大利",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "188",
+    "name": "雷丁大学",
+    "name_en": "University of Reading",
+    "area": "英国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "190",
+    "name": "印度科学学院",
+    "name_en": "Indian Institute of Science (IISc) Bangalore",
+    "area": "印度",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "191",
+    "name": "开普敦大学",
+    "name_en": "University of Cape Town",
+    "area": "南非",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "192",
+    "name": "比萨圣安娜大学",
+    "name_en": "Scuola Superiore Sant'Anna Pisa di Studi Universitari e di Perfezionamento",
+    "area": "意大利",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "192",
+    "name": "庆应义塾大学",
+    "name_en": "Keio University",
+    "area": "日本",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "192",
+    "name": "比萨高等师范学院",
+    "name_en": "Scuola Normale Superiore di Pisa",
+    "area": "意大利",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "195",
+    "name": "斯德哥尔摩大学",
+    "name_en": "Stockholm University",
+    "area": "瑞典",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "195",
+    "name": "德累斯顿工业大学",
+    "name_en": "Technische Universität Dresden",
+    "area": "德国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "195",
+    "name": "德州农工大学",
+    "name_en": "Texas A&M University",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "195",
+    "name": "巴塞罗那自治大学",
+    "name_en": "Universitat Autònoma de Barcelona",
+    "area": "西班牙",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "199",
+    "name": "蒙特雷理工学院",
+    "name_en": "Instituto Tecnológico y de Estudios Superiores de Monterrey",
+    "area": "墨西哥",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "200",
+    "name": "马斯特里赫特大学",
+    "name_en": "Maastricht University",
+    "area": "荷兰",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "201",
+    "name": "智利大学",
+    "name_en": "Universidad de Chile",
+    "area": "智利",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "202",
+    "name": "贝尔法斯特女王大学",
+    "name_en": "Queen's University Belfast",
+    "area": "英国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "203",
+    "name": "早稻田大学",
+    "name_en": "Waseda University",
+    "area": "日本",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "204",
+    "name": "奈梅亨大学",
+    "name_en": "Radboud University",
+    "area": "荷兰",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "205",
+    "name": "特拉维夫大学",
+    "name_en": "Tel Aviv University",
+    "area": "以色列",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "205",
+    "name": "布鲁塞尔自由大学（法语）",
+    "name_en": "Universite libre de Bruxelles",
+    "area": "比利时",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "207",
+    "name": "国立交通大学",
+    "name_en": "National Chiao Tung University",
+    "area": "台湾",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "207",
+    "name": "伊利诺伊大学芝加哥分校",
+    "name_en": "University of Illinois, Chicago (UIC)",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "209",
+    "name": "亚利桑那州立大学",
+    "name_en": "Arizona State University",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "210",
+    "name": "安特卫普大学",
+    "name_en": "University of Antwerp",
+    "area": "比利时",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "210",
+    "name": "西安大略大学",
+    "name_en": "The University of Western Ontario",
+    "area": "加拿大",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "212",
+    "name": "范德堡大学",
+    "name_en": "Vanderbilt University",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "213",
+    "name": "凯斯西储大学",
+    "name_en": "Case Western Reserve University",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "214",
+    "name": "坎特伯雷大学（新西兰）",
+    "name_en": "University of Canterbury",
+    "area": "新西兰",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "215",
+    "name": "罗马第一大学",
+    "name_en": "Sapienza University of Rome",
+    "area": "意大利",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "216",
+    "name": "圣母大学",
+    "name_en": "University of Notre Dame",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "217",
+    "name": "卡尔加里大学",
+    "name_en": "University of Calgary",
+    "area": "加拿大",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "218",
+    "name": "阿姆斯特丹自由大学",
+    "name_en": "Vrije Universiteit Amsterdam",
+    "area": "荷兰",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "219",
+    "name": "惠灵顿维多利亚大学",
+    "name_en": "Victoria University of Wellington",
+    "area": "新西兰",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "220",
+    "name": "巴黎政治学院",
+    "name_en": "Sciences Po",
+    "area": "法国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "221",
+    "name": "沙特国王大学",
+    "name_en": "King Saud University",
+    "area": "沙特",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "222",
+    "name": "国立成功大学",
+    "name_en": "National Cheng Kung University (NCKU)",
+    "area": "台湾",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "223",
+    "name": "汉堡大学",
+    "name_en": "Universität Hamburg",
+    "area": "德国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "224",
+    "name": "以色列理工学院",
+    "name_en": "Technion - Israel Institute of Technology",
+    "area": "以色列",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "224",
+    "name": "纽卡斯尔大学（澳洲）",
+    "name_en": "The University of Newcastle, Australia (UON)",
+    "area": "澳大利亚",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "224",
+    "name": "皇后大学",
+    "name_en": "Queen's University at Kingston",
+    "area": "加拿大",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "227",
+    "name": "乔治敦大学",
+    "name_en": "Georgetown University",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "228",
+    "name": "萨塞克斯大学",
+    "name_en": "University of Sussex",
+    "area": "英国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "229",
+    "name": "马来西亚博特拉大学",
+    "name_en": "Universiti Putra Malaysia (UPM)",
+    "area": "马来西亚",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "230",
+    "name": "马来西亚国民大学",
+    "name_en": "Universiti Kebangsaan Malaysia (UKM)",
+    "area": "马来西亚",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "230",
+    "name": "亚利桑那大学",
+    "name_en": "The University of Arizona",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "232",
+    "name": "卧龙岗大学",
+    "name_en": "University of Wollongong",
+    "area": "澳大利亚",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "233",
+    "name": "马德里康普斯顿大学",
+    "name_en": "University Complutense Madrid",
+    "area": "西班牙",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "234",
+    "name": "拉夫堡大学",
+    "name_en": "Loughborough University",
+    "area": "英国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "235",
+    "name": "贝鲁特美国大学",
+    "name_en": "American University of Beirut (AUB)",
+    "area": "黎巴嫩",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "236",
+    "name": "格勒诺布尔大学",
+    "name_en": "Université Grenoble-Alpes",
+    "area": "法国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "236",
+    "name": "国立哈萨克大学",
+    "name_en": "Al-Farabi Kazakh National University",
+    "area": "哈萨克斯坦",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "238",
+    "name": "莱斯特大学",
+    "name_en": "University of Leicester",
+    "area": "英国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "239",
+    "name": "波恩大学",
+    "name_en": "Rheinische Friedrich-Wilhelms-Universität Bonn",
+    "area": "德国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "240",
+    "name": "麦考瑞大学",
+    "name_en": "Macquarie University",
+    "area": "澳大利亚",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "240",
+    "name": "圣彼得堡国立大学",
+    "name_en": "Saint Petersburg State University",
+    "area": "俄国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "242",
+    "name": "巴黎第十一大学",
+    "name_en": "Université Paris-Sud",
+    "area": "法国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "243",
+    "name": "高威大学",
+    "name_en": "National University of Ireland Galway",
+    "area": "爱尔兰",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "243",
+    "name": "塔夫斯大学",
+    "name_en": "Tufts University",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "245",
+    "name": "朱拉隆功大学",
+    "name_en": "Chulalongkorn University",
+    "area": "泰国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "245",
+    "name": "西门菲莎大学",
+    "name_en": "Simon Fraser University",
+    "area": "加拿大",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "247",
+    "name": "昆士兰科技大学",
+    "name_en": "Queensland University of Technology (QUT)",
+    "area": "澳大利亚",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "247",
+    "name": "皇家墨尔本理工大学",
+    "name_en": "RMIT University",
+    "area": "澳大利亚",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "249",
+    "name": "马萨诸塞大学阿默斯特分校",
+    "name_en": "University of Massachusetts Amherst",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "250",
+    "name": "新西伯利亚国立大学",
+    "name_en": "Novosibirsk State University",
+    "area": "俄国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "250",
+    "name": "筑波大学",
+    "name_en": "University of Tsukuba",
+    "area": "日本",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "252",
+    "name": "迈阿密大学",
+    "name_en": "University of Miami",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "253",
+    "name": "马来西亚理工大学",
+    "name_en": "Universiti Teknologi Malaysia",
+    "area": "马来西亚",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "254",
+    "name": "哥伦比亚国立大学",
+    "name_en": "Universidad Nacional de Colombia",
+    "area": "哥伦比亚",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "254",
+    "name": "法兰克福大学",
+    "name_en": "Universität Frankfurt am Main",
+    "area": "德国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "256",
+    "name": "北京师范大学",
+    "name_en": "Beijing Normal University",
+    "area": "中国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "256",
+    "name": "庆熙大学",
+    "name_en": "Kyung Hee University",
+    "area": "韩国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "256",
+    "name": "洛斯安第斯大学",
+    "name_en": "Universidad de los Andes",
+    "area": "哥伦比亚",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "259",
+    "name": "斯图加特大学",
+    "name_en": "Universität Stuttgart",
+    "area": "德国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "259",
+    "name": "挪威科技大学",
+    "name_en": "Norwegian University of Science And Technology",
+    "area": "挪威",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "259",
+    "name": "伦敦大学皇家霍洛威学院",
+    "name_en": "Royal Holloway University of London",
+    "area": "英国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "262",
+    "name": "科廷大学",
+    "name_en": "Curtin University",
+    "area": "澳大利亚",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "263",
+    "name": "北卡罗来纳州立大学",
+    "name_en": "North Carolina State University",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "264",
+    "name": "印度理工学院马德拉斯分校",
+    "name_en": "Indian Institute of Technology Madras (IITM)",
+    "area": "印度",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "264",
+    "name": "国立台湾科技大学",
+    "name_en": "National Taiwan University of Science and Technology (Taiwan Tech)",
+    "area": "台湾",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "264",
+    "name": "马来西亚理科大学",
+    "name_en": "Universiti Sains Malaysia (USM)",
+    "area": "马来西亚",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "267",
+    "name": "邓迪大学",
+    "name_en": "University of Dundee",
+    "area": "英国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "267",
+    "name": "阿卜杜勒阿齐兹国王大学",
+    "name_en": "King Abdulaziz University (KAU)",
+    "area": "沙特",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "269",
+    "name": "巴黎第一大学",
+    "name_en": "Université Paris 1 Panthéon-Sorbonne",
+    "area": "法国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "270",
+    "name": "巴黎高等路桥学院",
+    "name_en": "Ecole des Ponts ParisTech",
+    "area": "法国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "270",
+    "name": "纳瓦拉大学",
+    "name_en": "University of Navarra",
+    "area": "西班牙",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "272",
+    "name": "达姆施塔特工业大学",
+    "name_en": "Technische Universität Darmstadt",
+    "area": "德国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "272",
+    "name": "萨里大学",
+    "name_en": "University of Surrey",
+    "area": "英国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "274",
+    "name": "东安格利亚大学",
+    "name_en": "University of East Anglia (UEA)",
+    "area": "英国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "275",
+    "name": "加泰罗尼亚理工大学",
+    "name_en": "Universitat Politècnica de Catalunya",
+    "area": "西班牙",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "276",
+    "name": "图库大学",
+    "name_en": "University of Turku",
+    "area": "芬兰",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "277",
+    "name": "印度尼西亚大学",
+    "name_en": "Universitas Indonesia",
+    "area": "印尼",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "277",
+    "name": "斯凯莱德大学",
+    "name_en": "University of Strathclyde",
+    "area": "英国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "279",
+    "name": "戴尔豪斯大学",
+    "name_en": "Dalhousie University",
+    "area": "加拿大",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "279",
+    "name": "南澳大学",
+    "name_en": "University of South Australia",
+    "area": "澳大利亚",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "281",
+    "name": "马德里卡洛斯三世大学",
+    "name_en": "Universidad Carlos III de Madrid (UC3M)",
+    "area": "西班牙",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "282",
+    "name": "武汉大学",
+    "name_en": "Wuhan University",
+    "area": "中国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "283",
+    "name": "科克大学学院",
+    "name_en": "University College Cork",
+    "area": "爱尔兰",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "283",
+    "name": "哥德堡大学",
+    "name_en": "University of Gothenburg",
+    "area": "瑞典",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "283",
+    "name": "罗格斯大学",
+    "name_en": "Rutgers University - New Brunswick",
+    "area": "美国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "286",
+    "name": "因斯布鲁克大学",
+    "name_en": "Universität Innsbruck",
+    "area": "奥地利",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "287",
+    "name": "林雪平大学",
+    "name_en": "Linköping University",
+    "area": "瑞典",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "287",
+    "name": "埃尔朗根",
+    "name_en": null,
+    "area": "德国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "289",
+    "name": "国立台湾师范大学",
+    "name_en": "National Taiwan Normal University",
+    "area": "台湾",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "289",
+    "name": "渥太华大学",
+    "name_en": "University of Ottawa",
+    "area": "加拿大",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "291",
+    "name": "鲍曼大学",
+    "name_en": "Bauman Moscow State Technical University",
+    "area": "俄国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "292",
+    "name": "怀卡托大学",
+    "name_en": "University of Waikato",
+    "area": "新西兰",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "293",
+    "name": "迪肯大学",
+    "name_en": "Deakin University",
+    "area": "澳大利亚",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "293",
+    "name": "印度理工学院坎普尔分校",
+    "name_en": "Indian Institute of Technology Kanpur (IITK)",
+    "area": "印度",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "293",
+    "name": "巴黎第四大学",
+    "name_en": "Université Paris-Sorbonne (Paris IV)",
+    "area": "法国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "296",
+    "name": "伦敦大学亚非学院",
+    "name_en": "SOAS University of London",
+    "area": "英国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "296",
+    "name": "帕多瓦大学",
+    "name_en": "Università di Padova",
+    "area": "意大利",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "296",
+    "name": "庞培法布拉大学",
+    "name_en": "Universitat Pompeu Fabra",
+    "area": "西班牙",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "299",
+    "name": "香港浸会大学",
+    "name_en": "Hong Kong Baptist University",
+    "area": "香港",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "299",
+    "name": "梨花女子大学",
+    "name_en": "Ewha Womans University",
+    "area": "韩国",
+    "tags":["top-300","top-500","top-1000"]
+  },
+  {
+    "rank": "301",
+    "name": "加州大学圣克鲁兹分校",
+    "name_en": "University of California, Santa Cruz",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "301",
+    "name": "波尔图大学",
+    "name_en": "University of Porto",
+    "area": "葡萄牙",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "303",
+    "name": "斯特拉斯堡大学",
+    "name_en": "Université de Strasbourg",
+    "area": "法国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "304",
+    "name": "印第安纳大学伯明顿分校",
+    "name_en": "Indiana University Bloomington",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "305",
+    "name": "巴黎第七大学",
+    "name_en": "Université Paris Diderot - Paris 7",
+    "area": "法国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "305",
+    "name": "里斯本大学",
+    "name_en": "University of Lisbon",
+    "area": "葡萄牙",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "307",
+    "name": "都灵理工大学",
+    "name_en": "Politecnico di Torino",
+    "area": "意大利",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "308",
+    "name": "伦敦大学伯克贝克学院",
+    "name_en": "Birkbeck, University of London",
+    "area": "英国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "308",
+    "name": "印度理工学院克勒格布尔分校",
+    "name_en": "Indian Institute of Technology Kharagpur (IIT-KGP)",
+    "area": "印度",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "308",
+    "name": "明斯特大学",
+    "name_en": "Westfälische Wilhelms-Universität Münster",
+    "area": "德国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "311",
+    "name": "里约热内卢联邦大学",
+    "name_en": "Universidade Federal do Rio de Janeiro",
+    "area": "巴西",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "312",
+    "name": "赫瑞瓦特大学",
+    "name_en": "Heriot-Watt University",
+    "area": "英国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "313",
+    "name": "塔斯马尼亚大学",
+    "name_en": "University of Tasmania",
+    "area": "澳大利亚",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "314",
+    "name": "布拉格查尔斯大学",
+    "name_en": "Charles University",
+    "area": "捷克",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "314",
+    "name": "塔尔图大学",
+    "name_en": "University of Tartu",
+    "area": "爱沙尼亚",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "316",
+    "name": "梅西大学",
+    "name_en": "Massey University",
+    "area": "新西兰",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "316",
+    "name": "同济大学",
+    "name_en": "Tongji University",
+    "area": "中国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "318",
+    "name": "纽约州立大学水牛城分校",
+    "name_en": "University at Buffalo SUNY",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "319",
+    "name": "林肯大学",
+    "name_en": "Lincoln University",
+    "area": "新西兰",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "319",
+    "name": "中山大学",
+    "name_en": "Sun Yat-sen University",
+    "area": "中国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "319",
+    "name": "列日大学",
+    "name_en": "Université de Liège",
+    "area": "比利时",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "322",
+    "name": "广岛大学",
+    "name_en": "Hiroshima University",
+    "area": "日本",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "323",
+    "name": "加州大学河滨分校",
+    "name_en": "University of California, Riverside",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "323",
+    "name": "托木斯克国立大学",
+    "name_en": "Tomsk State University",
+    "area": "俄国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "325",
+    "name": "格里菲斯大学",
+    "name_en": "Griffith University",
+    "area": "澳大利亚",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "325",
+    "name": "哈尔滨工业大学",
+    "name_en": "Harbin Institute of Technology",
+    "area": "中国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "325",
+    "name": "米兰大学",
+    "name_en": "University of Milan",
+    "area": "意大利",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "325",
+    "name": "叶史瓦大学",
+    "name_en": "The Katz School at Yeshiva University",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "329",
+    "name": "国立阳明大学",
+    "name_en": "National Yang Ming University",
+    "area": "台湾",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "330",
+    "name": "卡尚高等师范学院",
+    "name_en": "Ecole Normale Supérieure de Cachan",
+    "area": "法国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "331",
+    "name": "万隆理工学院",
+    "name_en": "Bandung Institute of Technology (ITB)",
+    "area": "印尼",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "331",
+    "name": "阿根廷奥斯特拉尔大学",
+    "name_en": "Universidad Austral",
+    "area": "阿根廷",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "331",
+    "name": "科隆大学",
+    "name_en": "University of Cologne",
+    "area": "德国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "334",
+    "name": "白俄罗斯国立大学",
+    "name_en": "Belarusian State University",
+    "area": "白俄罗斯",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "334",
+    "name": "玛希隆大学",
+    "name_en": "Mahidol University",
+    "area": "泰国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "336",
+    "name": "国立欧亚大学",
+    "name_en": "L.N. Gumilyov Eurasian National University (ENU)",
+    "area": "哈萨克斯坦",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "337",
+    "name": "贝尔格拉诺大学",
+    "name_en": "Universidad de Belgrano",
+    "area": "阿根廷",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "338",
+    "name": "于默奥大学",
+    "name_en": "Umea University",
+    "area": "瑞典",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "339",
+    "name": "波士顿学院",
+    "name_en": "Boston College",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "339",
+    "name": "光州科技学院",
+    "name_en": "Gwangju Institute of Science and Technology (GIST)",
+    "area": "韩国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "341",
+    "name": "耶拿大学",
+    "name_en": "Universität Jena",
+    "area": "德国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "341",
+    "name": "夏威夷大学马诺阿分校",
+    "name_en": "University of Hawai'i at Mañoa",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "343",
+    "name": "伦敦城市大学",
+    "name_en": "City, University of London",
+    "area": "英国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "344",
+    "name": "南开大学",
+    "name_en": "Nankai University",
+    "area": "中国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "344",
+    "name": "西安交通大学",
+    "name_en": "Xi’an Jiaotong University",
+    "area": "中国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "346",
+    "name": "东北大学",
+    "name_en": "Northeastern University",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "346",
+    "name": "维多利亚大学（加拿大）",
+    "name_en": "University of Victoria",
+    "area": "加拿大",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "346",
+    "name": "布鲁内尔大学",
+    "name_en": "Brunel University London",
+    "area": "英国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "349",
+    "name": "卡塔尔大学",
+    "name_en": "Qatar University",
+    "area": "卡塔尔",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "349",
+    "name": "文莱达鲁萨兰大学",
+    "name_en": "Universiti Brunei Darussalam (UBD)",
+    "area": "文莱",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "351",
+    "name": "神户大学",
+    "name_en": "Kobe University",
+    "area": "日本",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "352",
+    "name": "本古里安大学",
+    "name_en": "Ben Gurion University of The Negev",
+    "area": "以色列",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "352",
+    "name": "乔治华盛顿大学",
+    "name_en": "George Washington University",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "352",
+    "name": "埃塞克斯大学",
+    "name_en": "University of Essex",
+    "area": "英国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "355",
+    "name": "莫斯科物理技术学院",
+    "name_en": "Moscow Institute of Physics and Technology (MIPT / Moscow Phystech)",
+    "area": "俄国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "355",
+    "name": "巴黎第九大学",
+    "name_en": "Université Paris Dauphine",
+    "area": "法国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "357",
+    "name": "蒂尔堡大学",
+    "name_en": "Tilburg University",
+    "area": "荷兰",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "357",
+    "name": "乌尔姆大学",
+    "name_en": "University Ulm",
+    "area": "德国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "357",
+    "name": "于韦斯屈莱大学",
+    "name_en": "University of Jyväskylä",
+    "area": "芬兰",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "360",
+    "name": "拉筹伯大学",
+    "name_en": "La Trobe University",
+    "area": "澳大利亚",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "361",
+    "name": "新葡京大学",
+    "name_en": "Universidade Nova de Lisboa",
+    "area": "葡萄牙",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "361",
+    "name": "牛津布鲁克斯大学",
+    "name_en": "Oxford Brookes University",
+    "area": "英国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "361",
+    "name": "斯泰伦博斯大学",
+    "name_en": "Stellenbosch University",
+    "area": "南非",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "364",
+    "name": "阿根廷天主大学",
+    "name_en": "Pontificia Universidad Católica Argentina Santa María de los Buenos Aires (UCA)",
+    "area": "阿根廷",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "364",
+    "name": "伦斯勒理工学院",
+    "name_en": "Rensselaer Polytechnic Institute",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "364",
+    "name": "金山大学",
+    "name_en": "University of the Witwatersrand",
+    "area": "南非",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "367",
+    "name": "弗吉尼亚理工学院",
+    "name_en": "Virginia Polytechnic Institute and State University",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "367",
+    "name": "詹姆斯库克大学",
+    "name_en": "James Cook University",
+    "area": "澳大利亚",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "367",
+    "name": "东京医科齿科大学",
+    "name_en": "Tokyo Medical and Dental University (TMDU)",
+    "area": "日本",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "367",
+    "name": "菲律宾大学",
+    "name_en": "University of the Philippines",
+    "area": "菲律宾",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "367",
+    "name": "特罗姆瑟大学",
+    "name_en": "University of Tromsø The Arctic University of Norway",
+    "area": "挪威",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "372",
+    "name": "圣加仑大学",
+    "name_en": "University of St.Gallen (HSG)",
+    "area": "瑞士",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "373",
+    "name": "阿斯顿大学",
+    "name_en": "Aston University",
+    "area": "英国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "373",
+    "name": "莫斯科国立国际关系学院",
+    "name_en": "Moscow State Institute of International Relations (MGIMO University)",
+    "area": "俄国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "373",
+    "name": "莫斯科核子研究大学",
+    "name_en": "National Research Nuclear University MEPhI (Moscow Engineering Physics Institute)",
+    "area": "俄国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "373",
+    "name": "瓦伦西亚理工大学",
+    "name_en": "Universitat Politècnica de València",
+    "area": "西班牙",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "373",
+    "name": "肯特大学",
+    "name_en": "University of Kent",
+    "area": "英国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "378",
+    "name": "拉瓦尔大学",
+    "name_en": "Laval University",
+    "area": "加拿大",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "379",
+    "name": "奥尔堡大学",
+    "name_en": "Aalborg University",
+    "area": "丹麦",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "380",
+    "name": "坦佩雷理工大学",
+    "name_en": "Tampere University of Technology",
+    "area": "芬兰",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "381",
+    "name": "蒙彼利埃大学",
+    "name_en": "Université de Montpellier",
+    "area": "法国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "382",
+    "name": "国立高等经济学院",
+    "name_en": "National Research University Higher School of Economics (HSE, Moscow)",
+    "area": "俄国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "382",
+    "name": "纽约州立大学石溪分校",
+    "name_en": "Stony Brook University, State University of New York",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "384",
+    "name": "南丹麦大学",
+    "name_en": "University of Southern Denmark",
+    "area": "丹麦",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "385",
+    "name": "康斯坦茨大学",
+    "name_en": "Universität Konstanz",
+    "area": "德国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "386",
+    "name": "堪萨斯大学",
+    "name_en": "University of Kansas",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "386",
+    "name": "托木斯克理工大学",
+    "name_en": "National Research Tomsk Polytechnic University",
+    "area": "俄国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "388",
+    "name": "国立中山大学",
+    "name_en": "National Sun Yat-sen University",
+    "area": "台湾",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "388",
+    "name": "曼海姆大学",
+    "name_en": "Universität Mannheim",
+    "area": "德国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "390",
+    "name": "阿联酋大学",
+    "name_en": "United Arab Emirates University",
+    "area": "阿联酋",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "391",
+    "name": "都柏林城市大学",
+    "name_en": "Dublin City University",
+    "area": "爱尔兰",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "391",
+    "name": "国立中央大学",
+    "name_en": "National Central University",
+    "area": "台湾",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "391",
+    "name": "犹他大学",
+    "name_en": "University of Utah",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "394",
+    "name": "科罗拉多大学丹佛分校",
+    "name_en": "University of Colorado, Denver",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "395",
+    "name": "开罗美国大学",
+    "name_en": "The American University in Cairo",
+    "area": "埃及",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "395",
+    "name": "伊利诺伊理工学院",
+    "name_en": "Illinois Institute of Technology",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "397",
+    "name": "韩国外国语大学",
+    "name_en": "HUFS - Hankuk (Korea) University of Foreign Studies",
+    "area": "韩国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "398",
+    "name": "伦敦大学金史密斯学院",
+    "name_en": "Goldsmiths, University of London",
+    "area": "英国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "398",
+    "name": "美因茨大学",
+    "name_en": "Johannes Gutenberg Universität Mainz",
+    "area": "德国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "398",
+    "name": "台北医学大学",
+    "name_en": "Taipei Medical University",
+    "area": "台湾",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "401-410",
+    "name": "汉诺威大学",
+    "name_en": "Leibniz Universität Hannover",
+    "area": "德国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "401-410",
+    "name": "雅典国立科技大学",
+    "name_en": "National Technical University of Athens",
+    "area": "希腊",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "401-410",
+    "name": "圣彼得堡理工大学",
+    "name_en": "Peter the Great Saint-Petersburg Polytechnic University",
+    "area": "俄国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "401-410",
+    "name": "波鸿大学",
+    "name_en": "Ruhr-Universität Bochum",
+    "area": "德国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "401-410",
+    "name": "哥伦比亚外事大学",
+    "name_en": "Universidad Externado de Colombia",
+    "area": "哥伦比亚",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "401-410",
+    "name": "加札马达大学",
+    "name_en": "Gadjah Mada University",
+    "area": "印尼",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "401-410",
+    "name": "科英布拉大学",
+    "name_en": "University of Coimbra",
+    "area": "葡萄牙",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "401-410",
+    "name": "哈尔科夫国立大学",
+    "name_en": "V. N. Karazin Kharkiv National University",
+    "area": "乌克兰",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "401-410",
+    "name": "维尔纽斯大学",
+    "name_en": "Vilnius University",
+    "area": "立陶宛",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "401-410",
+    "name": "华盛顿州立大学",
+    "name_en": "Washington State University",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "411-420",
+    "name": "沙迦美国大学",
+    "name_en": "American University of Sharjah",
+    "area": "阿联酋",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "411-420",
+    "name": "阿拉伯海湾大学",
+    "name_en": "Arabian Gulf University",
+    "area": "巴林",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "411-420",
+    "name": "布兰迪斯大学",
+    "name_en": "Brandeis University",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "411-420",
+    "name": "国立哈萨克理工大学",
+    "name_en": "Kazakh National Technical University named after K.I.Satpaev",
+    "area": "哈萨克斯坦",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "411-420",
+    "name": "基辅国立大学",
+    "name_en": "Taras Shevchenko National University of Kyiv",
+    "area": "乌克兰",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "411-420",
+    "name": "哥斯达黎加大学",
+    "name_en": "Universidad de Costa Rica",
+    "area": "哥斯达黎加",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "411-420",
+    "name": "马赛大学",
+    "name_en": "Aix-Marseille University",
+    "area": "法国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "411-420",
+    "name": "奥卢大学",
+    "name_en": "University of Oulu",
+    "area": "芬兰",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "411-420",
+    "name": "华沙大学",
+    "name_en": "University of Warsaw",
+    "area": "波兰",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "411-420",
+    "name": "维克森林大学",
+    "name_en": "Wake Forest University",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "421-430",
+    "name": "毕尔坎特大学",
+    "name_en": "Bilkent University",
+    "area": "土耳其",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "421-430",
+    "name": "一桥大学",
+    "name_en": "Hitotsubashi University",
+    "area": "日本",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "421-430",
+    "name": "上海大学",
+    "name_en": "Shanghai University",
+    "area": "中国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "421-430",
+    "name": "斯威本科技大学",
+    "name_en": "Swinburne University of Technology",
+    "area": "澳大利亚",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "421-430",
+    "name": "佐治亚大学",
+    "name_en": "The University of Georgia",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "421-430",
+    "name": "比萨大学",
+    "name_en": "University of Pisa",
+    "area": "意大利",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "421-430",
+    "name": "康涅狄格大学",
+    "name_en": "University of Connecticut",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "421-430",
+    "name": "特拉华大学",
+    "name_en": "University of Delaware",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "421-430",
+    "name": "爱荷华大学",
+    "name_en": "University of Iowa",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "421-430",
+    "name": "德克萨斯大学达拉斯分校",
+    "name_en": "University of Texas Dallas",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "431-440",
+    "name": "邦德大学",
+    "name_en": "Bond University",
+    "area": "澳大利亚",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "431-440",
+    "name": "基尔大学（德国）",
+    "name_en": "Christian-Albrechts-University zu Kiel",
+    "area": "德国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "431-440",
+    "name": "康考迪亚大学",
+    "name_en": "Concordia University",
+    "area": "加拿大",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "431-440",
+    "name": "佛罗里达州立大学",
+    "name_en": "Florida State University",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "431-440",
+    "name": "印度理工学院鲁尔基分校",
+    "name_en": "Indian Institute of Technology Roorkee (IITR)",
+    "area": "印度",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "431-440",
+    "name": "科奇大学",
+    "name_en": "Koc University",
+    "area": "土耳其",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "431-440",
+    "name": "伊斯兰堡国立科技大学",
+    "name_en": "National University of Sciences And Technology (NUST) Islamabad",
+    "area": "巴基斯坦",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "431-440",
+    "name": "秘鲁天主大学",
+    "name_en": "Pontificia Universidad Católica del Perú",
+    "area": "秘鲁",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "431-440",
+    "name": "斯旺西大学",
+    "name_en": "Swansea University",
+    "area": "英国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "431-440",
+    "name": "巴勒莫大学",
+    "name_en": "Universidad de Palermo (UP)",
+    "area": "阿根廷",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "431-440",
+    "name": "厦门大学",
+    "name_en": "Xiamen University",
+    "area": "中国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "441-450",
+    "name": "奥克兰理工大学",
+    "name_en": "Auckland University of Technology (AUT)",
+    "area": "新西兰",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "441-450",
+    "name": "班戈大学",
+    "name_en": "Bangor University",
+    "area": "英国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "441-450",
+    "name": "喀山联邦大学",
+    "name_en": "Kazan (Volga region) Federal University",
+    "area": "俄国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "441-450",
+    "name": "俄勒冈州立大学",
+    "name_en": "Oregon State University",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "441-450",
+    "name": "新加坡管理大学",
+    "name_en": "Singapore Management University",
+    "area": "新加坡",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "441-450",
+    "name": "西江大学",
+    "name_en": "Sogang University",
+    "area": "韩国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "441-450",
+    "name": "特伦托大学",
+    "name_en": "University of Trento",
+    "area": "意大利",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "441-450",
+    "name": "巴黎第五大学",
+    "name_en": "Université Paris Descartes",
+    "area": "法国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "441-450",
+    "name": "约克大学（加拿大）",
+    "name_en": "York University",
+    "area": "加拿大",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "451-460",
+    "name": "北京理工大学",
+    "name_en": "Beijing Institute of Technology",
+    "area": "中国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "451-460",
+    "name": "里昂应用科学学院",
+    "name_en": "Institut National des Sciences Appliquées de Lyon (INSA)",
+    "area": "法国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "451-460",
+    "name": "哈里发大学",
+    "name_en": "Khalifa University",
+    "area": "阿联酋",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "451-460",
+    "name": "苏丹卡布斯大学",
+    "name_en": "Sultan Qaboos University",
+    "area": "阿曼",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "451-460",
+    "name": "杜兰大学",
+    "name_en": "Tulane University",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "451-460",
+    "name": "智利圣地亚哥大学",
+    "name_en": "Universidad de Santiago de Chile (USACH)",
+    "area": "智利",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "451-460",
+    "name": "东芬兰大学",
+    "name_en": "University of Eastern Finland",
+    "area": "芬兰",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "451-460",
+    "name": "萨斯喀彻温大学",
+    "name_en": "University of Saskatchewan",
+    "area": "加拿大",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "451-460",
+    "name": "斯特林大学",
+    "name_en": "University of Stirling",
+    "area": "英国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "451-460",
+    "name": "田纳西大学",
+    "name_en": "The University of Tennessee, Knoxville",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "461-470",
+    "name": "雅盖隆大学",
+    "name_en": "Jagiellonian University",
+    "area": "波兰",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "461-470",
+    "name": "哈勒",
+    "name_en": null,
+    "area": "德国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "461-470",
+    "name": "哈韦里安纳主教大学",
+    "name_en": "Pontificia Universidad Javeriana",
+    "area": "哥伦比亚",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "461-470",
+    "name": "萨班哲大学",
+    "name_en": "Sabanci University",
+    "area": "土耳其",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "461-470",
+    "name": "萨拉戈萨大学",
+    "name_en": "Universidad de Zaragoza",
+    "area": "西班牙",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "461-470",
+    "name": "佛罗伦萨大学",
+    "name_en": "University of Florence",
+    "area": "意大利",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "461-470",
+    "name": "罗马第二大学",
+    "name_en": "University of Rome University of Rome \"Tor Vergata\"",
+    "area": "意大利",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "461-470",
+    "name": "波茨坦大学",
+    "name_en": "Universität Potsdam",
+    "area": "德国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "461-470",
+    "name": "新墨西哥大学",
+    "name_en": "University of New Mexico",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "461-470",
+    "name": "韦恩州立大学",
+    "name_en": "Wayne State University",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "471-480",
+    "name": "美利坚大学",
+    "name_en": "American University",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "471-480",
+    "name": "东国大学",
+    "name_en": "Dongguk University",
+    "area": "韩国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "471-480",
+    "name": "华中科技大学",
+    "name_en": "Huazhong University of Science and Technology",
+    "area": "中国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "471-480",
+    "name": "爱荷华州立大学",
+    "name_en": "Iowa State University",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "471-480",
+    "name": "林茨大学",
+    "name_en": "Johannes Kepler University Linz",
+    "area": "奥地利",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "471-480",
+    "name": "格拉茨大学",
+    "name_en": "Karl-Franzens-Universitaet Graz",
+    "area": "奥地利",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "471-480",
+    "name": "哈立德国王大学",
+    "name_en": "King Khalid University",
+    "area": "沙特",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "471-480",
+    "name": "中东理工大学",
+    "name_en": "Middle East Technical University",
+    "area": "土耳其",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "471-480",
+    "name": "沙里夫理工大学",
+    "name_en": "Sharif University of Technology",
+    "area": "伊朗",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "471-480",
+    "name": "天津大学",
+    "name_en": "Tianjin University",
+    "area": "中国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "481-490",
+    "name": "阿伯斯威大学",
+    "name_en": "Aberystwyth University",
+    "area": "英国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "481-490",
+    "name": "开罗大学",
+    "name_en": "Cairo University",
+    "area": "埃及",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "481-490",
+    "name": "长庚大学",
+    "name_en": "Chang Gung University",
+    "area": "台湾",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "481-490",
+    "name": "科罗拉多州立大学",
+    "name_en": "Colorado State University",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "481-490",
+    "name": "维尔茨堡大学",
+    "name_en": "Julius-Maximilians-Universität Würzburg",
+    "area": "德国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "481-490",
+    "name": "中国人民大学",
+    "name_en": "Renmin (People's) University of China",
+    "area": "中国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "481-490",
+    "name": "圣心天主大学",
+    "name_en": "Università Cattolica del Sacro Cuore",
+    "area": "意大利",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "481-490",
+    "name": "那不勒斯腓特烈二世大学",
+    "name_en": "University of Naples - Federico II",
+    "area": "意大利",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "481-490",
+    "name": "不来梅大学",
+    "name_en": "Universität Bremen",
+    "area": "德国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "481-490",
+    "name": "德里大学",
+    "name_en": "University of Delhi",
+    "area": "印度",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "481-490",
+    "name": "马里兰大学巴尔的摩郡分校",
+    "name_en": "University of Maryland, Baltimore County",
+    "area": "美国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "491-500",
+    "name": "海峡大学",
+    "name_en": "Bogaziçi Üniversitesi",
+    "area": "土耳其",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "491-500",
+    "name": "布拉格工业大学",
+    "name_en": "Czech Technical University in Prague",
+    "area": "捷克",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "491-500",
+    "name": "吉林大学",
+    "name_en": "Jilin University",
+    "area": "中国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "491-500",
+    "name": "哈萨克国立师范大学",
+    "name_en": "Kazakh National Pedagogical University named after Abay",
+    "area": "哈萨克斯坦",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "491-500",
+    "name": "马德里理工大学",
+    "name_en": "Politécnica de Madrid",
+    "area": "西班牙",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "491-500",
+    "name": "釜山国立大学",
+    "name_en": "Pusan National University",
+    "area": "韩国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "491-500",
+    "name": "圣保罗州立大学",
+    "name_en": "UNESP",
+    "area": "巴西",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "491-500",
+    "name": "贝鲁特圣约瑟夫大学",
+    "name_en": "Saint Joseph University of Beirut (USJ)",
+    "area": "黎巴嫩",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "491-500",
+    "name": "贵湖大学",
+    "name_en": "University of Guelph",
+    "area": "加拿大",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "491-500",
+    "name": "乌拉尔联邦大学",
+    "name_en": "Ural Federal University",
+    "area": "俄国",
+    "tags":["top-500","top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "亚里士多德大学",
+    "name_en": "Aristotle University of Thessaloniki",
+    "area": "希腊",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "千叶大学",
+    "name_en": "Chiba University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "全北国立大学",
+    "name_en": "Chonbuk National University",
+    "area": "韩国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "纽约市立大学",
+    "name_en": "City University of New York",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "克拉克大学",
+    "name_en": "Clark University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "德雷塞尔大学",
+    "name_en": "Drexel University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "华东师范大学",
+    "name_en": "East China Normal University",
+    "area": "中国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "印度理工学院古瓦哈提分校",
+    "name_en": "Indian Institute of Technology Guwahati (IITG)",
+    "area": "印度",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "金斯顿大学",
+    "name_en": "Kingston University, London",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "拉彭兰塔理工大学",
+    "name_en": "Lappeenranta University of Technology",
+    "area": "芬兰",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "里海大学",
+    "name_en": "Lehigh University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "南哈萨克斯坦州立大学",
+    "name_en": "Auezov South Kazakhstan State University (SKSU)",
+    "area": "哈萨克斯坦",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "默多克大学",
+    "name_en": "Murdoch University",
+    "area": "澳大利亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "基辅国立理工大学",
+    "name_en": "National Technical University of Ukraine \"Igor Sikorsky Kyiv Polytechnic Institute\"",
+    "area": "乌克兰",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "俄罗斯国立科技大学",
+    "name_en": "The National University of Science and Technology MISIS",
+    "area": "俄国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "冈山大学",
+    "name_en": "Okayama University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "俄罗斯友谊大学",
+    "name_en": "RUDN University",
+    "area": "俄国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "圣保罗天主大学",
+    "name_en": "Pontifícia Universidade Católica de São Paulo",
+    "area": "巴西",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "里约热内卢天主大学",
+    "name_en": "Pontifícia Universidade Católica do Rio de Janeiro",
+    "area": "巴西",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "东南大学",
+    "name_en": "Southeast University",
+    "area": "中国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "雪城大学",
+    "name_en": "Syracuse University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "布伦瑞克工业大学",
+    "name_en": "Technische Universität Braunschweig",
+    "area": "德国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "格拉茨工业大学",
+    "name_en": "Graz University of Technology",
+    "area": "奥地利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "韩国天主大学",
+    "name_en": "The Catholic University of Korea",
+    "area": "韩国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "格拉纳达大学",
+    "name_en": "University of Granada",
+    "area": "西班牙",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "蒙得维的亚大学",
+    "name_en": "Universidad de Montevideo (UM)",
+    "area": "乌拉圭",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "圣保罗联邦大学",
+    "name_en": "Universidade Federal de São Paulo",
+    "area": "巴西",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "南里奥格兰德联邦大学",
+    "name_en": "Universidade Federal do Rio Grande Do Sul",
+    "area": "巴西",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "萨尔大学",
+    "name_en": "Universität des Saarlandes",
+    "area": "德国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "霍恩海姆大学",
+    "name_en": "University of Hohenheim",
+    "area": "德国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "莱比锡大学",
+    "name_en": "Universität Leipzig",
+    "area": "德国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "雷根斯堡大学",
+    "name_en": "Universität Regensburg",
+    "area": "德国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "里昂第一大学",
+    "name_en": "Université Claude Bernard Lyon 1",
+    "area": "法国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "波尔多大学",
+    "name_en": "University of Bordeaux",
+    "area": "法国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "弗里堡大学",
+    "name_en": "Université de Fribourg",
+    "area": "瑞士",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "魁北克大学",
+    "name_en": "Université du Québec",
+    "area": "加拿大",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "图卢兹第三大学",
+    "name_en": "Université Paul Sabatier Toulouse III",
+    "area": "法国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "阿威罗大学",
+    "name_en": "University of Aveiro",
+    "area": "葡萄牙",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "巴格达大学",
+    "name_en": "University of Baghdad",
+    "area": "伊拉克",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "辛辛那提大学",
+    "name_en": "University of Cincinnati",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "利默里克大学",
+    "name_en": "University of Limerick",
+    "area": "爱尔兰",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "澳门大学",
+    "name_en": "University of Macau",
+    "area": "澳门",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "内布拉斯加大学林肯分校",
+    "name_en": "University of Nebraska-Lincoln",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "俄克拉荷马大学",
+    "name_en": "University of Oklahoma",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "比勒陀利亚大学",
+    "name_en": "University of Pretoria",
+    "area": "南非",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "南佛罗里达大学",
+    "name_en": "University of South Florida",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "塞格德大学",
+    "name_en": "University of Szeged",
+    "area": "匈牙利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "501-550",
+    "name": "横滨市立大学",
+    "name_en": "Yokohama City University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "埃博学术大学",
+    "name_en": "Abo Akademi University",
+    "area": "芬兰",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "马尼拉雅典耀大学",
+    "name_en": "Ateneo de Manila University",
+    "area": "菲律宾",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "巴伊兰大学",
+    "name_en": "Bar-Ilan University",
+    "area": "以色列",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "北京航空航天大学",
+    "name_en": "Beihang University (former BUAA)",
+    "area": "中国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "清迈大学",
+    "name_en": "Chiang Mai University",
+    "area": "泰国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "威廉玛丽学院",
+    "name_en": "College of William & Mary",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "考文垂大学",
+    "name_en": "Coventry University",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "大连理工大学",
+    "name_en": "Dalian University of Technology",
+    "area": "中国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "华东理工大学",
+    "name_en": "East China University of Science and Technology",
+    "area": "中国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "佛林德斯大学",
+    "name_en": "Flinders University",
+    "area": "澳大利亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "霍华德大学",
+    "name_en": "Howard University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "布宜诺斯艾利斯理工学院",
+    "name_en": "Instituto Tecnológico de Buenos Aires (ITBA)",
+    "area": "阿根廷",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "吉森大学",
+    "name_en": "Justus-Liebig-University Giessen",
+    "area": "德国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "金泽大学",
+    "name_en": "Kanazawa University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "熊本大学",
+    "name_en": "Kumamoto University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "岭南大学",
+    "name_en": "Lingnan University, Hong Kong",
+    "area": "香港",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "马萨里克大学",
+    "name_en": "Masaryk University",
+    "area": "捷克",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "密歇根理工大学",
+    "name_en": "Michigan Technological University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "长崎大学",
+    "name_en": "Nagasaki University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "萨拉托夫州立大学",
+    "name_en": "National Research Saratov State University",
+    "area": "俄国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "大阪市立大学",
+    "name_en": "Osaka City University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "马尔堡大学",
+    "name_en": "Philipps-Universität Marburg",
+    "area": "德国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "世宗大学",
+    "name_en": "Sejong University",
+    "area": "韩国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "山东大学",
+    "name_en": "Shandong University",
+    "area": "中国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "四川大学",
+    "name_en": "Sichuan University",
+    "area": "中国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "华南理工大学",
+    "name_en": "South China University of Technology",
+    "area": "中国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "南方联邦大学",
+    "name_en": "Southern Federal University",
+    "area": "俄国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "东京农工大学",
+    "name_en": "Tokyo University of Agriculture and Technology",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "麦加大学",
+    "name_en": "Umm Al-Qura University",
+    "area": "沙特",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "阿尔卡拉大学",
+    "name_en": "Universidad de Alcalá",
+    "area": "西班牙",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "国立拉普拉塔大学",
+    "name_en": "Universidad Nacional de La Plata (UNLP)",
+    "area": "阿根廷",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "米纳斯吉拉斯联邦大学",
+    "name_en": "Universidade Federal de Minas Gerais",
+    "area": "巴西",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "帕维亚大学",
+    "name_en": "Università degli Studi di Pavia",
+    "area": "意大利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "都灵大学",
+    "name_en": "University of Turin",
+    "area": "意大利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "拜罗伊特大学",
+    "name_en": "University of Bayreuth",
+    "area": "德国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "瓦伦西亚大学",
+    "name_en": "Universitat de Valencia",
+    "area": "西班牙",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "里尔第一大学",
+    "name_en": "Université Lille 1, Sciences et Technologies",
+    "area": "法国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "巴黎第二大学",
+    "name_en": "Université Panthéon-Assas (Paris 2)",
+    "area": "法国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "堪培拉大学",
+    "name_en": "University of Canberra",
+    "area": "澳大利亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "约旦大学",
+    "name_en": "University of Jordan",
+    "area": "约旦",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "肯塔基大学",
+    "name_en": "University of Kentucky",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "曼尼托巴大学",
+    "name_en": "University of Manitoba",
+    "area": "加拿大",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "蒙斯大学",
+    "name_en": "University of Mons",
+    "area": "比利时",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "俄勒冈大学",
+    "name_en": "University of Oregon",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "北京科技大学",
+    "name_en": "University of Science and Technology Beijing",
+    "area": "中国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "坦佩雷大学",
+    "name_en": "University of Tampere",
+    "area": "芬兰",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "蔚山大学",
+    "name_en": "University of Ulsan",
+    "area": "韩国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "佛蒙特大学",
+    "name_en": "University of Vermont",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "威斯敏斯特大学",
+    "name_en": "University of Westminster",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "维尔纽斯工业大学",
+    "name_en": "Vilnius Gediminas Technical University",
+    "area": "立陶宛",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "551-600",
+    "name": "西悉尼大学",
+    "name_en": "Western Sydney University",
+    "area": "澳大利亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "迪拜美国大学",
+    "name_en": "American University in Dubai",
+    "area": "阿联酋",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "布尔诺工业大学",
+    "name_en": "Brno University of Technology",
+    "area": "捷克",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "中央昆士兰大学",
+    "name_en": "Central Queensland University",
+    "area": "澳大利亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "全南国立大学",
+    "name_en": "Chonnam National University",
+    "area": "韩国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "远东联邦大学",
+    "name_en": "Far Eastern Federal University",
+    "area": "俄国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "印第安纳普渡大学",
+    "name_en": "Indiana University-Purdue University Indianapolis",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "仁荷大学",
+    "name_en": "Inha University",
+    "area": "韩国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "伊斯坦布尔理工大学",
+    "name_en": "Istanbul Technical University",
+    "area": "土耳其",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "圣彼得堡国立信息技术大学",
+    "name_en": "ITMO University",
+    "area": "俄国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "贾达普大学",
+    "name_en": "Jadavpur University",
+    "area": "印度",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "约旦科技大学",
+    "name_en": "Jordan University of Science & Technology",
+    "area": "约旦",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "基尔大学",
+    "name_en": "Keele University",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "兰州大学",
+    "name_en": "Lanzhou University",
+    "area": "中国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "黎巴嫩美国大学",
+    "name_en": "Lebanese American University",
+    "area": "黎巴嫩",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "国立政治大学",
+    "name_en": "National Chengchi University",
+    "area": "台湾",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "国立中兴大学",
+    "name_en": "National Chung Hsing University",
+    "area": "台湾",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "国立台北科技大学",
+    "name_en": "National Taipei University of Technology",
+    "area": "台湾",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "新学校大学",
+    "name_en": "The New School",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "塔林理工大学",
+    "name_en": "Tallinn University of Technology",
+    "area": "爱沙尼亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "多特蒙德工业大学",
+    "name_en": "TU Dortmund University",
+    "area": "德国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "泰国法政大学",
+    "name_en": "Thammasat University",
+    "area": "泰国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "阿纳瓦克大学",
+    "name_en": "Universidad Anahuac",
+    "area": "墨西哥",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "安蒂奥基亚大学",
+    "name_en": "Universidad de Antioquia",
+    "area": "哥伦比亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "哈瓦那大学",
+    "name_en": "Universidad de la Habana",
+    "area": "古巴",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "萨拉曼卡大学",
+    "name_en": "University of Salamanca",
+    "area": "西班牙",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "圣安德烈斯大学",
+    "name_en": "Universidad de San Andrés - UdeSA",
+    "area": "阿根廷",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "塞维利亚大学",
+    "name_en": "Universidad de Sevilla",
+    "area": "西班牙",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "伊比利亚美洲大学",
+    "name_en": "Universidad Iberoamericana (UIA)",
+    "area": "墨西哥",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "孔波斯特拉大学",
+    "name_en": "Universidade de Santiago de Compostela",
+    "area": "西班牙",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "杜伊斯堡",
+    "name_en": null,
+    "area": "德国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "舍布鲁克大学",
+    "name_en": "Université de Sherbrooke",
+    "area": "加拿大",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "尼斯大学",
+    "name_en": "Université Nice Sophia Antipolis",
+    "area": "法国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "马来西亚石油大学",
+    "name_en": "Universiti Teknologi Petronas (Petronas)",
+    "area": "马来西亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "布拉德福德大学",
+    "name_en": "University of Bradford",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "海法大学",
+    "name_en": "University of Haifa",
+    "area": "以色列",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "休斯敦大学",
+    "name_en": "University of Houston",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "赫尔大学",
+    "name_en": "University of Hull",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "海得拉巴大学",
+    "name_en": "University of Hyderabad",
+    "area": "印度",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "约翰内斯堡大学",
+    "name_en": "University of Johannesburg",
+    "area": "南非",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "库法大学",
+    "name_en": "University of Kufa",
+    "area": "伊拉克",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "马萨诸塞大学波士顿分校",
+    "name_en": "University of Massachusetts - Boston",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "密苏里大学",
+    "name_en": "University of Missouri, Columbia",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "朴茨茅斯大学",
+    "name_en": "University of Portsmouth",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "南卡罗来纳大学",
+    "name_en": "University of South Carolina",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "德黑兰大学",
+    "name_en": "University of Tehran",
+    "area": "伊朗",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "阿尔斯特大学",
+    "name_en": "Ulster University",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "萨格勒布大学",
+    "name_en": "University of Zagreb",
+    "area": "克罗地亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "601-650",
+    "name": "华沙工业大学",
+    "name_en": "Warsaw University of Technology",
+    "area": "波兰",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "亚洲大学",
+    "name_en": "Ajou University",
+    "area": "韩国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "安娜大学",
+    "name_en": "Anna University",
+    "area": "印度",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "北京外国语大学",
+    "name_en": "Beijing Foreign Studies University",
+    "area": "中国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "卡尔顿大学",
+    "name_en": "Carleton University",
+    "area": "加拿大",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "查尔斯达尔文大学",
+    "name_en": "Charles Darwin University",
+    "area": "澳大利亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "克拉克森大学",
+    "name_en": "Clarkson University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "都柏林理工学院",
+    "name_en": "Dublin Institute of Technology",
+    "area": "爱尔兰",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "卡拉干达州立大学",
+    "name_en": "Karaganda State University named after academician E.A.Buketov",
+    "area": "哈萨克斯坦",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "匈牙利罗兰大学",
+    "name_en": "Eötvös Lorànd University",
+    "area": "匈牙利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "岐阜大学",
+    "name_en": "Gifu University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "翰林大学",
+    "name_en": "Hallym University",
+    "area": "韩国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "墨西哥国立理工大学",
+    "name_en": "Instituto Politécnico Nacional (IPN)",
+    "area": "墨西哥",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "墨西哥自治理工大学",
+    "name_en": "Instituto Tecnológico Autónomo de México (ITAM)",
+    "area": "墨西哥",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "鹿儿岛大学",
+    "name_en": "Kagoshima University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "哈英理工大学",
+    "name_en": "Kazakh-British Technical University",
+    "area": "哈萨克斯坦",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "建国大学",
+    "name_en": "Konkuk University",
+    "area": "韩国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "科威特大学",
+    "name_en": "Kuwait University",
+    "area": "科威特",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "路易斯安那州立大学",
+    "name_en": "Louisiana State University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "密苏里科技大学",
+    "name_en": "Missouri University of Science and Technology",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "雅典大学",
+    "name_en": "National and Kapodistrian University of Athens",
+    "area": "希腊",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "奎德阿萨姆大学",
+    "name_en": "Quaid-i-Azam University",
+    "area": "巴基斯坦",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "里加工业大学",
+    "name_en": "Riga Technical University",
+    "area": "拉脱维亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "罗格斯大学纽华克分校",
+    "name_en": "Rutgers - The State University of New Jersey, Newark",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "上海外国语大学",
+    "name_en": "Shanghai International Studies University",
+    "area": "中国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "史蒂文斯理工学院",
+    "name_en": "Stevens Institute of Technology",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "天普大学",
+    "name_en": "Temple University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "首都大学东京",
+    "name_en": "Tokyo Metropolitan University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "阿道夫·伊瓦涅斯大学",
+    "name_en": "Universidad Adolfo Ibàñez",
+    "area": "智利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "安德鲁贝罗天主大学",
+    "name_en": "Universidad Católica Andres Bello",
+    "area": "委内瑞拉",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "委内瑞拉中央大学",
+    "name_en": "Universidad Central de Venezuela",
+    "area": "委内瑞拉",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "康塞普西翁大学",
+    "name_en": "Universidad de Concepción",
+    "area": "智利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "巴斯克大学",
+    "name_en": "Universidad del Pais Vasco",
+    "area": "西班牙",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "托尔夸托迪特利亚大学",
+    "name_en": "Universidad Torcuato Di Tella",
+    "area": "阿根廷",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "葡萄牙天主大学",
+    "name_en": "Universidade Católica Portuguesa - UCP",
+    "area": "葡萄牙",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "巴西利亚大学",
+    "name_en": "Universidade de Brasília",
+    "area": "巴西",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "圣卡洛斯联邦大学",
+    "name_en": "Universidade Federal de São Carlos (UFSCAR)",
+    "area": "巴西",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "比勒费尔德大学",
+    "name_en": "Universität Bielefeld",
+    "area": "德国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "杜塞尔多夫大学",
+    "name_en": "University Duesseldorf",
+    "area": "德国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "雷恩第一大学",
+    "name_en": "Université de Rennes 1",
+    "area": "法国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "纽约州立大学阿尔巴尼分校",
+    "name_en": "University at Albany SUNY",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "阿拉巴马大学",
+    "name_en": "University of Alabama",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "克里特大学",
+    "name_en": "University of Crete",
+    "area": "希腊",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "德布勒森大学",
+    "name_en": "University of Debrecen",
+    "area": "匈牙利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "卢布尔雅那大学",
+    "name_en": "University of Ljubljana",
+    "area": "斯洛文尼亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "米兰比可卡大学",
+    "name_en": "University of Milano-Bicocca",
+    "area": "意大利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "米尼奥大学",
+    "name_en": "University of Minho",
+    "area": "葡萄牙",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "首尔大学",
+    "name_en": "University of Seoul",
+    "area": "韩国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "温莎大学",
+    "name_en": "University of Windsor",
+    "area": "加拿大",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "弗吉尼亚联邦大学",
+    "name_en": "Virginia Commonwealth University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "651-700",
+    "name": "伍斯特理工学院",
+    "name_en": "Worcester Polytechnic Institute",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "艾因夏姆斯大学",
+    "name_en": "Ain Shams University",
+    "area": "埃及",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "艾尔朗加大学",
+    "name_en": "Airlangga University",
+    "area": "印尼",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "北京交通大学",
+    "name_en": "Beijing Jiaotong University",
+    "area": "中国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "北京工业大学",
+    "name_en": "Beijing University of Technology",
+    "area": "中国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "伯恩茅斯大学",
+    "name_en": "Bournemouth University",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "中国农业大学",
+    "name_en": "China Agricultural University",
+    "area": "中国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "克莱蒙森大学",
+    "name_en": "Clemson University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "夸美纽斯大学",
+    "name_en": "Comenius University in Bratislava",
+    "area": "斯洛伐克",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "檀国大学",
+    "name_en": "Dankook University",
+    "area": "韩国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "德拉萨大学",
+    "name_en": "De La Salle University",
+    "area": "菲律宾",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "湖南大学",
+    "name_en": "Hunan University",
+    "area": "中国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "马来西亚国际伊斯兰大学",
+    "name_en": "International Islamic University Malaysia (IIUM)",
+    "area": "马来西亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "考纳斯工业大学",
+    "name_en": "Kaunas University of Technology",
+    "area": "立陶宛",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "哈扎尔大学",
+    "name_en": "Khazar University",
+    "area": "阿塞拜疆",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "庆北国立大学",
+    "name_en": "Kyungpook National University",
+    "area": "韩国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "拉合尔管理大学",
+    "name_en": "Lahore University of Management Sciences (LUMS)",
+    "area": "巴基斯坦",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "罗巴切夫斯基州立大学",
+    "name_en": "Lobachevsky University",
+    "area": "俄国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "伦敦都会大学",
+    "name_en": "London Metropolitan University",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "马尼帕尔高等教育学院",
+    "name_en": "Manipal Academy of Higher Education",
+    "area": "印度",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "梅努斯大学",
+    "name_en": "Maynooth University",
+    "area": "爱尔兰",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "纽芬兰纪念大学",
+    "name_en": "Memorial University of Newfoundland",
+    "area": "加拿大",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "米德塞斯大学",
+    "name_en": "Middlesex University",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "哈尔科夫国立理工大学",
+    "name_en": "National Technical University  National Technical University \"Kharkiv Polytechnic Institute\"",
+    "area": "乌克兰",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "新潟大学",
+    "name_en": "Niigata University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "大阪府立大学",
+    "name_en": "Osaka Prefecture University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "帕拉茨基大学",
+    "name_en": "Palacký University in Olomouc",
+    "area": "捷克",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "瓦尔帕莱索天主大学",
+    "name_en": "Pontificia Universidad Católica de Valparaíso",
+    "area": "智利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "罗德斯大学",
+    "name_en": "Rhodes University",
+    "area": "南非",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "史密斯学院",
+    "name_en": "Smith College",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "索菲亚大学",
+    "name_en": "Sofia University St. Kliment Ohridski",
+    "area": "保加利亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "上智大学",
+    "name_en": "Sophia University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "南卫理公会大学",
+    "name_en": "Southern Methodist University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "德州理工大学",
+    "name_en": "Texas Tech University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "东京理科大学",
+    "name_en": "Tokyo University of Science",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "乌拉圭共和大学",
+    "name_en": "Universidad de la República (UdelaR)",
+    "area": "乌拉圭",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "圣弗朗西斯科基多大学",
+    "name_en": "Universidad San Francisco de Quito (USFQ)",
+    "area": "厄瓜多尔",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "国立科尔多瓦大学",
+    "name_en": "Universidad Nacional de Córdoba - UNC",
+    "area": "阿根廷",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "威尼斯大学",
+    "name_en": "Ca' Foscari University of Venice",
+    "area": "意大利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "热那亚大学",
+    "name_en": "University of Genoa",
+    "area": "意大利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "艾米利亚大学",
+    "name_en": "University of Modena and Reggio Emilia",
+    "area": "意大利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "的里雅斯特大学",
+    "name_en": "University of Trieste",
+    "area": "意大利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "马来西亚北方大学",
+    "name_en": "Universiti Utara Malaysia (UUM)",
+    "area": "马来西亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "布莱顿大学",
+    "name_en": "University of Brighton",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "布加勒斯特大学",
+    "name_en": "University of Bucharest",
+    "area": "罗马尼亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "中佛罗里达大学",
+    "name_en": "University of Central Florida",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "丹佛大学",
+    "name_en": "University of Denver",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "达卡大学",
+    "name_en": "University of Dhaka",
+    "area": "孟加拉国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "夸祖鲁",
+    "name_en": null,
+    "area": "南非",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "拉脱维亚大学",
+    "name_en": "University of Latvia",
+    "area": "拉脱维亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "帕特雷大学",
+    "name_en": "University of Patras",
+    "area": "希腊",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "普利茅斯大学",
+    "name_en": "Plymouth University",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "沙迦大学",
+    "name_en": "University of Sharjah",
+    "area": "阿联酋",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "怀俄明大学",
+    "name_en": "University of Wyoming",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "701_750",
+    "name": "维多利亚大学（澳洲）",
+    "name_en": "Victoria University",
+    "area": "澳大利亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "阿布扎比大学",
+    "name_en": "Abu Dhabi University",
+    "area": "阿联酋",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "亚历山大大学",
+    "name_en": "Alexandria University",
+    "area": "埃及",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "穆罕默德伊本大学",
+    "name_en": "Al-Imam Muhammed Ibn Saud Islamic University",
+    "area": "沙特",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "克拉根福大学",
+    "name_en": "Alpen-Adria-Universitaet Klagenfurt",
+    "area": "奥地利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "白俄罗斯国立理工大学",
+    "name_en": "Belarussian National Technical University",
+    "area": "白俄罗斯",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "茂物农业大学",
+    "name_en": "Bogor Agricultural University",
+    "area": "印尼",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "杨百翰大学",
+    "name_en": "Brigham Young University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "布达佩斯经济技术大学",
+    "name_en": "Budapest University of Technology and Economics",
+    "area": "匈牙利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "埃迪斯科文大学",
+    "name_en": "Edith Cowan University",
+    "area": "澳大利亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "佛罗里达国际大学",
+    "name_en": "Florida International University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "佐治亚州立大学",
+    "name_en": "Georgia State University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "群马大学",
+    "name_en": "Gunma University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "哈斯特帕大学",
+    "name_en": "Hacettepe University",
+    "area": "土耳其",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "堪萨斯州立大学",
+    "name_en": "Kansas State University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "泰国农业大学",
+    "name_en": "Kasetsart University",
+    "area": "泰国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "费萨尔国王大学",
+    "name_en": "King Faisal University",
+    "area": "沙特",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "芝加哥洛约拉大学",
+    "name_en": "Loyola University Chicago",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "名古屋工业大学",
+    "name_en": "Nagoya Institute of Technology (NIT)",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "诺森比亚大学",
+    "name_en": "Northumbria University at Newcastle",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "萨尔茨堡大学",
+    "name_en": "Paris Lodron University of Salzburg",
+    "area": "奥地利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "墨西哥自治都会大学",
+    "name_en": "Universidad Autónoma Metropolitana (UAM)",
+    "area": "墨西哥",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "拉萨瓦纳大学",
+    "name_en": "Universidad de La Sabana",
+    "area": "哥伦比亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "迭戈波塔利斯大学",
+    "name_en": "Universidad Diego Portales (UDP)",
+    "area": "智利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "西蒙玻利瓦尔大学",
+    "name_en": "Universidad Simón Bolívar (USB)",
+    "area": "委内瑞拉",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "圣卡塔琳娜联邦大学",
+    "name_en": "Universidade Federal de Santa Catarina",
+    "area": "巴西",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "费拉拉大学",
+    "name_en": "Università degli Studi di Ferrara",
+    "area": "意大利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "佩鲁贾大学",
+    "name_en": "Università degli Studi di Perugia",
+    "area": "意大利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "罗马第三大学",
+    "name_en": "Università degli studi Roma Tre",
+    "area": "意大利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "洛林大学",
+    "name_en": "University of Lorraine",
+    "area": "法国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "南特大学",
+    "name_en": "Université de Nantes",
+    "area": "法国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "里昂第二大学",
+    "name_en": "Université Lumière Lyon 2",
+    "area": "法国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "图卢兹第一大学",
+    "name_en": "Université Toulouse 1 Capitole",
+    "area": "法国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "玛拉工艺大学",
+    "name_en": "Universiti Teknologi MARA - UiTM",
+    "area": "马来西亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "布雷西亚大学",
+    "name_en": "University of Brescia",
+    "area": "意大利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "加尔各答大学",
+    "name_en": "University of Calcutta",
+    "area": "印度",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "科伦坡大学",
+    "name_en": "University of Colombo",
+    "area": "斯里兰卡",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "赫特福德大学",
+    "name_en": "University of Hertfordshire",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "哈德斯菲尔德大学",
+    "name_en": "University of Huddersfield",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "新罕布什尔大学",
+    "name_en": "University of New Hampshire",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "佩奇大学",
+    "name_en": "University of Pécs",
+    "area": "匈牙利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "索尔福德大学",
+    "name_en": "University of Salford",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "南昆士兰大学",
+    "name_en": "University of Southern Queensland",
+    "area": "澳大利亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "塔尔萨大学",
+    "name_en": "University of Tulsa",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "山口大学",
+    "name_en": "Yamaguchi University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "韩国岭南大学",
+    "name_en": "Yeungnam University",
+    "area": "韩国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "751_800",
+    "name": "横滨国立大学",
+    "name_en": "Yokohama National University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "波兹南大学",
+    "name_en": "Adam Mickiewicz University",
+    "area": "波兰",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "波兰矿冶大学",
+    "name_en": "AGH University of Science and Technology",
+    "area": "波兰",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "艾资哈尔大学",
+    "name_en": "Al Azhar University",
+    "area": "埃及",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "库扎大学",
+    "name_en": "Alexandru Ioan Cuza University",
+    "area": "罗马尼亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "阿里格尔穆斯林大学",
+    "name_en": "Aligarh Muslim University (AMU), Aligarh",
+    "area": "印度",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "安卡拉大学",
+    "name_en": "Ankara Üniversitesi",
+    "area": "土耳其",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "青山学院大学",
+    "name_en": "Aoyama Gakuin University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "雅典经商大学",
+    "name_en": "Athens University of Economics and Business",
+    "area": "希腊",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "奥本大学",
+    "name_en": "Auburn University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "澳洲天主大学",
+    "name_en": "Australian Catholic University",
+    "area": "澳大利亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "鲍耶大学",
+    "name_en": "Babes-Bolyai University",
+    "area": "罗马尼亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "国立巴库大学",
+    "name_en": "Baku State University",
+    "area": "阿塞拜疆",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "贝拿勒斯印度教大学",
+    "name_en": "Banaras Hindu University",
+    "area": "印度",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "贝勒大学",
+    "name_en": "Baylor University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "普埃布拉自治大学",
+    "name_en": "Benemérita Universidad Autónoma de Puebla",
+    "area": "墨西哥",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "纽约州立大学宾汉姆顿分校",
+    "name_en": "Binghamton University SUNY",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "比尔拉科学技术学院",
+    "name_en": "Birla Institute of Technology and Science, Pilani",
+    "area": "印度",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "比尔泽特大学",
+    "name_en": "Birzeit university",
+    "area": "巴勒斯坦",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "中南大学",
+    "name_en": "Central South University",
+    "area": "中国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "查理斯特大学",
+    "name_en": "Charles Sturt University",
+    "area": "澳大利亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "重庆大学",
+    "name_en": "Chongqing University",
+    "area": "中国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "忠南国立大学",
+    "name_en": "Chungnam National University",
+    "area": "韩国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "布达佩斯大学",
+    "name_en": "Corvinus University of Budapest",
+    "area": "匈牙利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "切库罗瓦大学",
+    "name_en": "Cukurova University",
+    "area": "土耳其",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "蒂波尼格罗大学",
+    "name_en": "Diponegoro University",
+    "area": "印尼",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "顿涅茨克国立大学",
+    "name_en": "Vasyl` Stus Donetsk National University",
+    "area": "乌克兰",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "同志社大学",
+    "name_en": "Doshisha University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "龙比亚大学",
+    "name_en": "Edinburgh Napier University",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "逢甲大学",
+    "name_en": "Feng Chia University",
+    "area": "台湾",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "福坦莫大学",
+    "name_en": "Fordham University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "辅仁大学",
+    "name_en": "Fu Jen Catholic University",
+    "area": "台湾",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "咖兹大学",
+    "name_en": "Gazi Üniversitesi",
+    "area": "土耳其",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "乔治梅森大学",
+    "name_en": "George Mason University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "伊斯坦布尔大学",
+    "name_en": "Istanbul University",
+    "area": "土耳其",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "哈萨克阿伯莱可汗大学",
+    "name_en": "Kazakh Ablai Khan University of International Relations and World Languages",
+    "area": "哈萨克斯坦",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "肯特州立大学",
+    "name_en": "Kent State University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "孔敬大学",
+    "name_en": "Khon Kaen University",
+    "area": "泰国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "吞武里大学",
+    "name_en": "King Mongkut's University of Technology Thonburi",
+    "area": "泰国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "九州工业大学",
+    "name_en": "Kyushu Institute of Technology",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "罗兹大学",
+    "name_en": "University of Lodz",
+    "area": "波兰",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "伦敦南岸大学",
+    "name_en": "London South Bank University",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "麦克雷雷大学",
+    "name_en": "Makerere University",
+    "area": "乌干达",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "曼彻斯特都会大学",
+    "name_en": "Manchester Metropolitan University",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "马凯特大学",
+    "name_en": "Marquette University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "明治大学",
+    "name_en": "Meiji University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "迈阿密大学（俄亥俄）",
+    "name_en": "Miami University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "新泽西理工学院",
+    "name_en": "New Jersey Institute of Technology (NJIT)",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "哥白尼大学",
+    "name_en": "Nicolaus Copernicus University",
+    "area": "波兰",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "西北大学（南非）",
+    "name_en": "North-West University",
+    "area": "南非",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "诺丁汉特伦特大学",
+    "name_en": "Nottingham Trent University",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "新西伯利亚国立科技大学",
+    "name_en": "Novosibirsk State Technical University",
+    "area": "俄国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "御茶水女子大学",
+    "name_en": "Ochanomizu University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "俄亥俄大学",
+    "name_en": "Ohio University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "俄克拉荷马州立大学",
+    "name_en": "Oklahoma State University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "旁遮普大学（印度）",
+    "name_en": "Panjab University",
+    "area": "印度",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "俄罗斯经济大学",
+    "name_en": "Plekhanov Russian University of Economics",
+    "area": "俄国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "厄瓜多尔天主大学",
+    "name_en": "Pontificia Universidad Católica del Ecuador (PUCE)",
+    "area": "厄瓜多尔",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "南里奥格兰德天主大学",
+    "name_en": "Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)",
+    "area": "巴西",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "宋卡王子大学",
+    "name_en": "Prince of Songkla University",
+    "area": "泰国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "立命馆大学",
+    "name_en": "Ritsumeikan University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "瑞尔森大学",
+    "name_en": "Ryerson University",
+    "area": "加拿大",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "埼玉大学",
+    "name_en": "Saitama University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "萨马拉大学",
+    "name_en": "Samara National Research University (Samara University)",
+    "area": "俄国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "圣地亚哥州立大学",
+    "name_en": "San Diego State University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "首尔国立科技大学",
+    "name_en": "Seoul National University of Science and Technology",
+    "area": "韩国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "泗水理工学院",
+    "name_en": "Institute of Technology Sepuluh Nopember",
+    "area": "印尼",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "信州大学",
+    "name_en": "Shinshu University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "南十字星大学",
+    "name_en": "Southern Cross University",
+    "area": "澳大利亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "苏梅州立大学",
+    "name_en": "Sumy State University",
+    "area": "乌克兰",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "罗伯特戈顿大学",
+    "name_en": "Robert Gordon University",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "东海大学（日本）",
+    "name_en": "Tokai University",
+    "area": "日本",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "智利奥斯特拉尔大学",
+    "name_en": "Universidad Austral de Chile",
+    "area": "智利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "新莱昂自治大学",
+    "name_en": "Universidad Autónoma de Nuevo León",
+    "area": "墨西哥",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "墨西哥州立自治大学",
+    "name_en": "Universidad Autónoma del Estado de México (UAEMex)",
+    "area": "墨西哥",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "卡斯蒂利亚拉曼恰大学",
+    "name_en": "Universidad de Castilla-La Mancha",
+    "area": "西班牙",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "瓜达拉哈拉大学",
+    "name_en": "Universidad de Guadalajara (UDG)",
+    "area": "墨西哥",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "普埃布拉拉美大学",
+    "name_en": "Universidad de las Américas Puebla (UDLAP)",
+    "area": "墨西哥",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "洛斯安第斯大学",
+    "name_en": "Universidad de los Andes - (ULA) Mérida",
+    "area": "委内瑞拉",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "蒙特雷大学",
+    "name_en": "Universidad de Monterrey (UDEM)",
+    "area": "墨西哥",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "穆尔西亚大学",
+    "name_en": "University of Murcia",
+    "area": "西班牙",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "奥维多大学",
+    "name_en": "Universidad de Oviedo",
+    "area": "西班牙",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "波多黎各大学",
+    "name_en": "Universidad de Puerto Rico",
+    "area": "波多黎各",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "塔尔卡大学",
+    "name_en": "Universidad de Talca",
+    "area": "智利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "瓦尔帕莱索大学",
+    "name_en": "Universidad de Valparaíso (UV)",
+    "area": "智利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "城北大学",
+    "name_en": "Universidad del Norte",
+    "area": "哥伦比亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "罗萨里奥大学",
+    "name_en": "Universidad del Rosario",
+    "area": "哥伦比亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "山谷大学",
+    "name_en": "Universidad del Valle",
+    "area": "哥伦比亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "桑坦德工业大学",
+    "name_en": "Universidad Industrial de Santander - UIS",
+    "area": "哥伦比亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "委内瑞拉都会大学",
+    "name_en": "Universidad Metropolitana",
+    "area": "委内瑞拉",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "哥斯达黎加国立大学",
+    "name_en": "Universidad Nacional Costa Rica",
+    "area": "哥斯达黎加",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "国立库约大学",
+    "name_en": "Universidad Nacional de Cuyo",
+    "area": "阿根廷",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "国立马德普拉塔大学",
+    "name_en": "Universidad Nacional de Mar del Plata",
+    "area": "阿根廷",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "国立罗萨里奥大学",
+    "name_en": "Universidad Nacional de Rosario (UNR)",
+    "area": "阿根廷",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "图库曼国立大学",
+    "name_en": "Universidad Nacional de Tucumà¡n",
+    "area": "阿根廷",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "国立南方大学",
+    "name_en": "Universidad Nacional del Sur",
+    "area": "阿根廷",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "国立圣马科斯大学",
+    "name_en": "Universidad Nacional Mayor de San Marcos",
+    "area": "秘鲁",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "泛美大学",
+    "name_en": "Universidad Panamericana (UP)",
+    "area": "墨西哥",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "卡耶塔诺埃雷迪亚大学",
+    "name_en": "Universidad Peruana Cayetano Heredia (UPCH)",
+    "area": "秘鲁",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "卡洛斯国王大学",
+    "name_en": "Universidad Rey Juan Carlos",
+    "area": "西班牙",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "圣玛丽亚联邦理工大学",
+    "name_en": "Universidad Técnica Federico Santa María (USM)",
+    "area": "智利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "阿根廷国立理工大学",
+    "name_en": "Universidad Tecnológica Nacional (UTN)",
+    "area": "阿根廷",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "拉科鲁尼亚大学",
+    "name_en": "Universidade da Coruña",
+    "area": "西班牙",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "里约热内卢州立大学",
+    "name_en": "Universidade do Estado do Rio de Janeiro (UERJ)",
+    "area": "巴西",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "隆德里纳州立大学",
+    "name_en": "Universidade Estadual de Londrina",
+    "area": "巴西",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "巴伊亚联邦大学",
+    "name_en": "Universidade Federal da Bahia",
+    "area": "巴西",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "圣玛丽亚联邦大学",
+    "name_en": "Universidade Federal de Santa Maria",
+    "area": "巴西",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "维索萨联邦大学",
+    "name_en": "Universidade Federal de Viçosa-UFV",
+    "area": "巴西",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "塞阿拉联邦大学",
+    "name_en": "Universidade Federal do Ceará (UFC)",
+    "area": "巴西",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "巴拉那联邦大学",
+    "name_en": "Universidade Federal do Paraná - UFPR",
+    "area": "巴西",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "伯南布哥联邦大学",
+    "name_en": "Universidade Federal de Pernambuco (UFPE)",
+    "area": "巴西",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "弗鲁米嫩塞联邦大学",
+    "name_en": "Universidade Federal Fluminense",
+    "area": "巴西",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "卡塔尼亚大学",
+    "name_en": "Catania University",
+    "area": "意大利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "锡耶纳大学",
+    "name_en": "University of Siena",
+    "area": "意大利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "巴勒摩大学",
+    "name_en": "University of Palermo",
+    "area": "意大利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "梭罗大学",
+    "name_en": "Universitas Muhammadiyah Surakarta",
+    "area": "印尼",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "罗斯托克大学",
+    "name_en": "Universität Rostock",
+    "area": "德国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "里尔第三大学",
+    "name_en": "Université Charles-de-Gaulle Lille 3",
+    "area": "法国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "卡昂大学",
+    "name_en": "Université de Caen Basse-Normandie",
+    "area": "法国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "塞吉",
+    "name_en": null,
+    "area": "法国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "普瓦捷大学",
+    "name_en": "Université de Poitiers",
+    "area": "法国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "里昂第三大学",
+    "name_en": "Université Jean Moulin Lyon 3",
+    "area": "法国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "里尔第二大学",
+    "name_en": "Université Lille 2 Droit et Santé",
+    "area": "法国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "穆罕默德五世大学",
+    "name_en": "Université Mohammed V de Rabat",
+    "area": "摩洛哥",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "巴黎第十大学",
+    "name_en": "Université Paris Ouest Nanterre La Défense",
+    "area": "法国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "蒙彼利埃第三大学",
+    "name_en": "Universit Paul-Valery Montpellier 3",
+    "area": "法国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "阿肯色大学",
+    "name_en": "University of Arkansas",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "巴林大学",
+    "name_en": "University of Bahrain",
+    "area": "巴林",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "巴里大学",
+    "name_en": "University of Bari",
+    "area": "意大利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "贝尔格莱德大学",
+    "name_en": "University of Belgrade",
+    "area": "塞尔维亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "宝拉维加亚大学",
+    "name_en": "University of Brawijaya",
+    "area": "印尼",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "中央兰开夏大学",
+    "name_en": "University of Central Lancashire",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "东伦敦大学",
+    "name_en": "University of East London",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "拉合尔工程技术大学",
+    "name_en": "University of Engineering & Technology (UET) Lahore",
+    "area": "巴基斯坦",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "加纳大学",
+    "name_en": "University of Ghana",
+    "area": "加纳",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "格林威治大学",
+    "name_en": "University of Greenwich",
+    "area": "英国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "卡拉奇大学",
+    "name_en": "University of Karachi",
+    "area": "巴基斯坦",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "拉合尔大学",
+    "name_en": "The University of Lahore",
+    "area": "巴基斯坦",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "马里博尔大学",
+    "name_en": "University of Maribor",
+    "area": "斯洛文尼亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "密西西比大学",
+    "name_en": "University of Mississippi",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "蒙大拿大学",
+    "name_en": "University of Montana Missoula",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "孟买大学",
+    "name_en": "University of Mumbai",
+    "area": "印度",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "内罗毕大学",
+    "name_en": "University of Nairobi",
+    "area": "肯尼亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "新英格兰大学",
+    "name_en": "University of New England Australia",
+    "area": "澳大利亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "浦那大学",
+    "name_en": "University of Pune",
+    "area": "印度",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "圣地亚哥大学",
+    "name_en": "University of San Diego",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "旧金山大学",
+    "name_en": "University of San Francisco",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "圣托马斯大学（菲律宾）",
+    "name_en": "University of Santo Tomas",
+    "area": "菲律宾",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "太平洋大学（加利福尼亚）",
+    "name_en": "University of the Pacific",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "阳光海岸大学",
+    "name_en": "University of the Sunshine Coast",
+    "area": "澳大利亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "西开普大学",
+    "name_en": "University of the Western Cape",
+    "area": "南非",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "弗罗茨瓦夫大学",
+    "name_en": "University of Wroclaw",
+    "area": "波兰",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "图卢兹第二大学",
+    "name_en": "Université de Toulouse II-Le Mirail",
+    "area": "法国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "犹他州立大学",
+    "name_en": "Utah State University",
+    "area": "美国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "维罗纳大学",
+    "name_en": "Verona University",
+    "area": "意大利",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "沃罗涅日国立大学",
+    "name_en": "Voronezh State University",
+    "area": "俄国",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "马格努斯大学",
+    "name_en": "Vytautas Magnus University",
+    "area": "立陶宛",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "西蒂米什瓦拉大学",
+    "name_en": "Universitatea de Vest din Timisoara / West University of Timisoara",
+    "area": "罗马尼亚",
+    "tags":["top-1000"]
+  },
+  {
+    "rank": "801-1000",
+    "name": "弗罗茨瓦夫工业大学",
+    "name_en": "Wroclaw University of Technology",
+    "area": "波兰",
+    "tags":["top-1000"]
+  }
+]
