@@ -17,7 +17,9 @@
     "js": ["static/js/inject.js"],
     "run_at": "document_end"
   }],
-  "permissions": [],
+  "permissions": [
+    "storage"
+  ],
   "browser_action":
   {
     "default_icon": "icons/icon48.png",

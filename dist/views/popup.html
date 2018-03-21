@@ -6,6 +6,7 @@
   <title>show-me-985211</title>
   <!-- 引入element-ui -->
   <script src="/static/js/lib/vue/vue.js"></script>
+  <script src="/static/js/lib/vue/vue-resource.js"></script>
   <link rel="stylesheet" href="/static/css/lib/element-ui/theme-chalk.css">
   <script src="/static/js/lib/element-ui/index.js"></script>
   <link type="text/css" rel="stylesheet" href="/static/css/popup.css">
@@ -15,14 +16,14 @@
   <div id="app">
     <el-card class="box-card search">
       <div slot="header" class="clearfix">
-        <h3>一键查询</h3>
+        <h3>快速查询</h3>
       </div>
       <div class="text item">
         <el-form ref="form" :model="search" label-width="80px" size="mini">
           <el-form-item label="院校名称">
-            <el-input v-model="search.name" placeholder="请输入院校名称"></el-input>
+            <el-input v-model="search.name" placeholder="院校名称（支持中文、英文）"></el-input>
             <div class="search-result">
-              <el-tag v-for="(item, index) in searchResult" :key="index" :type="item.theme" size="mini">{{item.value|tagMap}}</el-tag>
+              <el-tag v-for="(item, index) in searchResult" :key="index" :type="item.value|tagMap('theme')" size="mini">{{item.value|tagMap}}</el-tag>
             </div>
           </el-form-item>
         </el-form>
@@ -72,8 +73,8 @@
       </div>
       <div class="text item">
         <ul>
-            <li><label class="list-label">问题反馈</label><a class="list-link" href="https://github.com/xiongwilee/show-me-985211/issues">填写反馈</a></li>
-            <li><label class="list-label">作者</label><a class="list-link" href="https://github.com/xiongwilee">xiongwilee</a></li>
+            <li><label class="list-label">问题反馈</label><a class="list-link" target="_blank" href="https://github.com/xiongwilee/show-me-985211/issues">填写反馈</a></li>
+            <li><label class="list-label">作者</label><a class="list-link" target="_blank" href="https://github.com/xiongwilee">xiongwilee</a></li>
             <li><label class="list-label">版本</label><span class="list-text">2.0</span></li>
         </ul>
       </div>

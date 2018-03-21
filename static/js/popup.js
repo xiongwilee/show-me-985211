@@ -7,27 +7,15 @@
         search: {
           name: ''
         },
-        searchResult: [{
-          theme: 'info',
-          value: 'none'
-        }, {
-          theme: 'success',
-          value: 'pro-985'
-        }, {
-          theme: 'success',
-          value: 'pro-211'
-        }],
-        form: {
-          cn: ['pro-985', 'pro-211'],
-          global: 'top-300',
-          manual: '-1',
-          manualContent: ''
-        },
+        searchResult: [],
+        form: {},
+        cnCollegesData: [],
         cnColleges: [{
           value: 'pro-985'
         }, {
           value: 'pro-211'
         }],
+        globalCollegesData: [],
         globalColleges: [{
           value: 'top-0'
         }, {
@@ -45,36 +33,118 @@
 
         searchTimer = setTimeout(function() {
           me.getTagsByName(val);
-        }, 400)
+        }, 500)
       }
     },
     filters: {
       tagMap: function(val, type) {
-        type = 'text';
+        type = type || 'text';
 
         var result = {
-          'pro-985': { text: '985工程', theme: 'sucess' },
-          'pro-211': { text: '211工程', theme: 'sucess' },
+          'pro-985': { text: '985工程', theme: 'success' },
+          'pro-211': { text: '211工程', theme: 'success' },
 
-          'top-0': { text: '仅限大陆院校', theme: 'sucess' },
-          'top-50': { text: '全球TOP 50', theme: 'sucess' },
-          'top-100': { text: '全球TOP 100', theme: 'sucess' },
-          'top-300': { text: '全球TOP 300', theme: 'sucess' },
-          'top-500': { text: '全球TOP 500', theme: 'sucess' },
+          'top-0': { text: '仅限大陆院校', theme: 'success' },
+          'top-50': { text: '全球TOP 50', theme: 'success' },
+          'top-100': { text: '全球TOP 100', theme: 'success' },
+          'top-300': { text: '全球TOP 300', theme: 'success' },
+          'top-500': { text: '全球TOP 500', theme: 'success' },
         }[val] || { text: '未知院校', theme: 'info' }
 
         return result[type];
       }
     },
+    created: function() {
+      chrome.storage.sync.get('config', function(val) {
+        var config = val.config;
+
+        me.form = config || {
+          cn: ['pro-985', 'pro-211'],
+          global: 'top-300',
+          manual: '-1',
+          manualContent: ''
+        };
+      });
+
+      Vue.nextTick(function() {
+        var cnCollegesUrl = chrome.extension.getURL('libs/data/colleges-cn.json');
+        var globalCollegesUrl = chrome.extension.getURL('libs/data/colleges-global.json');
+
+        me.$http.get(cnCollegesUrl).then(function(response) {
+          me.cnCollegesData = response.body;
+        });
+
+        me.$http.get(globalCollegesUrl).then(function(response) {
+          me.globalCollegesData = response.body;
+        });
+      });
+    },
     methods: {
       getTagsByName: function(val) {
-        console.log(val);
+        var result = [];
+        val = val.replace(/\s/g, '');
+
+        if (!val) {
+          me.searchResult = result;
+          return;
+        }
+
+        for (var i = 0; i < me.cnCollegesData.length; i++) {
+          var item = me.cnCollegesData[i];
+          console.log(val, item);
+          if (item.name == val || item.name_en == val) {
+            var tags = me.getTagsByItem(item, 'cn');
+            result = result.concat(tags);
+            break;
+          }
+        }
+
+        for (var i = 0; i < me.globalCollegesData.length; i++) {
+          var item = me.globalCollegesData[i];
+          if (item.name == val || item.name_en == val) {
+            var tags = me.getTagsByItem(item, 'global');
+            result = result.concat(tags);
+            break;
+          }
+        }
+
+        if (result.length === 0) {
+          result = me.getTagsByItem(null);
+        }
+
+        me.searchResult = result;
+      },
+      getTagsByItem: function(item, type) {
+        if (!item || !item.tags) return [{ value: 'none' }];
+
+        var tags = [];
+        // 如果是全球院校，则只获取tags中的第一个，
+        // 比如：["top-50","top-100","top-300","top-500","top-1000"]，只取"top-50"
+        if (type === 'global') {
+          tags.push(item.tags[0]);
+        } else {
+          tags = tags.concat(item.tags);
+        }
+
+        var result = [];
+        tags.forEach(function(item) {
+          result.push({ value: item });
+        });
+
+        return result;
       },
       onSubmit: function() {
-        console.log('submit!');
+        chrome.storage.sync.set({ 'config': me.form }, function() {
+          me.$message({
+            type: 'success',
+            message: '设置已保存！',
+            center: true
+          });
+        });
+        console.log(me.form);
       },
       onShowDetail: function() {
-        this.$message({
+        me.$message({
           message: '施工中，敬请期待！',
           center: true
         });

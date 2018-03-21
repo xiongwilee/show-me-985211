@@ -4,350 +4,350 @@
     "name": "麻省理工学院",
     "name_en": "Massachusetts Institute of Technology (MIT)",
     "area": "美国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "2",
     "name": "斯坦福大学",
     "name_en": "Stanford University",
     "area": "美国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "3",
     "name": "哈佛大学",
     "name_en": "Harvard University",
     "area": "美国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "4",
     "name": "加州理工学院",
     "name_en": "California Institute of Technology (Caltech)",
     "area": "美国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "5",
     "name": "剑桥大学",
     "name_en": "University of Cambridge",
     "area": "英国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "6",
     "name": "牛津大学",
     "name_en": "University of Oxford",
     "area": "英国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "7",
     "name": "伦敦大学学院",
     "name_en": "UCL (University College London)",
     "area": "英国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "8",
     "name": "帝国理工学院",
     "name_en": "Imperial College London",
     "area": "英国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "9",
     "name": "芝加哥大学",
     "name_en": "University of Chicago",
     "area": "美国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "10",
     "name": "苏黎世联邦理工学院",
     "name_en": "ETH Zurich - Swiss Federal Institute of Technology",
     "area": "瑞士",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "11",
     "name": "南洋理工大学",
     "name_en": "Nanyang Technological University, Singapore (NTU)",
     "area": "新加坡",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "12",
     "name": "洛桑联邦理工学院",
     "name_en": "Ecole Polytechnique Fédérale de Lausanne (EPFL)",
     "area": "瑞士",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "13",
     "name": "普林斯顿大学",
     "name_en": "Princeton University",
     "area": "美国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "14",
     "name": "康奈尔大学",
     "name_en": "Cornell University",
     "area": "美国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "15",
     "name": "新加坡国立大学",
     "name_en": "National University of Singapore (NUS)",
     "area": "新加坡",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "16",
     "name": "耶鲁大学",
     "name_en": "Yale University",
     "area": "美国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "17",
     "name": "约翰霍普金斯大学",
     "name_en": "Johns Hopkins University",
     "area": "美国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "18",
     "name": "哥伦比亚大学",
     "name_en": "Columbia University",
     "area": "美国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "19",
     "name": "宾夕法尼亚大学",
     "name_en": "University of Pennsylvania",
     "area": "美国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "20",
     "name": "澳洲国立大学",
     "name_en": "The Australian National University",
     "area": "澳大利亚",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "21",
     "name": "杜克大学",
     "name_en": "Duke University",
     "area": "美国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "21",
     "name": "密歇根大学安娜堡分校",
     "name_en": "University of Michigan",
     "area": "美国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "23",
     "name": "伦敦大学国王学院",
     "name_en": "King's College London",
     "area": "英国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "23",
     "name": "爱丁堡大学",
     "name_en": "The University of Edinburgh",
     "area": "英国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "25",
     "name": "清华大学",
     "name_en": "Tsinghua University",
     "area": "中国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "26",
     "name": "香港大学",
     "name_en": "The University of Hong Kong",
     "area": "香港",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "27",
     "name": "加州大学伯克利分校",
     "name_en": "University of California, Berkeley (UCB)",
     "area": "美国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "28",
     "name": "西北大学",
     "name_en": "Northwestern University",
     "area": "美国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "28",
     "name": "东京大学",
     "name_en": "The University of Tokyo",
     "area": "日本",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "30",
     "name": "香港科技大学",
     "name_en": "The Hong Kong University of Science and Technology",
     "area": "香港",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "31",
     "name": "多伦多大学",
     "name_en": "University of Toronto",
     "area": "加拿大",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "32",
     "name": "麦吉尔大学",
     "name_en": "McGill University",
     "area": "加拿大",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "33",
     "name": "加州大学洛杉矶分校",
     "name_en": "University of California, Los Angeles (UCLA)",
     "area": "美国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "34",
     "name": "曼彻斯特大学",
     "name_en": "The University of Manchester",
     "area": "英国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "35",
     "name": "伦敦政治经济学院",
     "name_en": "London School of Economics and Political Science (LSE)",
     "area": "英国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "36",
     "name": "京都大学",
     "name_en": "Kyoto University",
     "area": "日本",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "36",
     "name": "首尔国立大学",
     "name_en": "Seoul National University",
     "area": "韩国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "38",
     "name": "北京大学",
     "name_en": "Peking University",
     "area": "中国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "38",
     "name": "加州大学圣地亚哥分校",
     "name_en": "University of California, San Diego (UCSD)",
     "area": "美国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "40",
     "name": "复旦大学",
     "name_en": "Fudan University",
     "area": "中国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "41",
     "name": "墨尔本大学",
     "name_en": "The University of Melbourne",
     "area": "澳大利亚",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "41",
     "name": "韩国高等科技学院",
     "name_en": "KAIST - Korea Advanced Institute of Science & Technology",
     "area": "韩国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "43",
     "name": "巴黎高等师范学院",
     "name_en": "Ecole normale supérieure, Paris",
     "area": "法国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "44",
     "name": "布里斯托大学",
     "name_en": "University of Bristol",
     "area": "英国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "45",
     "name": "新南威尔士大学",
     "name_en": "The University of New South Wales (UNSW Sydney)",
     "area": "澳大利亚",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "46",
     "name": "香港中文大学",
     "name_en": "The Chinese University of Hong Kong (CUHK)",
     "area": "香港",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "47",
     "name": "卡耐基梅隆大学",
     "name_en": "Carnegie Mellon University",
     "area": "美国",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "47",
     "name": "昆士兰大学",
     "name_en": "The University of Queensland",
     "area": "澳大利亚",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "49",
     "name": "香港城市大学",
     "name_en": "City University of Hong Kong",
     "area": "香港",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "50",
     "name": "悉尼大学",
     "name_en": "The University of Sydney",
     "area": "澳大利亚",
-    "tags":["top-100","top-300","top-500","top-1000"]
+    "tags":["top-50","top-100","top-300","top-500","top-1000"]
   },
   {
     "rank": "51",

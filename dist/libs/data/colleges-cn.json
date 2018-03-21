@@ -3,18 +3,14 @@
     "name": "清华大学",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "北京大学",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -22,9 +18,7 @@
     "name_en": "Zhejiang University",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -32,9 +26,7 @@
     "name_en": "Xiamen University",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -42,18 +34,14 @@
     "name_en": "Central South University",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "中山大学",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -61,9 +49,7 @@
     "name_en": "Wuhan University",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -71,18 +57,14 @@
     "name_en": "Fudan University",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "华中科技大学",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -90,9 +72,7 @@
     "name_en": "Nanjing University",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -100,9 +80,7 @@
     "name_en": "Southeast University",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -110,9 +88,7 @@
     "name_en": "Sichuan University",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -120,18 +96,14 @@
     "name_en": "Tongji University",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "南开大学",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -139,9 +111,7 @@
     "name_en": "Shandong University",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -149,9 +119,7 @@
     "name_en": "Renmin University of China",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -159,18 +127,14 @@
     "name_en": "Shanghai Jiao Tong University",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "华南理工大学",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -178,9 +142,7 @@
     "name_en": "Jilin University",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -188,9 +150,7 @@
     "name_en": "East China Normal University",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -198,9 +158,7 @@
     "name_en": "Hunan University",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -208,18 +166,14 @@
     "name_en": "Chongqing University",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "西安交通大学",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -227,18 +181,14 @@
     "name_en": "Harbin Institute of Technology",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "中国科学技术大学",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -246,9 +196,7 @@
     "name_en": "Ocean University of China",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -256,9 +204,7 @@
     "name_en": "Dalian University of Technology",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -266,9 +212,7 @@
     "name_en": "TianjinUniversity",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -276,9 +220,7 @@
     "name_en": "Beijing Normal University",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -286,9 +228,7 @@
     "name_en": "Northeastern University",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -296,9 +236,7 @@
     "name_en": "Beijing Institute of Technology",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -306,9 +244,7 @@
     "name_en": "Beihang University",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -316,27 +252,21 @@
     "name_en": "Lanzhou University",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "西北工业大学",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "西北农林科技大学",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -344,9 +274,7 @@
     "name_en": "China Agricultural University",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -354,9 +282,7 @@
     "name_en": "Minzu University of China",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
@@ -364,742 +290,570 @@
     "name_en": "Peking Union Medical College",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "北京大学医学部",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "上海交通大学医学院",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "哈尔滨工业大学（威海）",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "复旦大学上海医学院",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "大连理工大学盘锦校区",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "电子科技大学沙河校区",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "中国人民大学苏州校区",
     "tags": [
       "pro-985",
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "西南大学",
     "name_en": "Southwest University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "暨南大学",
     "name_en": "Jinan University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "中国传媒大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "上海大学",
     "name_en": "Shanghai University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "苏州大学",
     "name_en": "Soochow University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "西南交通大学",
     "name_en": "Southwest Jiaotong University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "武汉理工大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "郑州大学",
     "name_en": "Zhengzhou University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "江南大学",
     "name_en": "Jiangnan University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "中南财经政法大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "西北大学",
     "name_en": "Northwest University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "东华大学",
     "name_en": "Donghua University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "南昌大学",
     "name_en": "Nanchang University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "西南财经大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "河海大学",
     "name_en": "Hohai University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "中国矿业大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "北京外国语大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "华中师范大学",
     "name_en": "Central China Normal University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "海南大学",
     "name_en": "Hainan University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "华东理工大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "合肥工业大学",
     "name_en": "HFUT",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "长安大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "西安电子科技大学",
     "name_en": "Xidian University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "南京理工大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "上海财经大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "华北电力大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "北京科技大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "南京航空航天大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "北京交通大学",
     "name_en": "Beijing Jiaotong University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "福州大学",
     "name_en": "Fuzhou University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "中国政法大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "华南师范大学",
     "name_en": "South China Normal University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "对外经济贸易大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "中央财经大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "南京师范大学",
     "name_en": "Nanjing Normal University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "安徽大学",
     "name_en": "Anhui University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "河北工业大学",
     "name_en": "Hebei University of Technology",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "陕西师范大学",
     "name_en": "Shaanxi Normal University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "哈尔滨工程大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "北京邮电大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "云南大学",
     "name_en": "Yunnan University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "北京工业大学",
     "name_en": "Beijing University of Technology",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "湖南师范大学",
     "name_en": "Hunan Normal University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "东北师范大学",
     "name_en": "Northeast Normal University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "广西大学",
     "name_en": "Guangxi University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "辽宁大学",
     "name_en": "Liaoning University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "太原理工大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "大连海事大学",
     "name_en": "Dalian Maritime University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "华中农业大学",
     "name_en": "Huazhong Agricultural University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "贵州大学",
     "name_en": "Guizhou University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "上海外国语大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "四川农业大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "北京林业大学",
     "name_en": "Beijing Forestry University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "石河子大学",
     "name_en": "Shihezi University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "延边大学",
     "name_en": "Yanbian University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "北京化工大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "中央音乐学院",
     "name_en": "Central Conservatory of Music",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "南京农业大学",
     "name_en": "Nanjing Agricultural University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "中国药科大学",
     "name_en": "China Pharmaceutical University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "东北林业大学",
     "name_en": "Northeast Forestry University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "北京体育大学",
     "name_en": "Beijing Sport University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "内蒙古大学",
     "name_en": "Inner Mongolia University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "北京中医药大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "新疆大学",
     "name_en": "Xinjiang University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "东北农业大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "宁夏大学",
     "name_en": "Ningxia University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "中国石油大学（华东）",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "天津医科大学",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "西藏大学",
     "name_en": "Tibet University",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "青海大学",
     "name_en": "Qinghai university",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "中国石油大学（北京）",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "中国地质大学（武汉）",
     "name_en": "China University of Geosciences",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "中国矿业大学（北京）",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "合肥工业大学宣城校区",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "中国地质大学（北京）",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "北京邮电大学宏福校区",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "西南大学荣昌校区",
     "name_en": "southwest university",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   },
   {
     "name": "华北电力大学保定校区",
     "tags": [
-      "pro-211",
-      "level-1",
-      "level-2"
+      "pro-211"
     ]
   }
 ]
