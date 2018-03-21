@@ -6,6 +6,15 @@ showMe985211.base = (function() {
   }
   base.prototype.getConfig = function(callback) {
     chrome.storage.sync.get('config', function(val) {
+      val = val || {};
+      val.config = val.config || {
+        cn: ['pro-985', 'pro-211'],
+        global: 'top-300',
+        manual: '-1',
+        manualContent: '',
+        autoSayhi: 'confirm'
+      };
+
       callback(val);
     });
   }
@@ -36,7 +45,7 @@ showMe985211.base = (function() {
   base.prototype.getByCollegesConfig = function(cnCollegesData, globalCollegesData, config) {
     var lists = [],
       items = [];
-      
+
     if (config.manual === 'replace') {
       // 清除不必要空格
       lists = splitText(config.manualContent);
@@ -65,14 +74,14 @@ showMe985211.base = (function() {
 
     var curLists, curItems;
     if (config.manual === 'add') {
-    	curLists = splitText(config.manualContent);
-    	curItems = listToItem(curLists);
-    	items = items.concat(curItems);
+      curLists = splitText(config.manualContent);
+      curItems = listToItem(curLists);
+      items = items.concat(curItems);
     }
 
     return {
-    	lists: itemToList(items),
-    	items: items
+      lists: itemToList(items),
+      items: items
     }
 
     function splitText(text) {
@@ -212,7 +221,7 @@ showMe985211.base = (function() {
    *   success:function(result){
    *       //code...
    *   }
-   * });	
+   * });  
    */
   base.prototype.ajax = function(obj) {
     /*1.判断有没有传递参数，同时参数是否是一个对象*/

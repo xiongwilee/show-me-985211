@@ -9,7 +9,13 @@ showMe985211.core = (function() {
   function core() {
     var me = this;
 
-    showMe985211.base.getWriteList(function(data){
+    me.appConfig = {};
+    showMe985211.base.getConfig(function(val) {
+      me.appConfig = val.config;
+    });
+
+    me.list = [];
+    showMe985211.base.getWriteList(function(data) {
       me.list = data.lists;
     });
 
@@ -33,15 +39,31 @@ showMe985211.core = (function() {
 
           if (domLen < 1) return;
 
-          var confirmText = '找到了' + domLen + '个符合条件的候选人，是否自动打招呼？' + '\n' +
-            '(不自动打招呼系统也可以帮您自动高亮符合要求的候选人)';
-          if (window.confirm(confirmText)) {
+          function auto() {
             domList.forEach(function(item) {
               var sayHiDom = item.parentElement.querySelector('.btn-greet');
               if (sayHiDom && sayHiDom.click) {
                 sayHiDom.click();
               }
             });
+          }
+
+          // 自动打招呼
+          switch (me.appConfig.autoSayhi) {
+            case 'confirm':
+              var confirmText = '找到了' + domLen + '个符合条件的候选人，是否自动打招呼？' + '\n' +
+                '(不自动打招呼系统也可以帮您自动高亮符合要求的候选人)';
+              if (window.confirm(confirmText)) {
+                auto();
+              }
+              break;
+            case 'auto':
+              auto();
+              break;
+            case 'never':
+            default:
+              // do nothing
+              break;
           }
         },
         // 匹配到其中一个item之后的回调
@@ -110,12 +132,26 @@ showMe985211.core = (function() {
 
           if (domLen < 1) return;
 
-          var confirmText = '职位：' + keyWord + '\n' +
-            '找到了' + domLen + '个符合条件的候选人，是否自动“和TA聊聊”？' + '\n' +
-            '(点击“取消”也会帮您自动高亮符合要求的候选人)';
-          if (window.confirm(confirmText)) {
-            auto(0);
+          // 自动打招呼
+          switch (me.appConfig.autoSayhi) {
+            case 'confirm':
+              var confirmText = '职位：' + keyWord + '\n' +
+                '找到了' + domLen + '个符合条件的候选人，是否自动“和TA聊聊”？' + '\n' +
+                '(点击“取消”也会帮您自动高亮符合要求的候选人)';
+              if (window.confirm(confirmText)) {
+                auto(0);
+              }
+              break;
+            case 'auto':
+              auto(0);
+              break;
+            case 'never':
+            default:
+              // do nothing
+              break;
           }
+
+
         },
         // 匹配到其中一个item之后的回调
         onAfterMatchItem: function(item) {},
@@ -143,9 +179,9 @@ showMe985211.core = (function() {
     this.search = showMe985211.base.queryParse();
 
     // 设置头部：标题等
-    setTimeout(function(){
+    setTimeout(function() {
       me.render();
-    },0)
+    }, 0)
   };
   core.prototype.render = function() {
     var me = this;

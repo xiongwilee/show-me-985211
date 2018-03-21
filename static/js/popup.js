@@ -1,9 +1,12 @@
 (function() {
   var searchTimer;
+  var appInfo = chrome.app.getDetails();
+
   var me = new Vue({
     el: '#app',
     data: function() {
       return {
+        appInfo: appInfo,
         search: {
           name: ''
         },
@@ -58,12 +61,7 @@
       showMe985211.base.getConfig(function(val) {
         var config = val.config;
 
-        me.form = config || {
-          cn: ['pro-985', 'pro-211'],
-          global: 'top-300',
-          manual: '-1',
-          manualContent: ''
-        };
+        me.form = config;
       });
 
 
@@ -134,7 +132,16 @@
           });
         });
       },
+      onCancel: function() {
+        showMe985211.base.getConfig(function(val) {
+          var config = val.config;
+          
+          me.form = config;
+        });
+      },
       onShowDetail: function() {
+        return window.open('https://github.com/xiongwilee/show-me-985211#%E4%B8%89%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95');
+
         me.$message({
           message: '施工中，敬请期待！',
           center: true
