@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "show me 985/211",
   "description": "告诉我985/211在哪里？！",
-  "version": "1.7",
+  "version": "2.0",
   "homepage_url": "https://github.com/xiongwilee/show-me-985211",
   "icons":
   {
@@ -14,7 +14,8 @@
   "content_scripts": [
   {
     "matches": ["https://www.zhipin.com/*", "https://easy.lagou.com/*"],
-    "js": ["static/js/inject.js"],
+    "js": ["static/js/base.js", "static/js/inject.js"],
+    "css": ["static/css/inject.css"],
     "run_at": "document_end"
   }],
   "permissions": [
@@ -27,6 +28,8 @@
   },
   "web_accessible_resources": [
     "static/css/inject.css",
+    "libs/data/colleges-cn.json",
+    "libs/data/colleges-global.json",
     "icons/favicon.ico"
   ],
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"

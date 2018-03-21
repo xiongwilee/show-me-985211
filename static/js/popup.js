@@ -55,7 +55,7 @@
       }
     },
     created: function() {
-      chrome.storage.sync.get('config', function(val) {
+      showMe985211.base.getConfig(function(val) {
         var config = val.config;
 
         me.form = config || {
@@ -66,17 +66,10 @@
         };
       });
 
-      Vue.nextTick(function() {
-        var cnCollegesUrl = chrome.extension.getURL('libs/data/colleges-cn.json');
-        var globalCollegesUrl = chrome.extension.getURL('libs/data/colleges-global.json');
 
-        me.$http.get(cnCollegesUrl).then(function(response) {
-          me.cnCollegesData = response.body;
-        });
-
-        me.$http.get(globalCollegesUrl).then(function(response) {
-          me.globalCollegesData = response.body;
-        });
+      showMe985211.base.getColleges(function(data) {
+        me.cnCollegesData = data.cnCollegesData;
+        me.globalCollegesData = data.globalCollegesData;
       });
     },
     methods: {
@@ -91,7 +84,6 @@
 
         for (var i = 0; i < me.cnCollegesData.length; i++) {
           var item = me.cnCollegesData[i];
-          console.log(val, item);
           if (item.name == val || item.name_en == val) {
             var tags = me.getTagsByItem(item, 'cn');
             result = result.concat(tags);
@@ -134,14 +126,13 @@
         return result;
       },
       onSubmit: function() {
-        chrome.storage.sync.set({ 'config': me.form }, function() {
+        showMe985211.base.setConfig(me.form, function() {
           me.$message({
             type: 'success',
             message: '设置已保存！',
             center: true
           });
         });
-        console.log(me.form);
       },
       onShowDetail: function() {
         me.$message({
