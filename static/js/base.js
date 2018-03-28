@@ -265,7 +265,7 @@ showMe985211.base = (function() {
         /*9.获取响应头Content-Type ---类型是字符串*/
         var grc = xhr.getResponseHeader("Content-Type");
         /*10.根据Content-Type类型来判断如何进行解析*/
-        if (grc.indexOf("json") != -1) {
+        if (!grc || grc.indexOf("json") != -1) {
           /*转换为js对象*/
           result = JSON.parse(xhr.responseText);
         } else if (grc.indexOf("xml") != -1) {
