@@ -20,7 +20,7 @@
 
 ### 1、手动安装：
 
-[https://pan.baidu.com/s/1hyzjSC1f9fFpw6Rwhc0DpA](https://pan.baidu.com/s/1hyzjSC1f9fFpw6Rwhc0DpA)
+[https://pan.baidu.com/s/1puVdwxW1o6z6Mw-4wZjKAw](https://pan.baidu.com/s/1puVdwxW1o6z6Mw-4wZjKAw)
 
 1. 访问上面的链接下载`show-me-985211-2.2.zip`文件；
 2. 然后在chrome中打开`扩展程序`页 （ 可以直接访问：[chrome://extensions/](chrome://extensions/) ），打开`开发者模式`；

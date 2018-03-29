@@ -227,7 +227,8 @@ showMe985211.core = (function() {
     var matchList = [];
     if (domList.length === 0) return matchList;
 
-    domList.forEach(function(item) {
+    for(var i = 0; i<domList.length; i++){
+      var item = domList[i];
       var result = checkMatch(item);
 
       if (!result.marked) {
@@ -240,7 +241,7 @@ showMe985211.core = (function() {
           item.classList.add(me.globalConfig.escapedClass);
         }
       }
-    });
+    }
 
     function checkMatch(item) {
       var result = {
