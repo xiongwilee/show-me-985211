@@ -31,7 +31,7 @@
     </el-card>
     <el-card class="box-card config">
       <div slot="header" class="clearfix">
-        <h3>院校配置</h3>
+        <h3>筛选配置</h3>
         <el-button style="float: right; padding: 3px 0" type="text" @click="onShowDetail">使用说明</el-button>
       </div>
       <div class="text item">
@@ -64,6 +64,22 @@
               <el-radio-button label="auto">自动</el-radio-button>
               <el-radio-button label="never">永不</el-radio-button>
             </el-radio-group>
+          </el-form-item>
+          <el-form-item label="年龄">
+            <el-select v-model="form.age" placeholder="无需自定义">
+              <el-option label="不限" value="-1"></el-option>
+              <el-option label="80后" value="80"></el-option>
+              <el-option label="90后" value="90"></el-option>
+              <el-option label="自定义" value="manual"></el-option>
+            </el-select>
+            <el-tooltip v-show="form.age === 'manual'" class="item" effect="dark" content="配置为0，则不限最小/最大年龄" placement="top-end">
+              <i class="el-icon-info"></i>
+            </el-tooltip>
+          </el-form-item>
+          <el-form-item label="" v-if="form.age == 'manual'">
+            <el-input v-model="form.ageMin" placeholder="最小年龄（整数）" class="multi-input"></el-input>
+            <span class="multi-input-mid">-</span>
+            <el-input v-model="form.ageMax" placeholder="最大年龄（整数）" class="multi-input"></el-input>
           </el-form-item>
           <el-form-item>
             <el-button type="primary" @click="onSubmit">确认修改</el-button>

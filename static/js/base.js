@@ -2,9 +2,27 @@ window.showMe985211 = window.showMe985211 || {};
 
 showMe985211.base = (function() {
   function base() {
+    this.config;
+    this.writeList;
 
+    this.init();
   }
+
+  base.prototype.init = function() {
+    // 缓存配置
+    this.getConfig();
+
+    // 先缓存下来院校白名单
+    this.getWriteList();
+  }
+
   base.prototype.getConfig = function(callback) {
+    var me = this;
+    // 如果有缓存则使用缓存数据
+    if (me.config) {
+      callback && callback(me.config);
+    }
+
     chrome.storage.sync.get('config', function(val) {
       val = val || {};
       val.config = val.config || {
@@ -12,10 +30,16 @@ showMe985211.base = (function() {
         global: 'top-300',
         manual: '-1',
         manualContent: '',
-        autoSayhi: 'confirm'
+        autoSayhi: 'confirm',
+        age: '-1',
+        ageMin: 22,
+        ageMax: 0
       };
 
-      callback(val);
+      // 缓存数据
+      me.config = val;
+
+      callback && callback(val);
     });
   }
 
@@ -28,6 +52,11 @@ showMe985211.base = (function() {
   base.prototype.getWriteList = function(callback) {
     var me = this;
 
+    // 如果有缓存则使用缓存数据
+    if (me.writeList) {
+      callback && callback(me.writeList);
+    }
+
     me.getColleges(function(data) {
       var cnCollegesData = data.cnCollegesData;
       var globalCollegesData = data.globalCollegesData;
@@ -37,7 +66,9 @@ showMe985211.base = (function() {
 
         var result = me.getByCollegesConfig(cnCollegesData, globalCollegesData, config) || {};
 
-        callback(result)
+        me.writeList = result;
+
+        callback && callback(result)
       });
     })
   }
@@ -277,7 +308,81 @@ showMe985211.base = (function() {
         success(result);
       }
     }
+  }
 
+  base.prototype.checkMatch = function(text, config) {
+    var me = this;
+
+    if (!me.writeList || !me.config) {
+      alert('获取白名单院校失败，请刷新后再试！');
+      return { result: false, message: '获取白名单院校失败，请刷新后再试！' };
+    }
+
+    cfg = Object.assign({
+      isStrict: true
+    }, config);
+
+
+    // 以下判断年龄匹配
+    var curConfig = me.config.config;
+    if (curConfig.age !== '-1') {
+      var ageReg = text.match(/(\d+)\ *岁/) || [];
+      var age = ageReg[1];
+      if (age) {
+        age = parseInt(age);
+
+        if (curConfig.ageMin !== 0 && age < curConfig.ageMin) {
+          return { result: false, message: '年龄太小啦' };
+        }
+
+        if (curConfig.ageMax !== 0 && age > curConfig.ageMax) {
+          return { result: false, message: '年龄太大啦' };
+        }
+      }
+    }
+
+    // 以下判断专业匹配
+
+    // 删除所有括号（） () 
+    // 以防“中国石油大学(石家庄) ” 这种院校被遗漏
+    text = replaceBrackets(text);
+
+    // 学历信息必须包含“本科、硕士、博士”
+    if (!/本科|硕士|博士/g.test(text)) return { result: false, message: '不包含“本科、硕士、博士”等学历信息' };
+
+    // 学历信息必须包含“专科”则直接返回
+    if (cfg.isStrict && /大专/g.test(text)) return { result: false, message: '包含“大专”字段' };
+
+    // 如果包含list中的文字，则说明匹配到了985211院校
+    var writeMsg;
+    var writeRes = me.writeList.lists.some(function(item) {
+      item = replaceBrackets(item);
+
+      var isMatch = text.indexOf(item) > -1;
+      if (isMatch) {
+        writeMsg = '匹配到院校：' + item;
+      }
+
+      return isMatch
+    });
+
+    if (!writeRes) {
+      return { result: false, message: '不在配置的院校白名单内' };
+    }
+
+    return { result: true, message: writeMsg };
+
+    function replaceBrackets(text) {
+      return text.replace(/[\(\)（）]/g, '');
+    }
+  }
+
+  base.prototype.getAgeByBrith = function(age) {
+    age = parseInt('19' + age);
+
+    if (isNaN(age)) return 0;
+
+    return (new Date().getFullYear() - age);
   }
 
   return (new base());

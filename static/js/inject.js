@@ -14,11 +14,6 @@ showMe985211.core = (function() {
       me.appConfig = val.config;
     });
 
-    me.list = [];
-    showMe985211.base.getWriteList(function(data) {
-      me.list = data.lists;
-    });
-
     this.globalConfig = {
       markedClass: 'show_me_985211_marked',
       escapedClass: 'show_me_985211_escaped',
@@ -227,7 +222,7 @@ showMe985211.core = (function() {
     var matchList = [];
     if (domList.length === 0) return matchList;
 
-    for(var i = 0; i<domList.length; i++){
+    for (var i = 0; i < domList.length; i++) {
       var item = domList[i];
       var result = checkMatch(item);
 
@@ -271,20 +266,20 @@ showMe985211.core = (function() {
 
       if (!text) return result;
 
-      // 学历信息必须包含“本科、硕士、博士”
-      if (!/本科|硕士|博士/g.test(text)) return result;
-
-      // 学历信息必须包含“专科”则直接返回
-      if (me.itemCfg.isStrict && /大专/g.test(text)) return result;
-
-      // 如果包含this.list中的文字，则说明匹配到了985211院校
-      var isMatchWriteList = me.list.some(function(subItem) {
-        return text.indexOf(subItem) > -1;
+      var matchResult = showMe985211.base.checkMatch(text, {
+        isStrict: me.itemCfg.isStrict
       });
-      if (isMatchWriteList) {
-        result.matched = true;
-        return result;
+
+      if (item.insertAdjacentHTML && matchResult.message) {
+        item.insertAdjacentHTML('beforeEnd', '<div class="show_me_985211_info">' + matchResult.message + '</div>')
+      } else {
+        console.log(item, matchResult);
       }
+
+      if (matchResult && matchResult.result) {
+        result.matched = true;
+      }
+
 
       return result;
     }

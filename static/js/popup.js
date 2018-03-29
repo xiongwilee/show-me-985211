@@ -37,6 +37,12 @@
         searchTimer = setTimeout(function() {
           me.getTagsByName(val);
         }, 500)
+      },
+      'form.age': function (val) {
+        if (val == '-1' || val == 'manual') return;
+
+        me.form.ageMin = 0;
+        me.form.ageMax = showMe985211.base.getAgeByBrith(val);
       }
     },
     filters: {
@@ -61,13 +67,17 @@
       showMe985211.base.getConfig(function(val) {
         var config = val.config;
 
-        me.form = config;
+        Vue.nextTick(function(){
+          me.form = config;
+        });
       });
 
 
       showMe985211.base.getColleges(function(data) {
-        me.cnCollegesData = data.cnCollegesData;
-        me.globalCollegesData = data.globalCollegesData;
+        Vue.nextTick(function(){
+          me.cnCollegesData = data.cnCollegesData;
+          me.globalCollegesData = data.globalCollegesData;
+        });
       });
     },
     methods: {
