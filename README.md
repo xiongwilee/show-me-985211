@@ -20,11 +20,11 @@
 
 ### 1、手动安装：
 
-[https://pan.baidu.com/s/16ZFrWN-cPgiPq7nGjCzf_A](https://pan.baidu.com/s/16ZFrWN-cPgiPq7nGjCzf_A)
+[https://pan.baidu.com/s/1HoKr3RdSbd-IyM-jwvdl_Q](https://pan.baidu.com/s/1HoKr3RdSbd-IyM-jwvdl_Q)
 
-1. 访问上面的链接下载`show-me-985211-2.3.zip`文件；
+1. 访问上面的链接下载`show-me-985211-2.4.zip`文件；
 2. 然后在chrome中打开`扩展程序`页 （ 可以直接访问：[chrome://extensions/](chrome://extensions/) ），打开`开发者模式`；
-3. 将`show-me-985211-2.3.zip`解压后拖放到扩展程序页的任意位置即可完成安装
+3. 将`show-me-985211-2.4.zip`解压后拖放到扩展程序页的任意位置即可完成安装
 
 ### 2、Chrome网上应用商店安装：
 

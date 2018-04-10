@@ -81,8 +81,11 @@ showMe985211.core = (function() {
         // 匹配到list之后的回调
         onAfterMatchAll: function(domList) {
           var domLen = domList.length;
-          // 通过URL中的positionname或者keyword字段来匹配职位名称
-          var keyWord = this.search.positionname || this.search.keyword || '';
+
+          // 获取URL中的positionname字段——职位名称
+          var positionName = this.search.positionname || '';
+          // 通过URL中的keyword字段来匹配职位名称——职位关键字
+          var keyWords = this.search.keyword || '';
 
           function auto(index) {
             var domItem = domList[index];
@@ -101,16 +104,30 @@ showMe985211.core = (function() {
               if (!positionList || positionList.length == 0) return;
 
               var positionItem;
+              // 把keyword里的+号转为，例如： 测试 + 服务端，变成 ['测试','服务端']
+              var keyWordsArr = keyWords.replace(/\+/g, ' ').split(/\s+/);
               for (var i = 0; i < positionList.length; i++) {
                 positionItem = positionList[i];
-                if (positionItem.innerText.indexOf(keyWord) > -1) {
+
+                var itemText = positionItem.innerText;
+                // 如果positionName有配置，则优先判断职位名称
+                if (positionName && itemText.indexOf(positionName) > -1) {
                   break;
                 }
+
+                // 关键词用空格切分，每个关键词均在职位名称里
+                if (keyWordsArr.length > 0 &&
+                  keyWordsArr.every(function(item) { return itemText.indexOf(item) > -1; })
+                ) {
+                  break;
+                }
+
+                positionItem = false;
               }
 
               // 选中职位
               // 可以通过URL中的positionname参数来指定职位
-              if (!positionItem || !positionItem.click) return;
+              if (!positionItem || !positionItem.click) return alert('没有匹配的职位：' + keyWords);
               positionItem.click();
 
               // 发送职位
@@ -130,7 +147,7 @@ showMe985211.core = (function() {
           // 自动打招呼
           switch (me.appConfig.autoSayhi) {
             case 'confirm':
-              var confirmText = '职位：' + keyWord + '\n' +
+              var confirmText = '职位：' + (positionName || keyWords) + '\n' +
                 '找到了' + domLen + '个符合条件的候选人，是否自动“和TA聊聊”？' + '\n' +
                 '(点击“取消”也会帮您自动高亮符合要求的候选人)';
               if (window.confirm(confirmText)) {
