@@ -18,7 +18,7 @@
 
 ## 二、安装
 
-### 1、手动安装：
+### 方法一：手动安装
 
 [https://pan.baidu.com/s/1HoKr3RdSbd-IyM-jwvdl_Q](https://pan.baidu.com/s/1HoKr3RdSbd-IyM-jwvdl_Q)
 
@@ -26,7 +26,7 @@
 2. 然后在chrome中打开`扩展程序`页 （ 可以直接访问：[chrome://extensions/](chrome://extensions/) ），打开`开发者模式`；
 3. 将`show-me-985211-2.4.zip`解压后拖放到扩展程序页的任意位置即可完成安装
 
-### 2、Chrome网上应用商店安装：
+### 方法二：Chrome网上应用商店安装
 
 [https://chrome.google.com/webstore/detail/show-me-985211/fpihkbimcgfjmflglfdobfefdkbmojop?hl=zh-CN](https://chrome.google.com/webstore/detail/show-me-985211/fpihkbimcgfjmflglfdobfefdkbmojop?hl=zh-CN)
 
@@ -48,7 +48,13 @@
     - **全球** 单选，如果不想配置非大陆院校选中“仅限大陆院校即可”，另外，该项与“中国大陆”呈“或”的关系；
     - **自定义** `增量配置`：在上述配置基础上添加其他白名单院校；`替换配置`：忽略上述配置，独立配置院校；
     - **打招呼** 自动打招呼时：`询问`（是否询问），`自动`（不询问，直接打招呼），`永不`（永不自动打招呼）；
+    - **年龄** 是否限制年龄，默认为`不限`；
 3. 配置之后，打开“BOSS直聘”、“拉勾”的搜索人才的页面，就可以按照自己配置的院校高亮最优候选人了。
+
+## 四、感谢
+
+1. 感谢日志易HR: GraceWang同学
+2. 感谢趣店HR: 金波同学
 
 ## 附：
 1. 数据来源：
