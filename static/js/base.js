@@ -31,6 +31,8 @@ showMe985211.base = (function() {
         manual: '-1',
         manualContent: '',
         autoSayhi: 'confirm',
+        // bachelor: 至少本科；master: 至少硕士；doctor: 至少博士
+        edu: 'bachelor',
         age: '-1',
         ageMin: 22,
         ageMax: 0
@@ -347,9 +349,6 @@ showMe985211.base = (function() {
     // 以防“中国石油大学(石家庄) ” 这种院校被遗漏
     text = replaceBrackets(text);
 
-    // 学历信息必须包含“本科、硕士、博士”
-    if (!/本科|硕士|博士/g.test(text)) return { result: false, message: '不包含“本科、硕士、博士”等学历信息' };
-
     // 学历信息必须包含“专科”则直接返回
     if (cfg.isStrict && /大专/g.test(text)) return { result: false, message: '包含“大专”字段' };
 
@@ -369,6 +368,28 @@ showMe985211.base = (function() {
     if (!writeRes) {
       return { result: false, message: '不在配置的院校白名单内' };
     }
+
+    // 以下判断学历
+    var eduMap = {
+      'bachelor': function(text) {
+        if (!/学士|本科|硕士|博士/g.test(text)) return { result: false, message: '不包含“本科（学士）、硕士、博士”等学历信息(规则为至少本科)' };
+
+        return { result: true }
+      },
+      'master': function(text) {
+        if (!/硕士|博士/g.test(text)) return { result: false, message: '不包含“硕士、博士”等学历信息(规则为至少硕士)' };
+
+        return { result: true }
+      },
+      'doctor': function(text) {
+        if (!/博士/g.test(text)) return { result: false, message: '不包含“博士”等学历信息(规则为至少博士)' };
+
+        return { result: true }
+      },
+    }
+    var eduFun = eduMap[curConfig.edu] || eduMap['bachelor'];
+    var eduRes = eduFun.call(this, text);
+    if (eduRes.result === false) return eduRes;
 
     return { result: true, message: writeMsg };
 

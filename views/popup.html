@@ -49,30 +49,33 @@
             </el-select>
           </el-form-item>
           <el-form-item label="自定义">
-            <el-select v-model="form.manual" placeholder="无需自定义">
+            <el-select v-model="form.manual" placeholder="自定义筛选院校">
               <el-option label="无需自定义" value="-1"></el-option>
-              <el-option label="增量配置" value="add"></el-option>
-              <el-option label="替换配置" value="replace"></el-option>
+              <el-option label="增量配置院校" value="add"></el-option>
+              <el-option label="替换配置院校" value="replace"></el-option>
             </el-select>
           </el-form-item>
           <el-form-item label="" v-if="form.manual != '-1'">
             <el-input type="textarea" v-model="form.manualContent" placeholder="请输入院校名称，用','或空格分割"></el-input>
           </el-form-item>
-          <el-form-item label="打招呼">
-            <el-radio-group v-model="form.autoSayhi">
-              <el-radio-button label="confirm">询问</el-radio-button>
-              <el-radio-button label="auto">自动</el-radio-button>
-              <el-radio-button label="never">永不</el-radio-button>
-            </el-radio-group>
+          <el-form-item label="学历">
+            <el-select v-model="form.edu" placeholder="按学历筛选">
+              <el-option label="至少本科" value="bachelor"></el-option>
+              <el-option label="至少硕士" value="master"></el-option>
+              <el-option label="至少博士" value="doctor"></el-option>
+            </el-select>
+            <el-tooltip class="item" effect="dark" content="学历信息将根据页面中的关键字筛选" placement="bottom-end">
+              <i class="el-icon-info"></i>
+            </el-tooltip>
           </el-form-item>
           <el-form-item label="年龄">
-            <el-select v-model="form.age" placeholder="无需自定义">
+            <el-select v-model="form.age" placeholder="年龄">
               <el-option label="不限" value="-1"></el-option>
               <el-option label="80后" value="80"></el-option>
               <el-option label="90后" value="90"></el-option>
               <el-option label="自定义" value="manual"></el-option>
             </el-select>
-            <el-tooltip v-show="form.age === 'manual'" class="item" effect="dark" content="配置为0，则不限最小/最大年龄" placement="top-end">
+            <el-tooltip v-show="form.age === 'manual'" class="item" effect="dark" content="配置为0，则不限最小/最大年龄" placement="bottom-end">
               <i class="el-icon-info"></i>
             </el-tooltip>
           </el-form-item>
@@ -80,6 +83,13 @@
             <el-input v-model="form.ageMin" placeholder="最小年龄（整数）" class="multi-input"></el-input>
             <span class="multi-input-mid">-</span>
             <el-input v-model="form.ageMax" placeholder="最大年龄（整数）" class="multi-input"></el-input>
+          </el-form-item>
+          <el-form-item label="打招呼">
+            <el-radio-group v-model="form.autoSayhi">
+              <el-radio-button label="confirm">询问</el-radio-button>
+              <el-radio-button label="auto">自动</el-radio-button>
+              <el-radio-button label="never">永不</el-radio-button>
+            </el-radio-group>
           </el-form-item>
           <el-form-item>
             <el-button type="primary" @click="onSubmit">确认修改</el-button>
