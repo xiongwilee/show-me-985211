@@ -26,6 +26,7 @@ showMe985211.base = (function() {
     chrome.storage.sync.get('config', function(val) {
       val = val || {};
       val.config = val.config || {
+        needSchool: true,
         cn: ['pro-985', 'pro-211'],
         global: 'top-300',
         manual: '-1',
@@ -352,21 +353,26 @@ showMe985211.base = (function() {
     // 学历信息必须包含“专科”则直接返回
     if (cfg.isStrict && /大专/g.test(text)) return { result: false, message: '包含“大专”字段' };
 
+    // 如果配置了不需要做院校筛选，则直接跳过
     // 如果包含list中的文字，则说明匹配到了985211院校
     var writeMsg;
-    var writeRes = me.writeList.lists.some(function(item) {
-      item = replaceBrackets(item);
+    if (!!curConfig.needSchool) {
+      var writeRes = me.writeList.lists.some(function(item) {
+        item = replaceBrackets(item);
 
-      var isMatch = text.indexOf(item) > -1;
-      if (isMatch) {
-        writeMsg = '匹配到院校：' + item;
-      }
+        var isMatch = text.indexOf(item) > -1;
+        if (isMatch) {
+          writeMsg = '匹配到院校：' + item;
+        }
 
-      return isMatch
-    });
+        return isMatch
+      });
 
-    if (!writeRes) {
-      return { result: false, message: '不在配置的院校白名单内' };
+      if (!writeRes) {
+        return { result: false, message: '不在配置的院校白名单内' };
+      } 
+    } else {
+      writeMsg = '当前规则为不筛选院校，其他条件均符合';
     }
 
     // 以下判断学历

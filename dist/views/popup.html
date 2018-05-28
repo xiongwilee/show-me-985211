@@ -36,26 +36,32 @@
       </div>
       <div class="text item">
         <el-form ref="form" :model="form" label-width="80px" size="mini">
-          <el-form-item label="中国大陆">
+          <el-form-item label="院校筛选">
+            <el-switch
+              v-model="form.needSchool"
+              active-text="是否开启院校筛选">
+            </el-switch>
+          </el-form-item>
+          <el-form-item label="中国大陆" v-show="form.needSchool">
             <el-select v-model="form.cn" multiple placeholder="请选择" class="select-cn" :disabled="form.manual == 'replace'">
               <el-option v-for="item in cnColleges" :key="item.value" :label="item.value|tagMap" :value="item.value">
               </el-option>
             </el-select>
           </el-form-item>
-          <el-form-item label="全球">
+          <el-form-item label="全球" v-show="form.needSchool">
             <el-select v-model="form.global" placeholder="请选择" :disabled="form.manual == 'replace'">
               <el-option v-for="item in globalColleges" :key="item.value" :label="item.value|tagMap" :value="item.value">
               </el-option>
             </el-select>
           </el-form-item>
-          <el-form-item label="自定义">
+          <el-form-item label="自定义" v-show="form.needSchool">
             <el-select v-model="form.manual" placeholder="自定义筛选院校">
               <el-option label="无需自定义" value="-1"></el-option>
               <el-option label="增量配置院校" value="add"></el-option>
               <el-option label="替换配置院校" value="replace"></el-option>
             </el-select>
           </el-form-item>
-          <el-form-item label="" v-if="form.manual != '-1'">
+          <el-form-item label="" v-show="form.needSchool && form.manual != '-1'">
             <el-input type="textarea" v-model="form.manualContent" placeholder="请输入院校名称，用','或空格分割"></el-input>
           </el-form-item>
           <el-form-item label="学历">
