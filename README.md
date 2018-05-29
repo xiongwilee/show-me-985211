@@ -103,7 +103,7 @@ $ npm run dev
 
 1. 该插件包含两个核心部分：1）配置页面`views/popup.html`，2）注入到页面的JS`static/js/inject.js`；
 2. Chrome浏览器插件开发可以参考：1）[官方文档](https://developer.chrome.com/extensions/getstarted)，2）[非官方中文文档](https://crxdoc-zh.appspot.com/extensions/getstarted)；
-3. 修改`static/js/inject.js`之后没有生效，注意两点：1）是否编译成功，2）点击这个按钮刷新下试试：[](http://wx4.sinaimg.cn/large/7171171cgy1frs203mv7yj20n60dyjsk.jpg)
+3. 修改`static/js/inject.js`之后没有生效，注意两点：1）是否编译成功，2）点击这个按钮刷新下试试：![](http://wx4.sinaimg.cn/large/7171171cgy1frs203mv7yj20n60dyjsk.jpg)
 4. 测试注入到BOSS直聘及拉勾网的JS，需要实体的帐号，可以找你们的HR获取；
 5. 别忘了修改`manifest.json`里的版本号；
 
