@@ -53,7 +53,65 @@
     - **打招呼** 自动打招呼时：`询问`（是否询问），`自动`（不询问，直接打招呼），`永不`（永不自动打招呼）；
 3. 配置之后，打开“BOSS直聘”、“拉勾”的搜索人才的页面，就可以按照自己配置的院校高亮最优候选人了。
 
-## 四、感谢
+## 四、贡献
+
+### 1、下载代码，安装依赖
+
+可以直接clone代码：
+
+```
+$ git clone git@github.com:xiongwilee/show-me-985211.git
+```
+
+建议fork之后再，提PR。
+
+安装依赖：
+```
+$ cd show-me-985211
+$ npm install
+```
+
+启动开发模式：
+```
+$ npm run dev
+```
+
+### 2、开发调试
+
+开发模式执行完之后，会在项目路目录下生成产出文件：
+```
+.
+├── Gulpfile.js
+├── README.md
+├── _locales
+├── dist        // 产出目录
+├── icons
+├── libs
+├── manifest.json
+├── node_modules
+├── package.json
+├── static
+└── views
+```
+
+打开Chrome扩展程序页，[chrome://extensions/](chrome://extensions/) ，并打开开发者模式；然后将`dist`目录直接拖拽到当前页面即可。
+
+此时你将看到这样的插件已经被安装了：
+![](http://wx3.sinaimg.cn/large/7171171cgy1frs1rii2zgj21f00piafc.jpg)
+
+**TIPS**:
+
+1. 该插件包含两个核心部分：1）配置页面`views/popup.html`，2）注入到页面的JS`static/js/inject.js`；
+2. Chrome浏览器插件开发可以参考：1）[官方文档](https://developer.chrome.com/extensions/getstarted)，2）[非官方中文文档](https://crxdoc-zh.appspot.com/extensions/getstarted)；
+3. 修改`static/js/inject.js`之后没有生效，注意两点：1）是否编译成功，2）点击这个按钮刷新下试试：[](http://wx4.sinaimg.cn/large/7171171cgy1frs203mv7yj20n60dyjsk.jpg)
+4. 测试注入到BOSS直聘及拉勾网的JS，需要实体的帐号，可以找你们的HR获取；
+5. 别忘了修改`manifest.json`里的版本号；
+
+### 3、发布
+
+确认开发完成，并自测通过之后；可以执行`npm run build`，然后commit，提PR。
+
+## 五、感谢
 
 1. 感谢日志易HR: GraceWang同学
 2. 感谢趣店HR: 金波同学
