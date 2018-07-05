@@ -4,16 +4,22 @@ showMe985211.base = (function() {
   function base() {
     this.config;
     this.writeList;
+    this.keywordsList;
 
     this.init();
   }
 
   base.prototype.init = function() {
+  	var me = this;
+
     // 缓存配置
-    this.getConfig();
+    me.getConfig();
 
     // 先缓存下来院校白名单
-    this.getWriteList();
+    me.getWriteList(function(){
+	    // 缓存下来白名单关键词
+	    me.getWriteKeywordsList()
+    });
   }
 
   base.prototype.getConfig = function(callback) {
@@ -23,34 +29,43 @@ showMe985211.base = (function() {
       callback && callback(me.config);
     }
 
+    var defaultConfig = {
+      needSchool: true,
+      cn: ['pro-985', 'pro-211'],
+      global: 'top-300',
+      manual: '-1',
+      manualContent: '',
+      needKeywords: false,
+      keywordsContent: '阿里巴巴,腾讯,蚂蚁金服,百度,滴滴,头条,美团,四三九九,4399,美图,联想',
+      autoSayhi: 'confirm',
+      // bachelor: 至少本科；master: 至少硕士；doctor: 至少博士
+      edu: 'bachelor',
+      age: '-1',
+      ageMin: 22,
+      ageMax: 0
+    };
+
     chrome.storage.sync.get('config', function(val) {
-      val = val || {};
-      val.config = val.config || {
-        needSchool: true,
-        cn: ['pro-985', 'pro-211'],
-        global: 'top-300',
-        manual: '-1',
-        manualContent: '',
-        keywords: '-1',
-        keywordsContent: '',
-        autoSayhi: 'confirm',
-        // bachelor: 至少本科；master: 至少硕士；doctor: 至少博士
-        edu: 'bachelor',
-        age: '-1',
-        ageMin: 22,
-        ageMax: 0
-      };
+    	val = val || {};
+
+      // 以防个别新增的数据字段丢失，重新赋值
+      var result = Object.assign({}, defaultConfig, val.config);
+
+      // 如果配置不存在则设置默认数据
+      if (!val.config) {
+      	me.setConfig(result);
+      }
 
       // 缓存数据
-      me.config = val;
+      me.config = { config: result };
 
-      callback && callback(val);
+      callback && callback(me.config);
     });
   }
 
   base.prototype.setConfig = function(config, callback) {
     chrome.storage.sync.set({ 'config': config }, function() {
-      callback(config);
+      callback && callback(config);
     });
   }
 
@@ -78,13 +93,41 @@ showMe985211.base = (function() {
     })
   }
 
+  base.prototype.getWriteKeywordsList = function(callback) {
+  	var me = this;
+
+    me.getConfig(function(conf) {
+      var config = conf.config;
+
+      me.keywordsList = me.splitText(config.keywordsContent);
+
+      callback && callback(me.keywordsList)
+    });
+  }
+
+  base.prototype.splitText = function(text) {
+    if (!text) return [];
+
+    var result;
+    if (text.indexOf(',') > 0) {
+      result = text.split(',')
+    } else if (text.indexOf(' ') > 0) {
+      result = text.split(' ')
+    } else {
+      result = text.split('，')
+    }
+
+    return result;
+  }
+
   base.prototype.getByCollegesConfig = function(cnCollegesData, globalCollegesData, config) {
-    var lists = [],
+    var me = this,
+    	lists = [],
       items = [];
 
     if (config.manual === 'replace') {
       // 清除不必要空格
-      lists = splitText(config.manualContent);
+      lists = me.splitText(config.manualContent);
 
       return {
         lists: lists,
@@ -110,7 +153,7 @@ showMe985211.base = (function() {
 
     var curLists, curItems;
     if (config.manual === 'add') {
-      curLists = splitText(config.manualContent);
+      curLists = me.splitText(config.manualContent);
       curItems = listToItem(curLists);
       items = items.concat(curItems);
     }
@@ -118,21 +161,6 @@ showMe985211.base = (function() {
     return {
       lists: itemToList(items),
       items: items
-    }
-
-    function splitText(text) {
-      if (!text) return [];
-
-      var result;
-      if (text.indexOf(',') > 0) {
-        result = text.split(',')
-      } else if (text.indexOf(' ') > 0) {
-        result = text.split(' ')
-      } else {
-        result = text.split('，')
-      }
-
-      return result;
     }
 
     function arrInArr(arr, subArr) {
@@ -355,26 +383,44 @@ showMe985211.base = (function() {
     // 学历信息必须包含“专科”则直接返回
     if (cfg.isStrict && /大专/g.test(text)) return { result: false, message: '包含“大专”字段' };
 
-    // 如果配置了不需要做院校筛选，则直接跳过
-    // 如果包含list中的文字，则说明匹配到了985211院校
-    var writeMsg;
-    if (!!curConfig.needSchool) {
-      var writeRes = me.writeList.lists.some(function(item) {
-        item = replaceBrackets(item);
-
+    // 关键词匹配
+    var writeMsg, needCheckSchool = true;
+    if (curConfig.needKeywords) {
+    	var keywordsRes = me.keywordsList.some(function(item) {
         var isMatch = text.indexOf(item) > -1;
         if (isMatch) {
-          writeMsg = '匹配到院校：' + item;
+          writeMsg = '匹配到关键词：' + item;
         }
 
         return isMatch
       });
 
-      if (!writeRes) {
-        return { result: false, message: '不在配置的院校白名单内' };
-      } 
-    } else {
-      writeMsg = '当前规则为不筛选院校，其他条件均符合';
+      if (keywordsRes) {
+      	needCheckSchool = false;
+    	};
+    }
+
+    // 如果配置了不需要做院校筛选，则直接跳过
+    // 如果包含list中的文字，则说明匹配到了985211院校
+    if (needCheckSchool) {
+	    if (!!curConfig.needSchool) {
+	      var writeRes = me.writeList.lists.some(function(item) {
+	        item = replaceBrackets(item);
+
+	        var isMatch = text.indexOf(item) > -1;
+	        if (isMatch) {
+	          writeMsg = '匹配到院校：' + item;
+	        }
+
+	        return isMatch
+	      });
+
+	      if (!writeRes) {
+	        return { result: false, message: '不在配置的院校白名单内' };
+	      } 
+	    } else {
+	      writeMsg = '当前规则为不筛选院校，其他条件均符合';
+	    }
     }
 
     // 以下判断学历
