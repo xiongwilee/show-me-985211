@@ -64,6 +64,15 @@
           <el-form-item label="" v-show="form.needSchool && form.manual != '-1'">
             <el-input type="textarea" v-model="form.manualContent" placeholder="请输入院校名称，用','或空格分割"></el-input>
           </el-form-item>
+          <el-form-item label="关键词">
+            <el-select v-model="form.keywords" placeholder="自定义关键词">
+              <el-option label="不定义关键词" value="-1"></el-option>
+              <el-option label="增量配置关键词" value="add"></el-option>
+            </el-select>
+          </el-form-item>
+          <el-form-item label="" v-show="form.keywords != '-1'">
+            <el-input type="textarea" v-model="form.keywordsContent" placeholder="请输入关键词，用','或空格分割;如：百度,阿里"></el-input>
+          </el-form-item>
           <el-form-item label="学历">
             <el-select v-model="form.edu" placeholder="按学历筛选">
               <el-option label="至少本科" value="bachelor"></el-option>

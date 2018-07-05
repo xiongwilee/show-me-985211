@@ -31,6 +31,8 @@ showMe985211.base = (function() {
         global: 'top-300',
         manual: '-1',
         manualContent: '',
+        keywords: '-1',
+        keywordsContent: '',
         autoSayhi: 'confirm',
         // bachelor: 至少本科；master: 至少硕士；doctor: 至少博士
         edu: 'bachelor',
