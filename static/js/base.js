@@ -4,16 +4,22 @@ showMe985211.base = (function() {
   function base() {
     this.config;
     this.writeList;
+    this.hlManualList;
 
     this.init();
   }
 
   base.prototype.init = function() {
+  	var me = this;
+
     // 缓存配置
-    this.getConfig();
+    me.getConfig();
 
     // 先缓存下来院校白名单
-    this.getWriteList();
+    me.getWriteList(function(){
+	    // 缓存下需要高亮的关键词
+	    me.getHlList();
+    });
   }
 
   base.prototype.getConfig = function(callback) {
@@ -23,21 +29,34 @@ showMe985211.base = (function() {
       callback && callback(me.config);
     }
 
+    var defaultConfig = {
+      needSchool: true,
+      cn: ['pro-985', 'pro-211'],
+      global: 'top-300',
+      manual: '-1',
+      manualContent: '',
+      autoSayhi: 'confirm',
+      // bachelor: 至少本科；master: 至少硕士；doctor: 至少博士
+      edu: 'bachelor',
+      age: '-1',
+      ageMin: 22,
+      ageMax: 0,
+      highLight: {
+      	needSchool: false,
+      	manual: 'add',
+      	manualContent: '阿里巴巴,腾讯,蚂蚁金服,百度,滴滴,头条,美团,四三九九,4399,美图'
+      }
+    };
+
     chrome.storage.sync.get('config', function(val) {
       val = val || {};
-      val.config = val.config || {
-        needSchool: true,
-        cn: ['pro-985', 'pro-211'],
-        global: 'top-300',
-        manual: '-1',
-        manualContent: '',
-        autoSayhi: 'confirm',
-        // bachelor: 至少本科；master: 至少硕士；doctor: 至少博士
-        edu: 'bachelor',
-        age: '-1',
-        ageMin: 22,
-        ageMax: 0
-      };
+
+      if (!val.config) {
+      	me.setConfig(defaultConfig);
+      	val.config = defaultConfig;
+      }
+
+      val.config = Object.assign(defaultConfig, val.config);
 
       // 缓存数据
       me.config = val;
@@ -47,9 +66,11 @@ showMe985211.base = (function() {
   }
 
   base.prototype.setConfig = function(config, callback) {
-    chrome.storage.sync.set({ 'config': config }, function() {
-      callback(config);
-    });
+  	chrome.storage.sync.get('config', function(val) {
+      chrome.storage.sync.set({ 'config': Object.assign({}, val.config, config) }, function() {
+        callback && callback(config);
+      });
+  	});
   }
 
   base.prototype.getWriteList = function(callback) {
@@ -76,13 +97,46 @@ showMe985211.base = (function() {
     })
   }
 
+  base.prototype.hightLight = function() {
+  	this.hightLightText(this.hlManualList);
+  }
+
+  base.prototype.getHlList = function(callback) {
+  	var me = this;
+
+    // 如果有缓存则使用缓存数据
+    if (me.hlManualList) {
+      callback && callback(me.hlManualList);
+    }
+
+		me.getConfig(function(conf) {
+        var config = conf.config;
+
+        var hlManualList = [];
+        var hlConfig = config.highLight || {};
+
+        if (hlConfig.manual !== '-1' && hlConfig.manualContent) {
+        		hlManualList = hlManualList.concat(me.splitText(hlConfig.manualContent));
+        }
+
+        if (hlConfig.needSchool) {
+        	hlManualList = hlManualList.concat(me.writeList.lists);
+        }
+
+        me.hlManualList = hlManualList;
+
+        callback && callback(hlManualList)
+      });    
+  }
+
   base.prototype.getByCollegesConfig = function(cnCollegesData, globalCollegesData, config) {
-    var lists = [],
+    var me = this,
+    	lists = [],
       items = [];
 
     if (config.manual === 'replace') {
       // 清除不必要空格
-      lists = splitText(config.manualContent);
+      lists = me.splitText(config.manualContent);
 
       return {
         lists: lists,
@@ -108,7 +162,7 @@ showMe985211.base = (function() {
 
     var curLists, curItems;
     if (config.manual === 'add') {
-      curLists = splitText(config.manualContent);
+      curLists = me.splitText(config.manualContent);
       curItems = listToItem(curLists);
       items = items.concat(curItems);
     }
@@ -116,21 +170,6 @@ showMe985211.base = (function() {
     return {
       lists: itemToList(items),
       items: items
-    }
-
-    function splitText(text) {
-      if (!text) return [];
-
-      var result;
-      if (text.indexOf(',') > 0) {
-        result = text.split(',')
-      } else if (text.indexOf(' ') > 0) {
-        result = text.split(' ')
-      } else {
-        result = text.split('，')
-      }
-
-      return result;
     }
 
     function arrInArr(arr, subArr) {
@@ -178,6 +217,46 @@ showMe985211.base = (function() {
       return result;
     }
   }
+
+  base.prototype.hightLightText = function(textList) {
+  	// 记录初始位置
+  	var scrollY = window.scrollY;
+  	var hlClass = 'show_me_985211_highlight';
+
+		var selection = window.getSelection();
+		selection.collapse(document.body, 0);
+
+  	textList.forEach(function(item){
+  		while(window.find(item)){
+  			var parDom = document.createElement('SPAN');
+
+  			parDom.className = hlClass;
+  			parDom.style.color = '#333333';
+  			parDom.style.backgroundColor = '#fffd38';
+  			
+  			if (selection.baseNode.parentElement.className.indexOf(hlClass) === -1) {
+  				selection.getRangeAt(0).surroundContents(parDom);
+  			}
+  		}
+  	});
+
+  	window.scrollTo({top: scrollY});
+  }
+
+	base.prototype.splitText = function(text) {
+	  if (!text) return [];
+
+	  var result;
+	  if (text.indexOf(',') > 0) {
+	    result = text.split(',')
+	  } else if (text.indexOf(' ') > 0) {
+	    result = text.split(' ')
+	  } else {
+	    result = text.split('，')
+	  }
+
+	  return result;
+	}
 
   base.prototype.getColleges = function(callback) {
     var me = this;
@@ -410,6 +489,26 @@ showMe985211.base = (function() {
     if (isNaN(age)) return 0;
 
     return (new Date().getFullYear() - age);
+  }
+
+  base.prototype.getObject = function(obj, config) {
+  	config = config || {};
+  	config.keys = config.keys || [];
+  	
+  	var result = {};
+  	if (!!config.isEscape) {
+	  	for(var key in obj){
+	  		if (config.keys.indexOf(key) === -1) { result[key] = obj[key] }
+	  	}
+
+	  	return result;
+  	} else {
+	  	for(var key in obj){
+	  		if (config.keys.indexOf(key) > -1) { result[key] = obj[key] }
+	  	}
+
+	  	return result;
+  	}
   }
 
   return (new base());

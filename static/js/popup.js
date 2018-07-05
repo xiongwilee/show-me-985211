@@ -11,7 +11,10 @@
           name: ''
         },
         searchResult: [],
+        
         form: {},
+        highLight: {},
+        
         cnCollegesData: [],
         cnColleges: [{
           value: 'pro-985'
@@ -69,6 +72,7 @@
 
         Vue.nextTick(function(){
           me.form = config;
+          me.highLight = config.highLight;
         });
       });
 
@@ -134,7 +138,9 @@
         return result;
       },
       onSubmit: function() {
-        showMe985211.base.setConfig(me.form, function() {
+      	var formData = showMe985211.base.getObject(me.form, { keys: ['highLight'], isEscape: true });
+
+        showMe985211.base.setConfig(formData, function() {
           me.$message({
             type: 'success',
             message: '设置已保存！',
@@ -149,7 +155,31 @@
           me.form = config;
         });
       },
+      onSubmitHl: function() {
+        showMe985211.base.setConfig({highLight: me.highLight}, function() {
+          me.$message({
+            type: 'success',
+            message: '设置已保存！',
+            center: true
+          });
+        });
+      },
+      onCancelHl: function() {
+        showMe985211.base.getConfig(function(val) {
+          var config = val.config;
+          
+          me.form = config;
+        });
+      },
       onShowDetail: function() {
+        return window.open('https://github.com/xiongwilee/show-me-985211#%E4%B8%89%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95');
+
+        me.$message({
+          message: '施工中，敬请期待！',
+          center: true
+        });
+      },
+      onShowHighlight: function() {
         return window.open('https://github.com/xiongwilee/show-me-985211#%E4%B8%89%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95');
 
         me.$message({

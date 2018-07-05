@@ -1,1 +1,515 @@
-window.showMe985211=window.showMe985211||{},showMe985211.base=function(){function e(){this.config,this.writeList,this.init()}return e.prototype.init=function(){this.getConfig(),this.getWriteList()},e.prototype.getConfig=function(e){var t=this;t.config&&e&&e(t.config),chrome.storage.sync.get("config",function(n){n=n||{},n.config=n.config||{needSchool:!0,cn:["pro-985","pro-211"],global:"top-300",manual:"-1",manualContent:"",autoSayhi:"confirm",edu:"bachelor",age:"-1",ageMin:22,ageMax:0},t.config=n,e&&e(n)})},e.prototype.setConfig=function(e,t){chrome.storage.sync.set({config:e},function(){t(e)})},e.prototype.getWriteList=function(e){var t=this;t.writeList&&e&&e(t.writeList),t.getColleges(function(n){var o=n.cnCollegesData,r=n.globalCollegesData;t.getConfig(function(n){var a=n.config,s=t.getByCollegesConfig(o,r,a)||{};t.writeList=s,e&&e(s)})})},e.prototype.getByCollegesConfig=function(e,t,n){function o(e){if(!e)return[];var t;return t=e.indexOf(",")>0?e.split(","):e.indexOf(" ")>0?e.split(" "):e.split("\uff0c")}function r(e,t){return t.every(function(t){return e.indexOf(t)!==-1})}function a(e){var t=[];return e.forEach(function(e){e&&t.push({name:e.replace(/\s/g,"")})}),t}function s(e){var t=[];return e.forEach(function(e){t.push(e.name),e.name_en&&t.push(e.name_en)}),t}var i=[],c=[];if("replace"===n.manual)return i=o(n.manualContent),{lists:i,items:a(i)};n.cn&&n.cn.length>0&&e.forEach(function(e){r(e.tags,n.cn)&&c.push(e)}),n.global&&"-1"!=n.global&&t.forEach(function(e){r(e.tags,[n.global])&&c.push(e)});var l,u;return"add"===n.manual&&(l=o(n.manualContent),u=a(l),c=c.concat(u)),{lists:s(c),items:c}},e.prototype.getColleges=function(e){function t(){a.cnCollegesData&&a.globalCollegesData&&(n.result=a,e(a))}var n=this;if(n.result)return e(n.result);var o=chrome.extension.getURL("libs/data/colleges-cn.json"),r=chrome.extension.getURL("libs/data/colleges-global.json"),a={cnCollegesData:!1,globalCollegesData:!1};n.ajax({url:o,success:function(e){a.cnCollegesData=e,t()}}),n.ajax({url:r,success:function(e){a.globalCollegesData=e,t()}})},e.prototype.queryParse=function(e){var t={},n=e||window.location.href;return n.replace(/([^?=&#]+)=([^?=&#]+)/g,function(){t[arguments[1]]=decodeURIComponent(arguments[2])}),t},e.prototype.getParmeter=function(e){var t="";for(var n in e)t=t+n+"="+e[n]+"&";return t.slice(0,-1)},e.prototype.ajax=function(e){if(null==e||"object"!=typeof e)return!1;var t=e.type||"get",n=e.url||location.pathname,o=e.data||{};o=this.getParmeter(o);var r=e.success||function(){},a=new XMLHttpRequest;"get"==t&&(n=n+"?"+o,o=null),a.open(t,n),"post"==t&&a.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),a.send(o),a.onreadystatechange=function(){if(200==a.status&&4==a.readyState){var e=null,t=a.getResponseHeader("Content-Type");e=t&&t.indexOf("json")==-1?t.indexOf("xml")!=-1?a.responseXML:a.responseText:JSON.parse(a.responseText),r(e)}}},e.prototype.checkMatch=function(e,t){function n(e){return e.replace(/[\(\)\uff08\uff09]/g,"")}var o=this;if(!o.writeList||!o.config)return alert("\u83b7\u53d6\u767d\u540d\u5355\u9662\u6821\u5931\u8d25\uff0c\u8bf7\u5237\u65b0\u540e\u518d\u8bd5\uff01"),{result:!1,message:"\u83b7\u53d6\u767d\u540d\u5355\u9662\u6821\u5931\u8d25\uff0c\u8bf7\u5237\u65b0\u540e\u518d\u8bd5\uff01"};cfg=Object.assign({isStrict:!0},t);var r=o.config.config;if("-1"!==r.age){var a=e.match(/(\d+)\ *\u5c81/)||[],s=a[1];if(s){if(s=parseInt(s),0!==r.ageMin&&s<r.ageMin)return{result:!1,message:"\u5e74\u9f84\u592a\u5c0f\u5566"};if(0!==r.ageMax&&s>r.ageMax)return{result:!1,message:"\u5e74\u9f84\u592a\u5927\u5566"}}}if(e=n(e),cfg.isStrict&&/\u5927\u4e13/g.test(e))return{result:!1,message:"\u5305\u542b\u201c\u5927\u4e13\u201d\u5b57\u6bb5"};var i;if(r.needSchool){var c=o.writeList.lists.some(function(t){t=n(t);var o=e.indexOf(t)>-1;return o&&(i="\u5339\u914d\u5230\u9662\u6821\uff1a"+t),o});if(!c)return{result:!1,message:"\u4e0d\u5728\u914d\u7f6e\u7684\u9662\u6821\u767d\u540d\u5355\u5185"}}else i="\u5f53\u524d\u89c4\u5219\u4e3a\u4e0d\u7b5b\u9009\u9662\u6821\uff0c\u5176\u4ed6\u6761\u4ef6\u5747\u7b26\u5408";var l={bachelor:function(e){return/\u5b66\u58eb|\u672c\u79d1|\u7855\u58eb|\u535a\u58eb/g.test(e)?{result:!0}:{result:!1,message:"\u4e0d\u5305\u542b\u201c\u672c\u79d1\uff08\u5b66\u58eb\uff09\u3001\u7855\u58eb\u3001\u535a\u58eb\u201d\u7b49\u5b66\u5386\u4fe1\u606f(\u89c4\u5219\u4e3a\u81f3\u5c11\u672c\u79d1)"}},master:function(e){return/\u7855\u58eb|\u535a\u58eb/g.test(e)?{result:!0}:{result:!1,message:"\u4e0d\u5305\u542b\u201c\u7855\u58eb\u3001\u535a\u58eb\u201d\u7b49\u5b66\u5386\u4fe1\u606f(\u89c4\u5219\u4e3a\u81f3\u5c11\u7855\u58eb)"}},doctor:function(e){return/\u535a\u58eb/g.test(e)?{result:!0}:{result:!1,message:"\u4e0d\u5305\u542b\u201c\u535a\u58eb\u201d\u7b49\u5b66\u5386\u4fe1\u606f(\u89c4\u5219\u4e3a\u81f3\u5c11\u535a\u58eb)"}}},u=l[r.edu]||l.bachelor,g=u.call(this,e);return g.result===!1?g:{result:!0,message:i}},e.prototype.getAgeByBrith=function(e){return e=parseInt("19"+e),isNaN(e)?0:(new Date).getFullYear()-e},new e}();
+window.showMe985211 = window.showMe985211 || {};
+
+showMe985211.base = (function() {
+  function base() {
+    this.config;
+    this.writeList;
+    this.hlManualList;
+
+    this.init();
+  }
+
+  base.prototype.init = function() {
+  	var me = this;
+
+    // 缓存配置
+    me.getConfig();
+
+    // 先缓存下来院校白名单
+    me.getWriteList(function(){
+	    // 缓存下需要高亮的关键词
+	    me.getHlList();
+    });
+  }
+
+  base.prototype.getConfig = function(callback) {
+    var me = this;
+    // 如果有缓存则使用缓存数据
+    if (me.config) {
+      callback && callback(me.config);
+    }
+
+    var defaultConfig = {
+      needSchool: true,
+      cn: ['pro-985', 'pro-211'],
+      global: 'top-300',
+      manual: '-1',
+      manualContent: '',
+      autoSayhi: 'confirm',
+      // bachelor: 至少本科；master: 至少硕士；doctor: 至少博士
+      edu: 'bachelor',
+      age: '-1',
+      ageMin: 22,
+      ageMax: 0,
+      highLight: {
+      	needSchool: false,
+      	manual: 'add',
+      	manualContent: '阿里巴巴,腾讯,蚂蚁金服,百度,滴滴,头条,美团,四三九九,4399,美图'
+      }
+    };
+
+    chrome.storage.sync.get('config', function(val) {
+      val = val || {};
+
+      if (!val.config) {
+      	me.setConfig(defaultConfig);
+      	val.config = defaultConfig;
+      }
+
+      val.config = Object.assign(defaultConfig, val.config);
+
+      // 缓存数据
+      me.config = val;
+
+      callback && callback(val);
+    });
+  }
+
+  base.prototype.setConfig = function(config, callback) {
+  	chrome.storage.sync.get('config', function(val) {
+      chrome.storage.sync.set({ 'config': Object.assign({}, val.config, config) }, function() {
+        callback && callback(config);
+      });
+  	});
+  }
+
+  base.prototype.getWriteList = function(callback) {
+    var me = this;
+
+    // 如果有缓存则使用缓存数据
+    if (me.writeList) {
+      callback && callback(me.writeList);
+    }
+
+    me.getColleges(function(data) {
+      var cnCollegesData = data.cnCollegesData;
+      var globalCollegesData = data.globalCollegesData;
+
+      me.getConfig(function(conf) {
+        var config = conf.config;
+
+        var result = me.getByCollegesConfig(cnCollegesData, globalCollegesData, config) || {};
+
+        me.writeList = result;
+
+        callback && callback(result)
+      });
+    })
+  }
+
+  base.prototype.hightLight = function() {
+  	this.hightLightText(this.hlManualList);
+  }
+
+  base.prototype.getHlList = function(callback) {
+  	var me = this;
+
+    // 如果有缓存则使用缓存数据
+    if (me.hlManualList) {
+      callback && callback(me.hlManualList);
+    }
+
+		me.getConfig(function(conf) {
+        var config = conf.config;
+
+        var hlManualList = [];
+        var hlConfig = config.highLight || {};
+
+        if (hlConfig.manual !== '-1' && hlConfig.manualContent) {
+        		hlManualList = hlManualList.concat(me.splitText(hlConfig.manualContent));
+        }
+
+        if (hlConfig.needSchool) {
+        	hlManualList = hlManualList.concat(me.writeList.lists);
+        }
+
+        me.hlManualList = hlManualList;
+
+        callback && callback(hlManualList)
+      });    
+  }
+
+  base.prototype.getByCollegesConfig = function(cnCollegesData, globalCollegesData, config) {
+    var me = this,
+    	lists = [],
+      items = [];
+
+    if (config.manual === 'replace') {
+      // 清除不必要空格
+      lists = me.splitText(config.manualContent);
+
+      return {
+        lists: lists,
+        items: listToItem(lists)
+      }
+    }
+
+    if (config.cn && config.cn.length > 0) {
+      cnCollegesData.forEach(function(item) {
+        if (arrInArr(item.tags, config.cn)) {
+          items.push(item);
+        }
+      });
+    }
+
+    if (config.global && config.global != '-1') {
+      globalCollegesData.forEach(function(item) {
+        if (arrInArr(item.tags, [config.global])) {
+          items.push(item);
+        }
+      });
+    }
+
+    var curLists, curItems;
+    if (config.manual === 'add') {
+      curLists = me.splitText(config.manualContent);
+      curItems = listToItem(curLists);
+      items = items.concat(curItems);
+    }
+
+    return {
+      lists: itemToList(items),
+      items: items
+    }
+
+    function arrInArr(arr, subArr) {
+      return subArr.every(function(item) {
+        if (arr.indexOf(item) === -1) {
+          return false;
+        } else {
+          return true;
+        }
+      })
+    }
+
+    function cleanList(lists) {
+      if (!lists) return [];
+
+      var result = [];
+      lists.forEach(function(item) {
+        item = item && item.replace(/\s/g, '');
+        if (!item) return;
+
+        result.push(item);
+      });
+      return result;
+    }
+
+    function listToItem(lists) {
+      var result = [];
+      lists.forEach(function(item) {
+        if (!item) return;
+        result.push({
+          name: item.replace(/\s/g, '')
+        })
+      });
+      return result;
+    }
+
+    function itemToList(items) {
+      var result = [];
+
+      items.forEach(function(item) {
+        result.push(item.name);
+        item.name_en && result.push(item.name_en);
+      });
+
+      return result;
+    }
+  }
+
+  base.prototype.hightLightText = function(textList) {
+  	// 记录初始位置
+  	var scrollY = window.scrollY;
+  	var hlClass = 'show_me_985211_highlight';
+
+		var selection = window.getSelection();
+		selection.collapse(document.body, 0);
+
+  	textList.forEach(function(item){
+  		while(window.find(item)){
+  			var parDom = document.createElement('SPAN');
+
+  			parDom.className = hlClass;
+  			parDom.style.color = '#333333';
+  			parDom.style.backgroundColor = '#fffd38';
+  			
+  			if (selection.baseNode.parentElement.className.indexOf(hlClass) === -1) {
+  				selection.getRangeAt(0).surroundContents(parDom);
+  			}
+  		}
+  	});
+
+  	window.scrollTo({top: scrollY});
+  }
+
+	base.prototype.splitText = function(text) {
+	  if (!text) return [];
+
+	  var result;
+	  if (text.indexOf(',') > 0) {
+	    result = text.split(',')
+	  } else if (text.indexOf(' ') > 0) {
+	    result = text.split(' ')
+	  } else {
+	    result = text.split('，')
+	  }
+
+	  return result;
+	}
+
+  base.prototype.getColleges = function(callback) {
+    var me = this;
+
+    if (me.result) {
+      return callback(me.result);
+    }
+
+    var cnCollegesUrl = chrome.extension.getURL('libs/data/colleges-cn.json');
+    var globalCollegesUrl = chrome.extension.getURL('libs/data/colleges-global.json');
+
+    var result = {
+      cnCollegesData: false,
+      globalCollegesData: false,
+    };
+
+    me.ajax({
+      url: cnCollegesUrl,
+      success: function(res) {
+        result.cnCollegesData = res;
+        checkResult();
+      }
+    });
+
+    me.ajax({
+      url: globalCollegesUrl,
+      success: function(res) {
+        result.globalCollegesData = res;
+        checkResult();
+      }
+    });
+
+    function checkResult() {
+      if (!!result.cnCollegesData && !!result.globalCollegesData) {
+        me.result = result;
+        callback(result)
+      }
+    }
+  };
+
+  /**
+   * 解析获取当前页面的GET请求参数
+   * @return {Object} 请求参数对象
+   */
+  base.prototype.queryParse = function(str) {
+    // 页面url参数集合
+    var dataObj = {};
+    var url = str || window.location.href;
+    // 正则会匹配 ?a=b&c=d
+    url.replace(/([^?=&#]+)=([^?=&#]+)/g, function() {
+      dataObj[arguments[1]] = decodeURIComponent(arguments[2]);
+    });
+    return dataObj;
+  };
+
+  base.prototype.getParmeter = function(data) {
+    var result = "";
+    for (var key in data) {
+      result = result + key + "=" + data[key] + "&";
+    }
+    /*将结果最后多余的&截取掉*/
+    return result.slice(0, -1);
+  };
+
+  /**
+   * [ajax description]
+   * @param  {[type]} obj [description]
+   * @return {[type]}     [description]
+   * @example
+   *
+   * this.ajax({
+   *   url:'',
+   *   type:'',
+   *   data: {},
+   *   success:function(result){
+   *       //code...
+   *   }
+   * });  
+   */
+  base.prototype.ajax = function(obj) {
+    /*1.判断有没有传递参数，同时参数是否是一个对象*/
+    if (obj == null || typeof obj != "object") {
+      return false;
+    }
+    /*2.获取请求类型,如果没有传递请求方式，那么默认为get*/
+    var type = obj.type || 'get';
+    /*3.获取请求的url  location.pathname:就是指当前请求发起的路径*/
+    var url = obj.url || location.pathname;
+    /*4.获取请求传递的参数*/
+    var data = obj.data || {};
+    /*4.1获取拼接之后的参数*/
+    data = this.getParmeter(data);
+    /*5.获取请求传递的回调函数*/
+    var success = obj.success || function() {};
+
+    /*6:开始发起异步请求*/
+    /*6.1:创建异步对象*/
+    var xhr = new XMLHttpRequest();
+    /*6.2:设置请求行,判断请求类型，以此决定是否需要拼接参数到url*/
+    if (type == 'get') {
+      url = url + "?" + data;
+      /*重置参数，为post请求简化处理*/
+      data = null;
+    }
+    xhr.open(type, url);
+    /*6.2:设置请求头:判断请求方式，如果是post则进行设置*/
+    if (type == "post") {
+      xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    }
+    /*6.3:设置请求体,post请求则需要传递参数*/
+    xhr.send(data);
+
+    /*7.处理响应*/
+    xhr.onreadystatechange = function() {
+      /*8.判断响应是否成功*/
+      if (xhr.status == 200 && xhr.readyState == 4) {
+        /*客户端可用的响应结果*/
+        var result = null;
+        /*9.获取响应头Content-Type ---类型是字符串*/
+        var grc = xhr.getResponseHeader("Content-Type");
+        /*10.根据Content-Type类型来判断如何进行解析*/
+        if (!grc || grc.indexOf("json") != -1) {
+          /*转换为js对象*/
+          result = JSON.parse(xhr.responseText);
+        } else if (grc.indexOf("xml") != -1) {
+          result = xhr.responseXML;
+        } else {
+          result = xhr.responseText;
+        }
+        /*11.拿到数据，调用客户端传递过来的回调函数*/
+        success(result);
+      }
+    }
+  }
+
+  base.prototype.checkMatch = function(text, config) {
+    var me = this;
+
+    if (!me.writeList || !me.config) {
+      alert('获取白名单院校失败，请刷新后再试！');
+      return { result: false, message: '获取白名单院校失败，请刷新后再试！' };
+    }
+
+    cfg = Object.assign({
+      isStrict: true
+    }, config);
+
+
+    // 以下判断年龄匹配
+    var curConfig = me.config.config;
+    if (curConfig.age !== '-1') {
+      var ageReg = text.match(/(\d+)\ *岁/) || [];
+      var age = ageReg[1];
+      if (age) {
+        age = parseInt(age);
+
+        if (curConfig.ageMin !== 0 && age < curConfig.ageMin) {
+          return { result: false, message: '年龄太小啦' };
+        }
+
+        if (curConfig.ageMax !== 0 && age > curConfig.ageMax) {
+          return { result: false, message: '年龄太大啦' };
+        }
+      }
+    }
+
+    // 以下判断专业匹配
+
+    // 删除所有括号（） () 
+    // 以防“中国石油大学(石家庄) ” 这种院校被遗漏
+    text = replaceBrackets(text);
+
+    // 学历信息必须包含“专科”则直接返回
+    if (cfg.isStrict && /大专/g.test(text)) return { result: false, message: '包含“大专”字段' };
+
+    // 如果配置了不需要做院校筛选，则直接跳过
+    // 如果包含list中的文字，则说明匹配到了985211院校
+    var writeMsg;
+    if (!!curConfig.needSchool) {
+      var writeRes = me.writeList.lists.some(function(item) {
+        item = replaceBrackets(item);
+
+        var isMatch = text.indexOf(item) > -1;
+        if (isMatch) {
+          writeMsg = '匹配到院校：' + item;
+        }
+
+        return isMatch
+      });
+
+      if (!writeRes) {
+        return { result: false, message: '不在配置的院校白名单内' };
+      } 
+    } else {
+      writeMsg = '当前规则为不筛选院校，其他条件均符合';
+    }
+
+    // 以下判断学历
+    var eduMap = {
+      'bachelor': function(text) {
+        if (!/学士|本科|硕士|博士/g.test(text)) return { result: false, message: '不包含“本科（学士）、硕士、博士”等学历信息(规则为至少本科)' };
+
+        return { result: true }
+      },
+      'master': function(text) {
+        if (!/硕士|博士/g.test(text)) return { result: false, message: '不包含“硕士、博士”等学历信息(规则为至少硕士)' };
+
+        return { result: true }
+      },
+      'doctor': function(text) {
+        if (!/博士/g.test(text)) return { result: false, message: '不包含“博士”等学历信息(规则为至少博士)' };
+
+        return { result: true }
+      },
+    }
+    var eduFun = eduMap[curConfig.edu] || eduMap['bachelor'];
+    var eduRes = eduFun.call(this, text);
+    if (eduRes.result === false) return eduRes;
+
+    return { result: true, message: writeMsg };
+
+    function replaceBrackets(text) {
+      return text.replace(/[\(\)（）]/g, '');
+    }
+  }
+
+  base.prototype.getAgeByBrith = function(age) {
+    age = parseInt('19' + age);
+
+    if (isNaN(age)) return 0;
+
+    return (new Date().getFullYear() - age);
+  }
+
+  base.prototype.getObject = function(obj, config) {
+  	config = config || {};
+  	config.keys = config.keys || [];
+  	
+  	var result = {};
+  	if (!!config.isEscape) {
+	  	for(var key in obj){
+	  		if (config.keys.indexOf(key) === -1) { result[key] = obj[key] }
+	  	}
+
+	  	return result;
+  	} else {
+	  	for(var key in obj){
+	  		if (config.keys.indexOf(key) > -1) { result[key] = obj[key] }
+	  	}
+
+	  	return result;
+  	}
+  }
+
+  return (new base());
+})();

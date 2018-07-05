@@ -104,6 +104,35 @@
         </el-form>
       </div>
     </el-card>
+    <el-card class="box-card config">
+      <div slot="header" class="clearfix">
+        <h3>高亮配置</h3>
+        <el-button style="float: right; padding: 3px 0" type="text" @click="onShowHighlight">使用说明</el-button>
+      </div>
+      <div class="text item">
+        <el-form ref="form" :model="highLight" label-width="80px" size="mini">
+          <el-form-item label="高亮院校">
+            <el-switch
+              v-model="highLight.needSchool"
+              active-text="是否高亮白名单院校">
+            </el-switch>
+          </el-form-item>
+          <el-form-item label="自定义">
+            <el-select v-model="highLight.manual" placeholder="自定义关键词">
+              <el-option label="无需自定义" value="-1"></el-option>
+              <el-option label="配置高亮关键词" value="add"></el-option>
+            </el-select>
+          </el-form-item>
+          <el-form-item label="" v-show="highLight.manual != '-1'">
+            <el-input type="textarea" v-model="highLight.manualContent" placeholder="请输入院校名称，用','或空格分割"></el-input>
+          </el-form-item>
+          <el-form-item>
+            <el-button type="primary" @click="onSubmitHl">确认修改</el-button>
+            <el-button @click="onCancelHl">取消</el-button>
+          </el-form-item>
+        </el-form>
+      </div>
+    </el-card>
     <el-card class="box-card about">
       <div slot="header" class="clearfix">
         <h3>关于</h3>

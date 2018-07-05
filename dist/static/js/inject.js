@@ -1,1 +1,317 @@
-window.showMe985211=window.showMe985211||{},showMe985211.core=function(){function e(){var e=this;e.appConfig={},showMe985211.base.getConfig(function(t){e.appConfig=t.config}),this.globalConfig={markedClass:"show_me_985211_marked",escapedClass:"show_me_985211_escaped",matchedClass:"show_me_985211_matched"},this.config={"www.zhipin.com":{isStrict:!1,timer:2e3,domListSelector:"a[data-suid]",onAfterMatchAll:function(t){function i(){t.forEach(function(e){var t=e.parentElement.querySelector(".btn-greet");t&&t.click&&t.click()})}var n=t.length;if(!(n<1))switch(e.appConfig.autoSayhi){case"confirm":var r="\u627e\u5230\u4e86"+n+"\u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u5019\u9009\u4eba\uff0c\u662f\u5426\u81ea\u52a8\u6253\u62db\u547c\uff1f\n(\u4e0d\u81ea\u52a8\u6253\u62db\u547c\u7cfb\u7edf\u4e5f\u53ef\u4ee5\u5e2e\u60a8\u81ea\u52a8\u9ad8\u4eae\u7b26\u5408\u8981\u6c42\u7684\u5019\u9009\u4eba)";window.confirm(r)&&i();break;case"auto":i();break;case"never":}},onAfterMatchItem:function(e){var t=e.parentElement.innerText;return!(t.indexOf("\u7ee7\u7eed\u6c9f\u901a")>-1)}},"easy.lagou.com":{isStrict:!0,timer:2e3,domListSelector:".result_list_item",onAfterMatchAll:function(t){function i(e){var n=t[e];if(n){var o=n.querySelector(".add-chat-list");o&&o.click&&o.click(),setTimeout(function(){var t=document.getElementById("chatWithTaPop");if(t&&"none"!=t.style.display){var n=t.querySelectorAll(".position-item");if(n&&0!=n.length){for(var o,c=a.replace(/\+/g," ").split(/\s+/),s=0;s<n.length;s++){o=n[s];var l=o.innerText;if(r&&l.indexOf(r)>-1)break;if(c.length>0&&c.every(function(e){return l.indexOf(e)>-1}))break;o=!1}if(!o||!o.click)return alert("\u6ca1\u6709\u5339\u914d\u7684\u804c\u4f4d\uff1a"+a);o.click();var f=t.querySelector(".can-click");f&&f.click&&(f.click(),setTimeout(function(){i(e+1)},500))}}},1e3)}}var n=t.length,r=this.search.positionname||"",a=this.search.keyword||"";if(!(n<1))switch(e.appConfig.autoSayhi){case"confirm":var o="\u804c\u4f4d\uff1a"+(r||a)+"\n\u627e\u5230\u4e86"+n+"\u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u5019\u9009\u4eba\uff0c\u662f\u5426\u81ea\u52a8\u201c\u548cTA\u804a\u804a\u201d\uff1f\n(\u70b9\u51fb\u201c\u53d6\u6d88\u201d\u4e5f\u4f1a\u5e2e\u60a8\u81ea\u52a8\u9ad8\u4eae\u7b26\u5408\u8981\u6c42\u7684\u5019\u9009\u4eba)";window.confirm(o)&&i(0);break;case"auto":i(0);break;case"never":}},onAfterMatchItem:function(e){},onBeforeMatchItem:function(e){var t=e.innerText;if(t.indexOf("\u7ee7\u7eed\u804a\u804a")>-1)return!1;var i=e.querySelector(".spreadIn");i&&i.click&&i.click()}}},this.itemCfg=this.config[window.location.host]}return e.prototype.init=function(){var e=this;this.search=showMe985211.base.queryParse(),setTimeout(function(){e.render()},0)},e.prototype.render=function(){var e=this;e.itemCfg.timer?setInterval(function(){e.generator.call(e,e.itemCfg)},e.itemCfg.timer):e.generator(e.itemCfg)},e.prototype.generator=function(e){var t=this,i=t.selectDom(e.domListSelector),n=i.filter(function(e){return!t.itemCfg.onAfterMatchItem||t.itemCfg.onAfterMatchItem.call(t,e)!==!1});n&&0!==n.length&&(t.itemCfg.onAfterMatchAll&&t.itemCfg.onAfterMatchAll.call(t,n),n.forEach(function(e){e.classList.add(t.globalConfig.matchedClass)}))},e.prototype.selectDom=function(e){function t(e){var t={matched:!1,marked:!1};if(e.classList.contains(i.globalConfig.matchedClass))return t.matched=!0,t.marked=!0,t;if(e.classList.contains(i.globalConfig.escapedClass))return t.matched=!1,t.marked=!0,t;if(i.itemCfg.onBeforeMatchItem&&i.itemCfg.onBeforeMatchItem.call(i,e)===!1)return t;var n=e.innerText;if(!n)return t;var r=showMe985211.base.checkMatch(n,{isStrict:i.itemCfg.isStrict});return e.insertAdjacentHTML&&r.message?e.insertAdjacentHTML("beforeEnd",'<div class="show_me_985211_info">'+r.message+"</div>"):console.log(e,r),r&&r.result&&(t.matched=!0),t}var i=this,n=document.querySelectorAll(e+":not(."+i.globalConfig.markedClass+")"),r=[];if(0===n.length)return r;for(var a=0;a<n.length;a++){var o=n[a],c=t(o);c.marked||(o.classList.add(i.globalConfig.markedClass),c.matched?r.push(o):o.classList.add(i.globalConfig.escapedClass))}return r},new e}(),showMe985211.core.init();
+/**
+ * 检索页面中所有出现985/211院校名称，并高亮
+ * @author xiongwilee
+ */
+
+window.showMe985211 = window.showMe985211 || {};
+
+showMe985211.core = (function() {
+  function core() {
+    var me = this;
+
+    me.appConfig = {};
+    showMe985211.base.getConfig(function(val) {
+      me.appConfig = val.config;
+    });
+
+    this.globalConfig = {
+      markedClass: 'show_me_985211_marked',
+      escapedClass: 'show_me_985211_escaped',
+      matchedClass: 'show_me_985211_matched'
+    };
+
+    this.config = {
+      'www.zhipin.com': {
+        // 是否严格匹配
+        isStrict: false,
+        // 是否延迟，不配置则不延迟
+        timer: 2000,
+        // 获取列表的选择器
+        domListSelector: 'a[data-suid]',
+        // 匹配到list之后的回调
+        onAfterMatchAll: function(domList) {
+          var domLen = domList.length;
+
+          if (domLen < 1) return;
+
+          function auto() {
+            domList.forEach(function(item) {
+              var sayHiDom = item.parentElement.querySelector('.btn-greet');
+              if (sayHiDom && sayHiDom.click) {
+                sayHiDom.click();
+              }
+            });
+          }
+
+          // 自动打招呼
+          switch (me.appConfig.autoSayhi) {
+            case 'confirm':
+              var confirmText = '找到了' + domLen + '个符合条件的候选人，是否自动打招呼？' + '\n' +
+                '(不自动打招呼系统也可以帮您自动高亮符合要求的候选人)';
+              if (window.confirm(confirmText)) {
+                auto();
+              }
+              break;
+            case 'auto':
+              auto();
+              break;
+            case 'never':
+            default:
+              // do nothing
+              break;
+          }
+        },
+        // 匹配到其中一个item之后的回调
+        onAfterMatchItem: function(item) {
+          var text = item.parentElement.innerText;
+          if (text.indexOf("继续沟通") > -1) {
+            return false;
+          }
+
+          return true;
+        }
+      },
+      'easy.lagou.com': {
+        // 是否严格匹配
+        isStrict: true,
+        // 是否延迟，不配置则不延迟
+        timer: 2000,
+        // 获取列表的选择器
+        domListSelector: '.result_list_item',
+        // 匹配到list之后的回调
+        onAfterMatchAll: function(domList) {
+          var domLen = domList.length;
+
+          // 获取URL中的positionname字段——职位名称
+          var positionName = this.search.positionname || '';
+          // 通过URL中的keyword字段来匹配职位名称——职位关键字
+          var keyWords = this.search.keyword || '';
+
+          function auto(index) {
+            var domItem = domList[index];
+            if (!domItem) return;
+
+            // 获取“和TA联系”的按钮，并点击
+            var addChatBtn = domItem.querySelector('.add-chat-list');
+            if (addChatBtn && addChatBtn.click) { addChatBtn.click(); }
+
+            // 一秒钟之后查询页面中的职位并模拟点击发送
+            setTimeout(function() {
+              var positionMode = document.getElementById('chatWithTaPop');
+              if (!positionMode || positionMode.style.display == 'none') return;
+
+              var positionList = positionMode.querySelectorAll('.position-item');
+              if (!positionList || positionList.length == 0) return;
+
+              var positionItem;
+              // 把keyword里的+号转为，例如： 测试 + 服务端，变成 ['测试','服务端']
+              var keyWordsArr = keyWords.replace(/\+/g, ' ').split(/\s+/);
+              for (var i = 0; i < positionList.length; i++) {
+                positionItem = positionList[i];
+
+                var itemText = positionItem.innerText;
+                // 如果positionName有配置，则优先判断职位名称
+                if (positionName && itemText.indexOf(positionName) > -1) {
+                  break;
+                }
+
+                // 关键词用空格切分，每个关键词均在职位名称里
+                if (keyWordsArr.length > 0 &&
+                  keyWordsArr.every(function(item) { return itemText.indexOf(item) > -1; })
+                ) {
+                  break;
+                }
+
+                positionItem = false;
+              }
+
+              // 选中职位
+              // 可以通过URL中的positionname参数来指定职位
+              if (!positionItem || !positionItem.click) return alert('没有匹配的职位：' + keyWords);
+              positionItem.click();
+
+              // 发送职位
+              var sendChatBtn = positionMode.querySelector('.can-click');
+              if (!sendChatBtn || !sendChatBtn.click) return;
+              sendChatBtn.click();
+
+              // 500ms之后递归执行
+              setTimeout(function() {
+                auto(index + 1);
+              }, 500);
+            }, 1000);
+          }
+
+          if (domLen < 1) return;
+
+          // 自动打招呼
+          switch (me.appConfig.autoSayhi) {
+            case 'confirm':
+              var confirmText = '职位：' + (positionName || keyWords) + '\n' +
+                '找到了' + domLen + '个符合条件的候选人，是否自动“和TA聊聊”？' + '\n' +
+                '(点击“取消”也会帮您自动高亮符合要求的候选人)';
+              if (window.confirm(confirmText)) {
+                auto(0);
+              }
+              break;
+            case 'auto':
+              auto(0);
+              break;
+            case 'never':
+            default:
+              // do nothing
+              break;
+          }
+
+
+        },
+        // 匹配到其中一个item之后的回调
+        onAfterMatchItem: function(item) {},
+        // 在自定义判断之前获取到了一个item之后的回调
+        onBeforeMatchItem: function(item) {
+          var text = item.innerText;
+          if (text.indexOf("继续聊聊") > -1) {
+            return false;
+          }
+
+          var spreadOutDetailBtn = item.querySelector('.spreadIn');
+          if (spreadOutDetailBtn && spreadOutDetailBtn.click) {
+            spreadOutDetailBtn.click();
+          }
+        }
+      }
+    };
+
+    this.itemCfg = this.config[window.location.host];
+  }
+
+  core.prototype.init = function() {
+    var me = this;
+    // 获取请求权参数
+    this.search = showMe985211.base.queryParse();
+
+    // 设置头部：标题等
+    setTimeout(function() {
+      me.render();
+    }, 0);
+  };
+  core.prototype.render = function() {
+    var me = this;
+
+    if (me.itemCfg.timer) {
+      setInterval(function() {
+        me.generator.call(me, me.itemCfg);
+      }, me.itemCfg.timer);
+    } else {
+      me.generator(me.itemCfg);
+    }
+
+  };
+
+  core.prototype.generator = function(config) {
+    var me = this;
+
+    // 高亮页面中的院校、或者名企
+    // showMe985211.base.hightLight();
+
+    var preDomList = me.selectDom(config.domListSelector);
+
+    // 在单个钩子中增加判断逻辑
+    var domList = preDomList.filter(function(item) {
+      // 添加获取完成所有dom时候的钩子
+      if (me.itemCfg.onAfterMatchItem) {
+        return me.itemCfg.onAfterMatchItem.call(me, item) !== false;
+      } else {
+        return true;
+      }
+    });
+
+    if (!domList || domList.length === 0) return;
+
+    // 添加获取完成所有dom时候的钩子
+    if (me.itemCfg.onAfterMatchAll) {
+      me.itemCfg.onAfterMatchAll.call(me, domList);
+    }
+
+    domList.forEach(function(item) {
+      item.classList.add(me.globalConfig.matchedClass);
+    });
+  };
+
+  core.prototype.selectDom = function(domListSelector) {
+    var me = this;
+
+    var domList = document.querySelectorAll(domListSelector + ':not(.' + me.globalConfig.markedClass + ')');
+    var matchList = [];
+    if (domList.length === 0) return matchList;
+
+    for (var i = 0; i < domList.length; i++) {
+      var item = domList[i];
+      var result = checkMatch(item);
+
+      if (!result.marked) {
+        // 未标记过的列表添加标记标识
+        item.classList.add(me.globalConfig.markedClass);
+
+        if (result.matched) {
+          matchList.push(item);
+        } else {
+          item.classList.add(me.globalConfig.escapedClass);
+        }
+      }
+    }
+
+    function checkMatch(item) {
+      var result = {
+        // 是否匹配到
+        matched: false,
+        // 是否以前标记过
+        marked: false,
+      }
+
+      if (item.classList.contains(me.globalConfig.matchedClass)) {
+        result.matched = true;
+        result.marked = true;
+        return result;
+      }
+
+      if (item.classList.contains(me.globalConfig.escapedClass)) {
+        result.matched = false;
+        result.marked = true;
+        return result;
+      }
+
+      if (me.itemCfg.onBeforeMatchItem) {
+        if (me.itemCfg.onBeforeMatchItem.call(me, item) === false) return result;
+      }
+
+      var text = item.innerText;
+
+      if (!text) return result;
+
+      var matchResult = showMe985211.base.checkMatch(text, {
+        isStrict: me.itemCfg.isStrict
+      });
+
+      if (item.insertAdjacentHTML && matchResult.message) {
+        item.insertAdjacentHTML('beforeEnd', '<div class="show_me_985211_info">' + matchResult.message + '</div>')
+      } else {
+        console.log(item, matchResult);
+      }
+
+      if (matchResult && matchResult.result) {
+        result.matched = true;
+      }
+
+
+      return result;
+    }
+
+    return matchList;
+
+  };
+
+  return (new core());
+})();
+
+showMe985211.core.init();

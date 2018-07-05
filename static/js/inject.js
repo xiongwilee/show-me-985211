@@ -193,7 +193,7 @@ showMe985211.core = (function() {
     // 设置头部：标题等
     setTimeout(function() {
       me.render();
-    }, 0)
+    }, 0);
   };
   core.prototype.render = function() {
     var me = this;
@@ -207,8 +207,13 @@ showMe985211.core = (function() {
     }
 
   };
+
   core.prototype.generator = function(config) {
     var me = this;
+
+    // 高亮页面中的院校、或者名企
+    // showMe985211.base.hightLight();
+
     var preDomList = me.selectDom(config.domListSelector);
 
     // 在单个钩子中增加判断逻辑
@@ -232,6 +237,7 @@ showMe985211.core = (function() {
       item.classList.add(me.globalConfig.matchedClass);
     });
   };
+
   core.prototype.selectDom = function(domListSelector) {
     var me = this;
 
