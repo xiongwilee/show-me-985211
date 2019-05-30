@@ -27,7 +27,7 @@ showMe985211.core = (function() {
         // 是否延迟，不配置则不延迟
         timer: 2000,
         // 获取列表的选择器
-        domListSelector: 'a[data-suid]',
+        domListSelector: '.candidateList-Content',
         // 匹配到list之后的回调
         onAfterMatchAll: function(domList) {
           var domLen = domList.length;
@@ -77,7 +77,7 @@ showMe985211.core = (function() {
         // 是否延迟，不配置则不延迟
         timer: 2000,
         // 获取列表的选择器
-        domListSelector: '.result_list_item',
+        domListSelector: '.talent-item',
         // 匹配到list之后的回调
         onAfterMatchAll: function(domList) {
           var domLen = domList.length;
@@ -92,7 +92,7 @@ showMe985211.core = (function() {
             if (!domItem) return;
 
             // 获取“和TA联系”的按钮，并点击
-            var addChatBtn = domItem.querySelector('.add-chat-list');
+            var addChatBtn = domItem.querySelector('.chat');
             if (addChatBtn && addChatBtn.click) { addChatBtn.click(); }
 
             // 一秒钟之后查询页面中的职位并模拟点击发送
