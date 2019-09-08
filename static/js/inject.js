@@ -4,7 +4,7 @@
  */
 
 window.showMe985211 = window.showMe985211 || {};
-console.log(window.showMe985211);
+
 showMe985211.core = (function() {
   function core() {
     var me = this;
@@ -36,7 +36,7 @@ showMe985211.core = (function() {
 
           function auto() {
             domList.forEach(function(item) {
-              var sayHiDom = item.parentElement.querySelector('.btn-greet');
+              var sayHiDom = item.querySelector('.btn-greet');
               if (sayHiDom && sayHiDom.click) {
                 sayHiDom.click();
               }
