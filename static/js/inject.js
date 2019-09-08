@@ -4,7 +4,7 @@
  */
 
 window.showMe985211 = window.showMe985211 || {};
-
+console.log(window.showMe985211);
 showMe985211.core = (function() {
   function core() {
     var me = this;
@@ -27,7 +27,7 @@ showMe985211.core = (function() {
         // 是否延迟，不配置则不延迟
         timer: 2000,
         // 获取列表的选择器
-        domListSelector: '.candidateList-Content',
+        domListSelector: '.recommend-card-list > li',
         // 匹配到list之后的回调
         onAfterMatchAll: function(domList) {
           var domLen = domList.length;
