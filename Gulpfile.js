@@ -5,7 +5,6 @@ const watch = require('gulp-watch');
 const jshint = require('gulp-jshint');
 const uglify = require('gulp-uglify');
 const less = require('gulp-less');
-const runSequence = require('run-sequence');
 const fs = require('fs');
 
 const paths = {
@@ -86,19 +85,13 @@ gulp.task('copy', function() {
 });
 
 
-gulp.task('watch', ['default'], function() {
+gulp.task('default', gulp.series('clean', 'uglify', 'less', 'copy', function(cb) {
+  return Promise.resolve('编译完成');
+}));
+
+
+gulp.task('watch', gulp.series('default', function() {
   gulp.watch(paths.dev.js, [ /*'jshint',*/ 'copy-js']);
   gulp.watch(paths.dev.css, ['less']);
   gulp.watch(paths.dev.copy, ['copy']);
-});
-
-
-gulp.task('default', ['clean'], function(cb) {
-  runSequence([
-      /*'jshint',*/
-      'uglify',
-      'less',
-      'copy'
-    ],
-    cb);
-});
+}));

@@ -23,7 +23,7 @@ showMe985211.core = (function() {
     this.config = {
       'www.zhipin.com': {
         // 是否严格匹配
-        isStrict: false,
+        isStrict: true,
         // 是否延迟，不配置则不延迟
         timer: 2000,
         // 获取列表的选择器

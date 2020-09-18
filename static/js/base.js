@@ -31,12 +31,12 @@ showMe985211.base = (function() {
 
     var defaultConfig = {
       needSchool: true,
-      cn: ['pro-985', 'pro-211'],
+      cn: ['pro-211'],
       global: 'top-300',
       manual: '-1',
       manualContent: '',
-      needKeywords: false,
-      keywordsContent: '阿里巴巴,腾讯,蚂蚁金服,百度,滴滴,头条,美团,四三九九,4399,美图,联想',
+      needKeywords: true,
+      keywordsContent: '阿里巴巴,腾讯,蚂蚁金服,百度,滴滴,头条,美团,小米',
       autoSayhi: 'confirm',
       // bachelor: 至少本科；master: 至少硕士；doctor: 至少博士
       edu: 'bachelor',
@@ -380,8 +380,8 @@ showMe985211.base = (function() {
     // 以防“中国石油大学(石家庄) ” 这种院校被遗漏
     text = replaceBrackets(text);
 
-    // 学历信息必须包含“专科”则直接返回
-    if (cfg.isStrict && /大专/g.test(text)) return { result: false, message: '包含“大专”字段' };
+    // 学历信息如果包含“专科”则直接返回
+    if (cfg.isStrict && /大专/g.test(text)) return { result: false, message: '疑似“大专”学历' };
 
     // 关键词匹配
     var writeMsg, needCheckSchool = true;
