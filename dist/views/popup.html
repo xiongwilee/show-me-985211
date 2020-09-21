@@ -64,14 +64,11 @@
           <el-form-item label="" v-show="form.needSchool && form.manual != '-1'">
             <el-input type="textarea" v-model="form.manualContent" placeholder="请输入院校名称，用','或空格分割"></el-input>
           </el-form-item>
-          <el-form-item label="关键词">
-            <el-switch
-              v-model="form.needKeywords"
-              active-text="是否开启关键词白名单">
-            </el-switch>
+          <el-form-item label="白名单">
+            <el-input type="textarea" v-model="form.whitelist" placeholder="请输入关键词，用','或空格分割;如：百度,阿里"></el-input>
           </el-form-item>
-          <el-form-item label="" v-show="form.needKeywords">
-            <el-input type="textarea" v-model="form.keywordsContent" placeholder="请输入关键词，用','或空格分割;如：百度,阿里"></el-input>
+          <el-form-item label="黑名单">
+            <el-input type="textarea" v-model="form.blacklist" placeholder="请输入关键词，用','或空格分割;如：大专,在职-暂不考虑"></el-input>
           </el-form-item>
           <el-form-item label="学历">
             <el-select v-model="form.edu" placeholder="按学历筛选">

@@ -3,8 +3,9 @@ window.showMe985211 = window.showMe985211 || {};
 showMe985211.base = (function() {
   function base() {
     this.config;
-    this.writeList;
-    this.keywordsList;
+    this.schoolList;
+    this.whiteListArr;
+    this.blackListArr;
 
     this.init();
   }
@@ -16,9 +17,9 @@ showMe985211.base = (function() {
     me.getConfig();
 
     // 先缓存下来院校白名单
-    me.getWriteList(function(){
+    me.getSchoolList(function(){
 	    // 缓存下来白名单关键词
-	    me.getWriteKeywordsList()
+	    me.getWBList()
     });
   }
 
@@ -35,8 +36,8 @@ showMe985211.base = (function() {
       global: 'top-300',
       manual: '-1',
       manualContent: '',
-      needKeywords: true,
-      keywordsContent: '阿里巴巴,腾讯,蚂蚁金服,百度,滴滴,头条,美团,小米',
+      whitelist: '阿里巴巴,腾讯,蚂蚁金服,百度,滴滴,头条,美团,小米',
+      blacklist: '大专,专升本,在职-暂不考虑',
       autoSayhi: 'confirm',
       // bachelor: 至少本科；master: 至少硕士；doctor: 至少博士
       edu: 'bachelor',
@@ -69,12 +70,12 @@ showMe985211.base = (function() {
     });
   }
 
-  base.prototype.getWriteList = function(callback) {
+  base.prototype.getSchoolList = function(callback) {
     var me = this;
 
     // 如果有缓存则使用缓存数据
-    if (me.writeList) {
-      callback && callback(me.writeList);
+    if (me.schoolList) {
+      callback && callback(me.schoolList);
     }
 
     me.getColleges(function(data) {
@@ -86,22 +87,23 @@ showMe985211.base = (function() {
 
         var result = me.getByCollegesConfig(cnCollegesData, globalCollegesData, config) || {};
 
-        me.writeList = result;
+        me.schoolList = result;
 
         callback && callback(result)
       });
     })
   }
 
-  base.prototype.getWriteKeywordsList = function(callback) {
+  base.prototype.getWBList = function(callback) {
   	var me = this;
 
     me.getConfig(function(conf) {
       var config = conf.config;
 
-      me.keywordsList = me.splitText(config.keywordsContent);
+      me.whiteListArr = me.splitText(config.whitelist);
+      me.blackListArr = me.splitText(config.blacklist);
 
-      callback && callback(me.keywordsList)
+      callback && callback(me.whiteListArr, me.blackListArr)
     });
   }
 
@@ -346,7 +348,7 @@ showMe985211.base = (function() {
   base.prototype.checkMatch = function(text, config) {
     var me = this;
 
-    if (!me.writeList || !me.config) {
+    if (!me.schoolList || !me.config) {
       alert('获取白名单院校失败，请刷新后再试！');
       return { result: false, message: '获取白名单院校失败，请刷新后再试！' };
     }
@@ -380,16 +382,13 @@ showMe985211.base = (function() {
     // 以防“中国石油大学(石家庄) ” 这种院校被遗漏
     text = replaceBrackets(text);
 
-    // 学历信息如果包含“专科”则直接返回
-    if (cfg.isStrict && /大专/g.test(text)) return { result: false, message: '疑似“大专”学历' };
-
     // 关键词匹配
     var writeMsg, needCheckSchool = true;
-    if (curConfig.needKeywords) {
-    	var keywordsRes = me.keywordsList.some(function(item) {
+    if (curConfig.needWritelist) {
+    	var keywordsRes = me.whiteListArr.some(function(item) {
         var isMatch = text.indexOf(item) > -1;
         if (isMatch) {
-          writeMsg = '匹配到关键词：' + item;
+          writeMsg = '匹配到白名单关键词：' + item;
         }
 
         return isMatch
@@ -404,7 +403,7 @@ showMe985211.base = (function() {
     // 如果包含list中的文字，则说明匹配到了985211院校
     if (needCheckSchool) {
 	    if (!!curConfig.needSchool) {
-	      var writeRes = me.writeList.lists.some(function(item) {
+	      var writeRes = me.schoolList.lists.some(function(item) {
 	        item = replaceBrackets(item);
 
 	        var isMatch = text.indexOf(item) > -1;
@@ -421,6 +420,12 @@ showMe985211.base = (function() {
 	    } else {
 	      writeMsg = '当前规则为不筛选院校，其他条件均符合';
 	    }
+    }
+
+    // 验证黑名单关键词
+    for(var i = 0; i < me.blackListArr.length; i++) {
+      var curWord = me.blackListArr[i];
+      if (text.indexOf(curWord) >-1 ) return { result: false, message: '匹配到黑名单关键词：' + curWord };
     }
 
     // 以下判断学历
